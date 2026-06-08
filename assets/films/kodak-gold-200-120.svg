@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="760" height="430" viewBox="0 0 760 430" role="img" aria-label="Kodak Gold 200 120 front box">
+  <defs>
+    <filter id="softShadow" x="-12%" y="-12%" width="124%" height="132%">
+      <feDropShadow dx="0" dy="12" stdDeviation="12" flood-color="#23211e" flood-opacity="0.16"/>
+    </filter>
+    <linearGradient id="frontSheen" x1="0" x2="0" y1="0" y2="1">
+      <stop offset="0" stop-color="#ffffff" stop-opacity="0.18"/>
+      <stop offset="0.54" stop-color="#ffffff" stop-opacity="0"/>
+      <stop offset="1" stop-color="#000000" stop-opacity="0.08"/>
+    </linearGradient>
+    <linearGradient id="magentaBand" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0" stop-color="#d03ab9"/>
+      <stop offset="0.58" stop-color="#b01174"/>
+      <stop offset="1" stop-color="#8f0d67"/>
+    </linearGradient>
+  </defs>
+  <g filter="url(#softShadow)">
+    <rect x="80" y="50" width="600" height="315" rx="7" fill="#ffc520"/>
+    <clipPath id="gold120FrontClip">
+      <rect x="80" y="50" width="600" height="315" rx="7"/>
+    </clipPath>
+    <g clip-path="url(#gold120FrontClip)">
+      <rect x="80" y="50" width="600" height="315" fill="#ffc520"/>
+      <path d="M80 270C217 301 393 287 535 205C607 163 649 105 657 50H680V365H80Z" fill="url(#magentaBand)"/>
+      <path d="M80 319C223 342 421 326 680 278V365H80Z" fill="#cf29b1" opacity="0.32"/>
+      <path d="M80 270C217 301 393 287 535 205C607 163 649 105 657 50" fill="none" stroke="#e8c86a" stroke-width="5" opacity="0.78"/>
+      <path d="M80 50H680V365H80Z" fill="url(#frontSheen)"/>
+    </g>
+    <rect x="80" y="50" width="600" height="315" rx="7" fill="none" stroke="#1f211e" stroke-width="4"/>
+    <path d="M92 60H666" fill="none" stroke="#fff0a8" stroke-width="5" opacity="0.24" stroke-linecap="round"/>
+    <text x="120" y="93" font-family="Arial Black, Arial, sans-serif" font-size="22" font-weight="900" fill="#d71920">Kodak</text>
+    <text x="211" y="93" font-family="Arial, Helvetica, sans-serif" font-size="19" font-weight="400" fill="#111111">Professional</text>
+    <text x="120" y="190" font-family="Georgia, 'Times New Roman', serif" font-size="82" font-weight="900" fill="#111111">GOLD</text>
+    <text x="377" y="190" font-family="Arial, Helvetica, sans-serif" font-size="44" font-weight="300" fill="#111111">200</text>
+    <text x="122" y="238" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="800" fill="#111111">FILM &#8226; FILME</text>
+    <text x="122" y="260" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="800" fill="#111111">PELICULA PARA FOTOS A COLOR</text>
+    <text x="555" y="340" font-family="Arial Black, Arial, sans-serif" font-size="27" font-weight="900" fill="#ffd533">5 - 120</text>
+  </g>
+</svg>

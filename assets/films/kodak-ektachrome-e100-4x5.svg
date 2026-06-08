@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="360" height="236" viewBox="0 0 360 236" preserveAspectRatio="xMidYMid meet" role="img" aria-label="Kodak Ektachrome E100 4x5 front artwork">
+  <defs>
+    <filter id="cutoutShadow" x="-12%" y="-20%" width="124%" height="150%">
+      <feDropShadow dx="0" dy="8" stdDeviation="5.5" flood-color="#1f1b18" flood-opacity="0.18"/>
+    </filter>
+    <pattern id="paperGrain" width="18" height="18" patternUnits="userSpaceOnUse">
+      <circle cx="3" cy="4" r="0.8" fill="#ffffff" opacity="0.45"/>
+      <circle cx="12" cy="8" r="0.7" fill="#000000" opacity="0.18"/>
+      <circle cx="7" cy="15" r="0.6" fill="#ffffff" opacity="0.30"/>
+      <circle cx="16" cy="15" r="0.5" fill="#000000" opacity="0.14"/>
+    </pattern>
+    <linearGradient id="topGloss" x1="0" x2="0" y1="0" y2="1">
+      <stop offset="0" stop-color="#ffffff" stop-opacity="0.58"/>
+      <stop offset="1" stop-color="#ffffff" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+  
+    <g>
+      <clipPath id="faceClip"><rect x="42" y="64" width="276" height="122" rx="7"/></clipPath>
+      <rect x="42" y="64" width="276" height="122" rx="7" fill="#2368b2" stroke="#231a0d" stroke-width="2.2"/>
+      <g clip-path="url(#faceClip)">
+        
+    <rect x="42" y="64" width="276" height="122" fill="#f3b51e"/>
+    <rect x="42" y="64" width="276" height="26.84" fill="#f3b51e" opacity="0.96"/>
+    <rect x="42" y="107.92" width="276" height="46.36" fill="#2368b2"/>
+    <rect x="42" y="154.28" width="276" height="31.720000000000002" fill="#e7ac1d" opacity="0.96"/>
+    
+      <rect x="58" y="76" width="29" height="17" rx="2.5" fill="#d71920"/>
+      <text x="94" y="90" font-family="Arial Black, Arial, sans-serif" font-size="13" fill="#d71920">Kodak</text>
+      <text x="144" y="90" font-family="Arial, Helvetica, sans-serif" font-size="12" font-weight="700" fill="#111111">Professional</text>
+    
+    
+    
+    
+    <text x="67" y="138.42000000000002" font-family="Arial Black, Arial, sans-serif" font-size="28" fill="#ffffff">EKTACHROME</text>
+    <text x="69" y="170.14" font-family="Arial, Helvetica, sans-serif" font-size="8.7" font-weight="900" fill="#1d1d1b">COLOR REVERSAL REVERSAL FILM</text>
+    <rect x="248" y="77" width="52" height="38" rx="5" fill="#ffffff" opacity="0.88"/>
+    <text x="274" y="93" text-anchor="middle" font-family="Arial Black, Arial, sans-serif" font-size="12" fill="#111111">4x5</text>
+    <text x="274" y="109" text-anchor="middle" font-family="Arial Black, Arial, sans-serif" font-size="9" fill="#123b73">ISO 100</text>
+    <text x="297" y="172" text-anchor="end" font-family="Arial Black, Arial, sans-serif" font-size="10" fill="#1d1d1b">10 SHEETS</text>
+  
+        <rect x="42" y="64" width="276" height="122" fill="url(#paperGrain)" opacity="0.08"/>
+      </g>
+      <rect x="43.2" y="65.2" width="273.6" height="119.6" rx="6" fill="none" stroke="#000000" stroke-width="0.7" opacity="0.25"/>
+    </g>
+</svg>

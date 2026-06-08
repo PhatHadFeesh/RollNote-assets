@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="360" height="236" viewBox="0 0 360 236" preserveAspectRatio="xMidYMid meet" role="img" aria-label="Kodak Ektachrome E100 120 front artwork">
+  <defs>
+    <filter id="cutoutShadow" x="-12%" y="-20%" width="124%" height="150%">
+      <feDropShadow dx="0" dy="8" stdDeviation="5.5" flood-color="#1f1b18" flood-opacity="0.18"/>
+    </filter>
+    <pattern id="paperGrain" width="18" height="18" patternUnits="userSpaceOnUse">
+      <circle cx="3" cy="4" r="0.8" fill="#ffffff" opacity="0.45"/>
+      <circle cx="12" cy="8" r="0.7" fill="#000000" opacity="0.18"/>
+      <circle cx="7" cy="15" r="0.6" fill="#ffffff" opacity="0.30"/>
+      <circle cx="16" cy="15" r="0.5" fill="#000000" opacity="0.14"/>
+    </pattern>
+    <linearGradient id="topGloss" x1="0" x2="0" y1="0" y2="1">
+      <stop offset="0" stop-color="#ffffff" stop-opacity="0.58"/>
+      <stop offset="1" stop-color="#ffffff" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+  
+    <g>
+      <clipPath id="faceClip"><rect x="43" y="70" width="276" height="128" rx="6"/></clipPath>
+      <rect x="43" y="70" width="276" height="128" rx="6" fill="#2368b2" stroke="#231a0d" stroke-width="2.2"/>
+      <g clip-path="url(#faceClip)">
+        
+    <rect x="43" y="70" width="276" height="128" fill="#1f71b8"/>
+    <rect x="43" y="154.48000000000002" width="276" height="43.52" fill="#f1c72b"/>
+    <rect x="43" y="146.8" width="276" height="7.68" fill="#111111"/>
+    
+    <rect x="55" y="81" width="29" height="18" rx="2.6" fill="#d71920" opacity="0.92"/>
+    <text x="91" y="95" font-family="Arial Black, Arial, sans-serif" font-size="12" font-weight="900" fill="#d71920">Kodak</text>
+    <text x="149" y="95" font-family="Arial, Helvetica, sans-serif" font-size="8.6" fill="#ffffff">Professional</text>
+    <text x="65" y="134" font-family="Georgia, 'Times New Roman', serif" font-size="26" font-weight="900" fill="#ffffff">EKTACHROME</text>
+    <text x="67" y="180.07999999999998" font-family="Arial Black, Arial, sans-serif" font-size="20" fill="#123b73">E100</text>
+    <text x="303" y="187" text-anchor="end" font-family="Arial Black, Arial, sans-serif" font-size="9.4" fill="#123b73">120</text>
+  
+        <rect x="43" y="70" width="276" height="128" fill="url(#paperGrain)" opacity="0.08"/>
+      </g>
+      <rect x="44.2" y="71.2" width="273.6" height="125.6" rx="5" fill="none" stroke="#000000" stroke-width="0.7" opacity="0.25"/>
+    </g>
+</svg>

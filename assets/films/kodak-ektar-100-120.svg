@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="760" height="430" viewBox="0 0 760 430" role="img" aria-label="Kodak Ektar 100 120 front box">
+  <defs>
+    <filter id="softShadow" x="-12%" y="-12%" width="124%" height="134%">
+      <feDropShadow dx="0" dy="12" stdDeviation="12" flood-color="#23211e" flood-opacity="0.16"/>
+    </filter>
+    <linearGradient id="paperSheen" x1="0" x2="0" y1="0" y2="1">
+      <stop offset="0" stop-color="#ffffff" stop-opacity="0.18"/>
+      <stop offset="0.56" stop-color="#ffffff" stop-opacity="0"/>
+      <stop offset="1" stop-color="#000000" stop-opacity="0.08"/>
+    </linearGradient>
+  </defs>
+  <g filter="url(#softShadow)">
+    <rect x="80" y="50" width="600" height="315" rx="7" fill="#d71920"/>
+    <clipPath id="kodakProClip"><rect x="80" y="50" width="600" height="315" rx="7"/></clipPath>
+    <g clip-path="url(#kodakProClip)">
+      <rect x="80" y="50" width="600" height="315" fill="#d71920"/>
+      <path d="M80 245C240 279 470 281 680 221V365H80Z" fill="#263f91"/>
+      <rect x="80" y="50" width="600" height="315" fill="url(#paperSheen)"/>
+      <text x="126" y="120" font-family="Arial Black, Arial, sans-serif" font-size="35" font-weight="900" fill="#d71920">Kodak</text>
+      <text x="240" y="120" font-family="Arial, Helvetica, sans-serif" font-size="28" font-weight="400" fill="#111111">Professional</text>
+      <text x="128" y="218" font-family="Georgia, 'Times New Roman', serif" font-size="72" font-weight="900" fill="#111111">EKTAR</text>
+      <text x="130" y="262" font-family="Arial, Helvetica, sans-serif" font-size="24" font-weight="300" fill="#111111">100</text>
+      <text x="132" y="300" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="800" fill="#111111">COLOR NEGATIVE FILM</text>
+      <text x="638" y="334" text-anchor="end" font-family="Arial Black, Arial, sans-serif" font-size="28" font-weight="900" fill="#ffd533">5 - 120</text>
+    </g>
+    <rect x="80" y="50" width="600" height="315" rx="7" fill="none" stroke="#1f211e" stroke-width="4"/>
+  </g>
+</svg>

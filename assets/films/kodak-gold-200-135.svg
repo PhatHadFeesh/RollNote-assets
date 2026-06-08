@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 360 236" role="img" aria-label="Kodak Gold 200 135 front box">
+  <defs>
+    <filter id="softShadow" x="-12%" y="-12%" width="124%" height="134%">
+      <feDropShadow dx="0" dy="7" stdDeviation="7" flood-color="#23211e" flood-opacity="0.18"/>
+    </filter>
+    <linearGradient id="cardSheen" x1="0" x2="0" y1="0" y2="1">
+      <stop offset="0" stop-color="#ffffff" stop-opacity="0.18"/>
+      <stop offset="0.5" stop-color="#ffffff" stop-opacity="0"/>
+      <stop offset="1" stop-color="#000000" stop-opacity="0.08"/>
+    </linearGradient>
+  </defs>
+  <g filter="url(#softShadow)">
+    <rect x="18" y="17" width="324" height="202" rx="4" fill="#ffd22e"/>
+    <clipPath id="frontClip"><rect x="18" y="17" width="324" height="202" rx="4"/></clipPath>
+    <g clip-path="url(#frontClip)">
+      <rect x="18" y="108" width="324" height="111" fill="#9e0f63"/>
+      <rect x="18" y="17" width="324" height="202" fill="url(#cardSheen)"/>
+      <text x="38" y="73" font-family="Arial Black, Arial, sans-serif" font-size="40" font-weight="900" fill="#d71920">Kodak</text>
+      <text x="270" y="51" font-family="Arial, sans-serif" font-size="15" font-weight="900" fill="#111111">36 exp</text>
+      <text x="285" y="75" text-anchor="middle" font-family="Arial Black, Arial, sans-serif" font-size="25" font-weight="900" fill="#111111">200</text>
+      <text x="39" y="160" font-family="Arial, Helvetica, sans-serif" font-size="56" font-weight="500" fill="#ffffff">Gold</text>
+      <text x="43" y="193" font-family="Arial, Helvetica, sans-serif" font-size="10" font-weight="900" letter-spacing="0.5" fill="#ffffff">FILM FOR COLOR PRINTS</text>
+    </g>
+    <rect x="18" y="17" width="324" height="202" rx="4" fill="none" stroke="#1f211e" stroke-width="4"/>
+    <path d="M25 22h310" stroke="#fff5bf" stroke-width="5" opacity="0.3" stroke-linecap="round"/>
+  </g>
+</svg>
