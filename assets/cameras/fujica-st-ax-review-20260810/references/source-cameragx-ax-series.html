@@ -1,0 +1,1091 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="profile" href="http://gmpg.org/xfn/11">
+<link rel="pingback" href="https://cameragx.com/xmlrpc.php">
+
+<title>A final word about the Fujica &#8220;X&#8221; cameras of the eighties &#8211; CamerAgX &#8211; a new life for old gear</title>
+<script type="text/javascript">
+  WebFontConfig = {"google":{"families":["Exo+2:r:latin,latin-ext"]},"api_url":"https:\/\/fonts-api.wp.com\/css"};
+  (function() {
+    var wf = document.createElement('script');
+    wf.src = '/wp-content/plugins/custom-fonts/js/webfont.js';
+    wf.type = 'text/javascript';
+    wf.async = 'true';
+    var s = document.getElementsByTagName('script')[0];
+    s.parentNode.insertBefore(wf, s);
+	})();
+</script><style id="jetpack-custom-fonts-css">.wf-active th{font-weight:400;font-style:normal}.wf-active h1, .wf-active h2, .wf-active h3, .wf-active h4, .wf-active h5, .wf-active h6{font-family:"Exo 2",sans-serif;font-weight:400;font-style:normal}.wf-active h1{font-size:25.2px;font-weight:400;font-style:normal}.wf-active h2{font-size:16.8px;font-weight:400;font-style:normal}.wf-active h3{font-size:16.8px;font-weight:400;font-style:normal}.wf-active h4{font-size:11.2px;font-weight:400;font-style:normal}.wf-active h5{font-size:11.2px;font-weight:400;font-style:normal}.wf-active h6{font-size:9.1px;font-weight:400;font-style:normal}.wf-active th{font-weight:400;font-style:normal}.wf-active .site-title{font-size:0.7em;font-weight:400;font-style:normal}.wf-active .site-description{font-size:0.56875em;font-style:normal;font-weight:400}.wf-active .entry-title{font-weight:400;font-style:normal}.wf-active .page-title{font-size:1.05em;font-style:normal;font-weight:400}.wf-active .format-aside .entry-title{font-size:0.56875em;font-style:normal;font-weight:400}.wf-active .comment-reply-title, .wf-active .comments-title{font-size:1.05em;font-style:normal;font-weight:400}@media screen and (min-width: 80em){.wf-active h1{font-size:33.6px;font-weight:400;font-style:normal}}@media screen and (min-width: 80em){.wf-active h2{font-size:25.2px;font-weight:400;font-style:normal}}@media screen and (min-width: 80em){.wf-active h3{font-size:16.8px;font-weight:400;font-style:normal}}@media screen and (min-width: 80em){.wf-active h4{font-size:11.2px;font-weight:400;font-style:normal}}@media screen and (min-width: 80em){.wf-active h5{font-size:11.2px;font-weight:400;font-style:normal}}@media screen and (min-width: 80em){.wf-active h6{font-size:9.1px;font-weight:400;font-style:normal}}</style>
+<meta name='robots' content='max-image-preview:large' />
+<meta name="p:domain_verify" content="f9085d8cd3178f4eecce4387e197fad3" />
+
+<!-- Async WordPress.com Remote Login -->
+<script id="wpcom_remote_login_js">
+var wpcom_remote_login_extra_auth = '';
+function wpcom_remote_login_remove_dom_node_id( element_id ) {
+	var dom_node = document.getElementById( element_id );
+	if ( dom_node ) { dom_node.parentNode.removeChild( dom_node ); }
+}
+function wpcom_remote_login_remove_dom_node_classes( class_name ) {
+	var dom_nodes = document.querySelectorAll( '.' + class_name );
+	for ( var i = 0; i < dom_nodes.length; i++ ) {
+		dom_nodes[ i ].parentNode.removeChild( dom_nodes[ i ] );
+	}
+}
+function wpcom_remote_login_final_cleanup() {
+	wpcom_remote_login_remove_dom_node_classes( "wpcom_remote_login_msg" );
+	wpcom_remote_login_remove_dom_node_id( "wpcom_remote_login_key" );
+	wpcom_remote_login_remove_dom_node_id( "wpcom_remote_login_validate" );
+	wpcom_remote_login_remove_dom_node_id( "wpcom_remote_login_js" );
+	wpcom_remote_login_remove_dom_node_id( "wpcom_request_access_iframe" );
+	wpcom_remote_login_remove_dom_node_id( "wpcom_request_access_styles" );
+}
+
+// Watch for messages back from the remote login
+window.addEventListener( "message", function( e ) {
+	if ( e.origin === "https://r-login.wordpress.com" ) {
+		var data = {};
+		try {
+			data = JSON.parse( e.data );
+		} catch( e ) {
+			wpcom_remote_login_final_cleanup();
+			return;
+		}
+
+		if ( data.msg === 'LOGIN' ) {
+			// Clean up the login check iframe
+			wpcom_remote_login_remove_dom_node_id( "wpcom_remote_login_key" );
+
+			var id_regex = new RegExp( /^[0-9]+$/ );
+			var token_regex = new RegExp( /^.*|.*|.*$/ );
+			if (
+				token_regex.test( data.token )
+				&& id_regex.test( data.wpcomid )
+			) {
+				// We have everything we need to ask for a login
+				var script = document.createElement( "script" );
+				script.setAttribute( "id", "wpcom_remote_login_validate" );
+				script.src = '/remote-login.php?wpcom_remote_login=validate'
+					+ '&wpcomid=' + data.wpcomid
+					+ '&token=' + encodeURIComponent( data.token )
+					+ '&host=' + window.location.protocol
+					+ '//' + window.location.hostname
+					+ '&postid=3038'
+					+ '&is_singular=1';
+				document.body.appendChild( script );
+			}
+
+			return;
+		}
+
+		// Safari ITP, not logged in, so redirect
+		if ( data.msg === 'LOGIN-REDIRECT' ) {
+			window.location = 'https://wordpress.com/log-in?redirect_to=' + window.location.href;
+			return;
+		}
+
+		// Safari ITP, storage access failed, remove the request
+		if ( data.msg === 'LOGIN-REMOVE' ) {
+			var css_zap = 'html { -webkit-transition: margin-top 1s; transition: margin-top 1s; } /* 9001 */ html { margin-top: 0 !important; } * html body { margin-top: 0 !important; } @media screen and ( max-width: 782px ) { html { margin-top: 0 !important; } * html body { margin-top: 0 !important; } }';
+			var style_zap = document.createElement( 'style' );
+			style_zap.type = 'text/css';
+			style_zap.appendChild( document.createTextNode( css_zap ) );
+			document.body.appendChild( style_zap );
+
+			var e = document.getElementById( 'wpcom_request_access_iframe' );
+			e.parentNode.removeChild( e );
+
+			document.cookie = 'wordpress_com_login_access=denied; path=/; max-age=31536000';
+
+			return;
+		}
+
+		// Safari ITP
+		if ( data.msg === 'REQUEST_ACCESS' ) {
+			console.log( 'request access: safari' );
+
+			// Check ITP iframe enable/disable knob
+			if ( wpcom_remote_login_extra_auth !== 'safari_itp_iframe' ) {
+				return;
+			}
+
+			// If we are in a "private window" there is no ITP.
+			var private_window = false;
+			try {
+				var opendb = window.openDatabase( null, null, null, null );
+			} catch( e ) {
+				private_window = true;
+			}
+
+			if ( private_window ) {
+				console.log( 'private window' );
+				return;
+			}
+
+			var iframe = document.createElement( 'iframe' );
+			iframe.id = 'wpcom_request_access_iframe';
+			iframe.setAttribute( 'scrolling', 'no' );
+			iframe.setAttribute( 'sandbox', 'allow-storage-access-by-user-activation allow-scripts allow-same-origin allow-top-navigation-by-user-activation' );
+			iframe.src = 'https://r-login.wordpress.com/remote-login.php?wpcom_remote_login=request_access&origin=' + encodeURIComponent( data.origin ) + '&wpcomid=' + encodeURIComponent( data.wpcomid );
+
+			var css = 'html { -webkit-transition: margin-top 1s; transition: margin-top 1s; } /* 9001 */ html { margin-top: 46px !important; } * html body { margin-top: 46px !important; } @media screen and ( max-width: 660px ) { html { margin-top: 71px !important; } * html body { margin-top: 71px !important; } #wpcom_request_access_iframe { display: block; height: 71px !important; } } #wpcom_request_access_iframe { border: 0px; height: 46px; position: fixed; top: 0; left: 0; width: 100%; min-width: 100%; z-index: 99999; background: #23282d; } ';
+
+			var style = document.createElement( 'style' );
+			style.type = 'text/css';
+			style.id = 'wpcom_request_access_styles';
+			style.appendChild( document.createTextNode( css ) );
+			document.body.appendChild( style );
+
+			document.body.appendChild( iframe );
+		}
+
+		if ( data.msg === 'DONE' ) {
+			wpcom_remote_login_final_cleanup();
+		}
+	}
+}, false );
+
+// Inject the remote login iframe after the page has had a chance to load
+// more critical resources
+window.addEventListener( "DOMContentLoaded", function( e ) {
+	var iframe = document.createElement( "iframe" );
+	iframe.style.display = "none";
+	iframe.setAttribute( "scrolling", "no" );
+	iframe.setAttribute( "id", "wpcom_remote_login_key" );
+	iframe.src = "https://r-login.wordpress.com/remote-login.php"
+		+ "?wpcom_remote_login=key"
+		+ "&origin=aHR0cHM6Ly9jYW1lcmFneC5jb20%3D"
+		+ "&wpcomid=9034847"
+		+ "&time=" + Math.floor( Date.now() / 1000 );
+	document.body.appendChild( iframe );
+}, false );
+</script>
+<link rel='dns-prefetch' href='//s0.wp.com' />
+<link rel='dns-prefetch' href='//fonts-api.wp.com' />
+<link rel="alternate" type="application/rss+xml" title="CamerAgX - a new life for old gear &raquo; Feed" href="https://cameragx.com/feed/" />
+<link rel="alternate" type="application/rss+xml" title="CamerAgX - a new life for old gear &raquo; Comments Feed" href="https://cameragx.com/comments/feed/" />
+	<script type="text/javascript">
+		/* <![CDATA[ */
+		function addLoadEvent(func) {
+			var oldonload = window.onload;
+			if (typeof window.onload != 'function') {
+				window.onload = func;
+			} else {
+				window.onload = function () {
+					oldonload();
+					func();
+				}
+			}
+		}
+		/* ]]> */
+	</script>
+	<style id="wp-img-auto-sizes-contain-inline-css">
+img:is([sizes=auto i],[sizes^="auto," i]){contain-intrinsic-size:3000px 1500px}
+/*# sourceURL=wp-img-auto-sizes-contain-inline-css */
+</style>
+<link crossorigin='anonymous' rel='stylesheet' id='all-css-2-1' href='/_static/??-eJxtzN0KQEAQQOEXssaKcCHPsq1Jy+xPZjavL1JKLr86HTiSsjEIBgGfVaK8uMCwoiRjt8fAOYCPcyZk2JGM4KxSZPmotMwF/B/Jbfh+b1355EfdddWg26av1xMpeTR5&cssminify=yes' type='text/css' media='all' />
+<style id="wp-emoji-styles-inline-css">
+
+	img.wp-smiley, img.emoji {
+		display: inline !important;
+		border: none !important;
+		box-shadow: none !important;
+		height: 1em !important;
+		width: 1em !important;
+		margin: 0 0.07em !important;
+		vertical-align: -0.1em !important;
+		background: none !important;
+		padding: 0 !important;
+	}
+/*# sourceURL=wp-emoji-styles-inline-css */
+</style>
+<style id="wp-block-library-inline-css">
+:root{--wp-block-synced-color:#7a00df;--wp-block-synced-color--rgb:122,0,223;--wp-bound-block-color:var(--wp-block-synced-color);--wp-editor-canvas-background:#ddd;--wp-admin-theme-color:#007cba;--wp-admin-theme-color--rgb:0,124,186;--wp-admin-theme-color-darker-10:#006ba1;--wp-admin-theme-color-darker-10--rgb:0,107,160.5;--wp-admin-theme-color-darker-20:#005a87;--wp-admin-theme-color-darker-20--rgb:0,90,135;--wp-admin-border-width-focus:2px}@media (min-resolution:192dpi){:root{--wp-admin-border-width-focus:1.5px}}.wp-element-button{cursor:pointer}:root .has-very-light-gray-background-color{background-color:#eee}:root .has-very-dark-gray-background-color{background-color:#313131}:root .has-very-light-gray-color{color:#eee}:root .has-very-dark-gray-color{color:#313131}:root .has-vivid-green-cyan-to-vivid-cyan-blue-gradient-background{background:linear-gradient(135deg,#00d084,#0693e3)}:root .has-purple-crush-gradient-background{background:linear-gradient(135deg,#34e2e4,#4721fb 50%,#ab1dfe)}:root .has-hazy-dawn-gradient-background{background:linear-gradient(135deg,#faaca8,#dad0ec)}:root .has-subdued-olive-gradient-background{background:linear-gradient(135deg,#fafae1,#67a671)}:root .has-atomic-cream-gradient-background{background:linear-gradient(135deg,#fdd79a,#004a59)}:root .has-nightshade-gradient-background{background:linear-gradient(135deg,#330968,#31cdcf)}:root .has-midnight-gradient-background{background:linear-gradient(135deg,#020381,#2874fc)}:root{--wp--preset--font-size--normal:16px;--wp--preset--font-size--huge:42px}.has-regular-font-size{font-size:1em}.has-larger-font-size{font-size:2.625em}.has-normal-font-size{font-size:var(--wp--preset--font-size--normal)}.has-huge-font-size{font-size:var(--wp--preset--font-size--huge)}:root .has-text-align-center{text-align:center}:root .has-text-align-left{text-align:left}:root .has-text-align-right{text-align:right}.has-fit-text{white-space:nowrap!important}#end-resizable-editor-section{display:none}.aligncenter{clear:both}.items-justified-left{justify-content:flex-start}.items-justified-center{justify-content:center}.items-justified-right{justify-content:flex-end}.items-justified-space-between{justify-content:space-between}.screen-reader-text{word-wrap:normal!important;border:0;clip-path:inset(50%);height:1px;margin:-1px;overflow:hidden;padding:0;position:absolute;width:1px;word-break:normal!important}.screen-reader-text:focus{background-color:#ddd;clip-path:none;color:#444;display:block;font-size:1em;height:auto;left:5px;line-height:normal;padding:15px 23px 14px;text-decoration:none;top:5px;width:auto;z-index:100000}html :where(.has-border-color){border-style:solid}html :where([style^=border-color],[style*=";border-color"],[style*="; border-color"]){border-style:solid}html :where([style^=border-top-color],[style*=";border-top-color"],[style*="; border-top-color"]){border-top-style:solid}html :where([style^=border-right-color],[style*=";border-right-color"],[style*="; border-right-color"]){border-right-style:solid}html :where([style^=border-bottom-color],[style*=";border-bottom-color"],[style*="; border-bottom-color"]){border-bottom-style:solid}html :where([style^=border-left-color],[style*=";border-left-color"],[style*="; border-left-color"]){border-left-style:solid}html :where([style^=border-width],[style*=";border-width"],[style*="; border-width"]){border-style:solid}html :where([style^=border-top-width],[style*=";border-top-width"],[style*="; border-top-width"]){border-top-style:solid}html :where([style^=border-right-width],[style*=";border-right-width"],[style*="; border-right-width"]){border-right-style:solid}html :where([style^=border-bottom-width],[style*=";border-bottom-width"],[style*="; border-bottom-width"]){border-bottom-style:solid}html :where([style^=border-left-width],[style*=";border-left-width"],[style*="; border-left-width"]){border-left-style:solid}html :where(img[class*=wp-image-]){height:auto;max-width:100%}:where(figure){margin:0 0 1em}html :where(.is-position-sticky){--wp-admin--admin-bar--position-offset:var(--wp-admin--admin-bar--height,0px)}@media screen and (max-width:600px){html :where(.is-position-sticky){--wp-admin--admin-bar--position-offset:0px}}
+
+/*# sourceURL=/wp-content/plugins/gutenberg-core/v23.7.1/build/styles/block-library/common.min.css */
+</style>
+<style id="wp-block-library-inline-css-extra">
+.has-text-align-justify {
+	text-align:justify;
+}
+.has-text-align-justify{text-align:justify;}
+/*# sourceURL=wp-block-library-inline-css */
+</style>
+
+<style id="classic-theme-styles-inline-css">
+.wp-block-button__link{background-color:#32373c;border-radius:9999px;box-shadow:none;color:#fff;font-size:1.125em;padding:calc(.667em + 2px) calc(1.333em + 2px);text-decoration:none}.wp-block-file__button{background:#32373c;color:#fff}.wp-block-accordion-heading{margin:0}.wp-block-accordion-heading__toggle{background-color:inherit!important;color:inherit!important}.wp-block-accordion-heading__toggle:not(:focus-visible){outline:none}.wp-block-accordion-heading__toggle:focus,.wp-block-accordion-heading__toggle:hover{background-color:inherit!important;border:none;box-shadow:none;color:inherit;padding:var(--wp--preset--spacing--20,1em) 0;text-decoration:none}.wp-block-accordion-heading__toggle:focus-visible{outline:auto;outline-offset:0}.wp-block-tab:not(.has-text-color){color:inherit!important}.wp-block-tab:not(.has-background){background-color:inherit!important}.wp-block-tab:focus,.wp-block-tab:hover{text-decoration:none}.wp-block-tab:focus-visible{outline:auto;outline-offset:0}
+/*# sourceURL=/wp-content/plugins/gutenberg-core/v23.7.1/build/styles/block-library/classic.min.css */
+</style>
+
+<style id="coblocks-inline-format-inline-css">
+.uppercase{text-transform:uppercase}
+/*# sourceURL=coblocks-inline-format-inline-css */
+</style>
+<link crossorigin='anonymous' rel='stylesheet' id='all-css-12-1' href='/_static/??-eJx9jcEKg0AMRH+oaVhorR7Eb9E16IpZg8min2889FZ6GYbhPQYPgbhlo2zIBWQtU8qKcdvJd5be0AmmMfW0Ejv2jKoP/K0daZzIXNdvB6PzvyJ+A8MgO6mCJ6fCYLN/6e113IZXU9WfUL/DcgHSTkDo&cssminify=yes' type='text/css' media='all' />
+<style id="global-styles-inline-css">
+:root{--wp--preset--aspect-ratio--square: 1;--wp--preset--aspect-ratio--4-3: 4/3;--wp--preset--aspect-ratio--3-4: 3/4;--wp--preset--aspect-ratio--3-2: 3/2;--wp--preset--aspect-ratio--2-3: 2/3;--wp--preset--aspect-ratio--16-9: 16/9;--wp--preset--aspect-ratio--9-16: 9/16;--wp--preset--color--black: #000000;--wp--preset--color--cyan-bluish-gray: #abb8c3;--wp--preset--color--white: #ffffff;--wp--preset--color--pale-pink: #f78da7;--wp--preset--color--vivid-red: #cf2e2e;--wp--preset--color--luminous-vivid-orange: #ff6900;--wp--preset--color--luminous-vivid-amber: #fcb900;--wp--preset--color--light-green-cyan: #7bdcb5;--wp--preset--color--vivid-green-cyan: #00d084;--wp--preset--color--pale-cyan-blue: #8ed1fc;--wp--preset--color--vivid-cyan-blue: #0693e3;--wp--preset--color--vivid-purple: #9b51e0;--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple: linear-gradient(135deg,rgb(6,147,227) 0%,rgb(155,81,224) 100%);--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan: linear-gradient(135deg,rgb(122,220,180) 0%,rgb(0,208,130) 100%);--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange: linear-gradient(135deg,rgb(252,185,0) 0%,rgb(255,105,0) 100%);--wp--preset--gradient--luminous-vivid-orange-to-vivid-red: linear-gradient(135deg,rgb(255,105,0) 0%,rgb(207,46,46) 100%);--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray: linear-gradient(135deg,rgb(238,238,238) 0%,rgb(169,184,195) 100%);--wp--preset--gradient--cool-to-warm-spectrum: linear-gradient(135deg,rgb(74,234,220) 0%,rgb(151,120,209) 20%,rgb(207,42,186) 40%,rgb(238,44,130) 60%,rgb(251,105,98) 80%,rgb(254,248,76) 100%);--wp--preset--gradient--blush-light-purple: linear-gradient(135deg,rgb(255,206,236) 0%,rgb(152,150,240) 100%);--wp--preset--gradient--blush-bordeaux: linear-gradient(135deg,rgb(254,205,165) 0%,rgb(254,45,45) 50%,rgb(107,0,62) 100%);--wp--preset--gradient--luminous-dusk: linear-gradient(135deg,rgb(255,203,112) 0%,rgb(199,81,192) 50%,rgb(65,88,208) 100%);--wp--preset--gradient--pale-ocean: linear-gradient(135deg,rgb(255,245,203) 0%,rgb(182,227,212) 50%,rgb(51,167,181) 100%);--wp--preset--gradient--electric-grass: linear-gradient(135deg,rgb(202,248,128) 0%,rgb(113,206,126) 100%);--wp--preset--gradient--midnight: linear-gradient(135deg,rgb(2,3,129) 0%,rgb(40,116,252) 100%);--wp--preset--font-size--small: 13px;--wp--preset--font-size--medium: 20px;--wp--preset--font-size--large: 36px;--wp--preset--font-size--x-large: 42px;--wp--preset--font-family--albert-sans: 'Albert Sans', sans-serif;--wp--preset--font-family--alegreya: Alegreya, serif;--wp--preset--font-family--arvo: Arvo, serif;--wp--preset--font-family--bodoni-moda: 'Bodoni Moda', serif;--wp--preset--font-family--bricolage-grotesque: 'Bricolage Grotesque', sans-serif;--wp--preset--font-family--cabin: Cabin, sans-serif;--wp--preset--font-family--chivo: Chivo, sans-serif;--wp--preset--font-family--commissioner: Commissioner, sans-serif;--wp--preset--font-family--cormorant: Cormorant, serif;--wp--preset--font-family--courier-prime: 'Courier Prime', monospace;--wp--preset--font-family--crimson-pro: 'Crimson Pro', serif;--wp--preset--font-family--dm-mono: 'DM Mono', monospace;--wp--preset--font-family--dm-sans: 'DM Sans', sans-serif;--wp--preset--font-family--dm-serif-display: 'DM Serif Display', serif;--wp--preset--font-family--domine: Domine, serif;--wp--preset--font-family--eb-garamond: 'EB Garamond', serif;--wp--preset--font-family--epilogue: Epilogue, sans-serif;--wp--preset--font-family--fahkwang: Fahkwang, sans-serif;--wp--preset--font-family--figtree: Figtree, sans-serif;--wp--preset--font-family--fira-sans: 'Fira Sans', sans-serif;--wp--preset--font-family--fjalla-one: 'Fjalla One', sans-serif;--wp--preset--font-family--fraunces: Fraunces, serif;--wp--preset--font-family--gabarito: Gabarito, system-ui;--wp--preset--font-family--ibm-plex-mono: 'IBM Plex Mono', monospace;--wp--preset--font-family--ibm-plex-sans: 'IBM Plex Sans', sans-serif;--wp--preset--font-family--ibarra-real-nova: 'Ibarra Real Nova', serif;--wp--preset--font-family--instrument-serif: 'Instrument Serif', serif;--wp--preset--font-family--inter: Inter, sans-serif;--wp--preset--font-family--josefin-sans: 'Josefin Sans', sans-serif;--wp--preset--font-family--jost: Jost, sans-serif;--wp--preset--font-family--libre-baskerville: 'Libre Baskerville', serif;--wp--preset--font-family--libre-franklin: 'Libre Franklin', sans-serif;--wp--preset--font-family--literata: Literata, serif;--wp--preset--font-family--lora: Lora, serif;--wp--preset--font-family--merriweather: Merriweather, serif;--wp--preset--font-family--montserrat: Montserrat, sans-serif;--wp--preset--font-family--newsreader: Newsreader, serif;--wp--preset--font-family--noto-sans-mono: 'Noto Sans Mono', sans-serif;--wp--preset--font-family--nunito: Nunito, sans-serif;--wp--preset--font-family--open-sans: 'Open Sans', sans-serif;--wp--preset--font-family--overpass: Overpass, sans-serif;--wp--preset--font-family--pt-serif: 'PT Serif', serif;--wp--preset--font-family--petrona: Petrona, serif;--wp--preset--font-family--piazzolla: Piazzolla, serif;--wp--preset--font-family--playfair-display: 'Playfair Display', serif;--wp--preset--font-family--plus-jakarta-sans: 'Plus Jakarta Sans', sans-serif;--wp--preset--font-family--poppins: Poppins, sans-serif;--wp--preset--font-family--raleway: Raleway, sans-serif;--wp--preset--font-family--roboto: Roboto, sans-serif;--wp--preset--font-family--roboto-slab: 'Roboto Slab', serif;--wp--preset--font-family--rubik: Rubik, sans-serif;--wp--preset--font-family--rufina: Rufina, serif;--wp--preset--font-family--sora: Sora, sans-serif;--wp--preset--font-family--source-sans-3: 'Source Sans 3', sans-serif;--wp--preset--font-family--source-serif-4: 'Source Serif 4', serif;--wp--preset--font-family--space-mono: 'Space Mono', monospace;--wp--preset--font-family--syne: Syne, sans-serif;--wp--preset--font-family--texturina: Texturina, serif;--wp--preset--font-family--urbanist: Urbanist, sans-serif;--wp--preset--font-family--work-sans: 'Work Sans', sans-serif;--wp--preset--spacing--20: 0.44rem;--wp--preset--spacing--30: 0.67rem;--wp--preset--spacing--40: 1rem;--wp--preset--spacing--50: 1.5rem;--wp--preset--spacing--60: 2.25rem;--wp--preset--spacing--70: 3.38rem;--wp--preset--spacing--80: 5.06rem;--wp--preset--shadow--natural: 6px 6px 9px rgba(0, 0, 0, 0.2);--wp--preset--shadow--deep: 12px 12px 50px rgba(0, 0, 0, 0.4);--wp--preset--shadow--sharp: 6px 6px 0px rgba(0, 0, 0, 0.2);--wp--preset--shadow--outlined: 6px 6px 0px -3px rgb(255, 255, 255), 6px 6px rgb(0, 0, 0);--wp--preset--shadow--crisp: 6px 6px 0px rgb(0, 0, 0);}.wp-block-button{--wp--preset--dimension--25: 25%;--wp--preset--dimension--50: 50%;--wp--preset--dimension--75: 75%;--wp--preset--dimension--100: 100%;}:where(body) { margin: 0; }:where(.is-layout-flex){gap: 0.5em;}:where(.is-layout-grid){gap: 0.5em;}body .is-layout-flex{display: flex;}.is-layout-flex{flex-wrap: wrap;align-items: center;}.is-layout-flex > :is(*, div){margin: 0;}body .is-layout-grid{display: grid;}.is-layout-grid > :is(*, div){margin: 0;}body{padding-top: 0px;padding-right: 0px;padding-bottom: 0px;padding-left: 0px;}:root :where(.wp-element-button, .wp-block-button__link){background-color: #32373c;border-width: 0;color: #fff;font-family: inherit;font-size: inherit;font-style: inherit;font-weight: inherit;letter-spacing: inherit;line-height: inherit;padding-top: calc(0.667em + 2px);padding-right: calc(1.333em + 2px);padding-bottom: calc(0.667em + 2px);padding-left: calc(1.333em + 2px);text-decoration: none;text-transform: inherit;}.has-black-color{color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-color{color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-color{color: var(--wp--preset--color--white) !important;}.has-pale-pink-color{color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-color{color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-color{color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-color{color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-color{color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-color{color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-color{color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-color{color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-color{color: var(--wp--preset--color--vivid-purple) !important;}.has-black-background-color{background-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-background-color{background-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-background-color{background-color: var(--wp--preset--color--white) !important;}.has-pale-pink-background-color{background-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-background-color{background-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-background-color{background-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-background-color{background-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-background-color{background-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-background-color{background-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-background-color{background-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-background-color{background-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-background-color{background-color: var(--wp--preset--color--vivid-purple) !important;}.has-black-border-color{border-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-border-color{border-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-border-color{border-color: var(--wp--preset--color--white) !important;}.has-pale-pink-border-color{border-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-border-color{border-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-border-color{border-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-border-color{border-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-border-color{border-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-border-color{border-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-border-color{border-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-border-color{border-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-border-color{border-color: var(--wp--preset--color--vivid-purple) !important;}.has-vivid-cyan-blue-to-vivid-purple-gradient-background{background: var(--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple) !important;}.has-light-green-cyan-to-vivid-green-cyan-gradient-background{background: var(--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan) !important;}.has-luminous-vivid-amber-to-luminous-vivid-orange-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange) !important;}.has-luminous-vivid-orange-to-vivid-red-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-orange-to-vivid-red) !important;}.has-very-light-gray-to-cyan-bluish-gray-gradient-background{background: var(--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray) !important;}.has-cool-to-warm-spectrum-gradient-background{background: var(--wp--preset--gradient--cool-to-warm-spectrum) !important;}.has-blush-light-purple-gradient-background{background: var(--wp--preset--gradient--blush-light-purple) !important;}.has-blush-bordeaux-gradient-background{background: var(--wp--preset--gradient--blush-bordeaux) !important;}.has-luminous-dusk-gradient-background{background: var(--wp--preset--gradient--luminous-dusk) !important;}.has-pale-ocean-gradient-background{background: var(--wp--preset--gradient--pale-ocean) !important;}.has-electric-grass-gradient-background{background: var(--wp--preset--gradient--electric-grass) !important;}.has-midnight-gradient-background{background: var(--wp--preset--gradient--midnight) !important;}.has-small-font-size{font-size: var(--wp--preset--font-size--small) !important;}.has-medium-font-size{font-size: var(--wp--preset--font-size--medium) !important;}.has-large-font-size{font-size: var(--wp--preset--font-size--large) !important;}.has-x-large-font-size{font-size: var(--wp--preset--font-size--x-large) !important;}.has-albert-sans-font-family{font-family: var(--wp--preset--font-family--albert-sans) !important;}.has-alegreya-font-family{font-family: var(--wp--preset--font-family--alegreya) !important;}.has-arvo-font-family{font-family: var(--wp--preset--font-family--arvo) !important;}.has-bodoni-moda-font-family{font-family: var(--wp--preset--font-family--bodoni-moda) !important;}.has-bricolage-grotesque-font-family{font-family: var(--wp--preset--font-family--bricolage-grotesque) !important;}.has-cabin-font-family{font-family: var(--wp--preset--font-family--cabin) !important;}.has-chivo-font-family{font-family: var(--wp--preset--font-family--chivo) !important;}.has-commissioner-font-family{font-family: var(--wp--preset--font-family--commissioner) !important;}.has-cormorant-font-family{font-family: var(--wp--preset--font-family--cormorant) !important;}.has-courier-prime-font-family{font-family: var(--wp--preset--font-family--courier-prime) !important;}.has-crimson-pro-font-family{font-family: var(--wp--preset--font-family--crimson-pro) !important;}.has-dm-mono-font-family{font-family: var(--wp--preset--font-family--dm-mono) !important;}.has-dm-sans-font-family{font-family: var(--wp--preset--font-family--dm-sans) !important;}.has-dm-serif-display-font-family{font-family: var(--wp--preset--font-family--dm-serif-display) !important;}.has-domine-font-family{font-family: var(--wp--preset--font-family--domine) !important;}.has-eb-garamond-font-family{font-family: var(--wp--preset--font-family--eb-garamond) !important;}.has-epilogue-font-family{font-family: var(--wp--preset--font-family--epilogue) !important;}.has-fahkwang-font-family{font-family: var(--wp--preset--font-family--fahkwang) !important;}.has-figtree-font-family{font-family: var(--wp--preset--font-family--figtree) !important;}.has-fira-sans-font-family{font-family: var(--wp--preset--font-family--fira-sans) !important;}.has-fjalla-one-font-family{font-family: var(--wp--preset--font-family--fjalla-one) !important;}.has-fraunces-font-family{font-family: var(--wp--preset--font-family--fraunces) !important;}.has-gabarito-font-family{font-family: var(--wp--preset--font-family--gabarito) !important;}.has-ibm-plex-mono-font-family{font-family: var(--wp--preset--font-family--ibm-plex-mono) !important;}.has-ibm-plex-sans-font-family{font-family: var(--wp--preset--font-family--ibm-plex-sans) !important;}.has-ibarra-real-nova-font-family{font-family: var(--wp--preset--font-family--ibarra-real-nova) !important;}.has-instrument-serif-font-family{font-family: var(--wp--preset--font-family--instrument-serif) !important;}.has-inter-font-family{font-family: var(--wp--preset--font-family--inter) !important;}.has-josefin-sans-font-family{font-family: var(--wp--preset--font-family--josefin-sans) !important;}.has-jost-font-family{font-family: var(--wp--preset--font-family--jost) !important;}.has-libre-baskerville-font-family{font-family: var(--wp--preset--font-family--libre-baskerville) !important;}.has-libre-franklin-font-family{font-family: var(--wp--preset--font-family--libre-franklin) !important;}.has-literata-font-family{font-family: var(--wp--preset--font-family--literata) !important;}.has-lora-font-family{font-family: var(--wp--preset--font-family--lora) !important;}.has-merriweather-font-family{font-family: var(--wp--preset--font-family--merriweather) !important;}.has-montserrat-font-family{font-family: var(--wp--preset--font-family--montserrat) !important;}.has-newsreader-font-family{font-family: var(--wp--preset--font-family--newsreader) !important;}.has-noto-sans-mono-font-family{font-family: var(--wp--preset--font-family--noto-sans-mono) !important;}.has-nunito-font-family{font-family: var(--wp--preset--font-family--nunito) !important;}.has-open-sans-font-family{font-family: var(--wp--preset--font-family--open-sans) !important;}.has-overpass-font-family{font-family: var(--wp--preset--font-family--overpass) !important;}.has-pt-serif-font-family{font-family: var(--wp--preset--font-family--pt-serif) !important;}.has-petrona-font-family{font-family: var(--wp--preset--font-family--petrona) !important;}.has-piazzolla-font-family{font-family: var(--wp--preset--font-family--piazzolla) !important;}.has-playfair-display-font-family{font-family: var(--wp--preset--font-family--playfair-display) !important;}.has-plus-jakarta-sans-font-family{font-family: var(--wp--preset--font-family--plus-jakarta-sans) !important;}.has-poppins-font-family{font-family: var(--wp--preset--font-family--poppins) !important;}.has-raleway-font-family{font-family: var(--wp--preset--font-family--raleway) !important;}.has-roboto-font-family{font-family: var(--wp--preset--font-family--roboto) !important;}.has-roboto-slab-font-family{font-family: var(--wp--preset--font-family--roboto-slab) !important;}.has-rubik-font-family{font-family: var(--wp--preset--font-family--rubik) !important;}.has-rufina-font-family{font-family: var(--wp--preset--font-family--rufina) !important;}.has-sora-font-family{font-family: var(--wp--preset--font-family--sora) !important;}.has-source-sans-3-font-family{font-family: var(--wp--preset--font-family--source-sans-3) !important;}.has-source-serif-4-font-family{font-family: var(--wp--preset--font-family--source-serif-4) !important;}.has-space-mono-font-family{font-family: var(--wp--preset--font-family--space-mono) !important;}.has-syne-font-family{font-family: var(--wp--preset--font-family--syne) !important;}.has-texturina-font-family{font-family: var(--wp--preset--font-family--texturina) !important;}.has-urbanist-font-family{font-family: var(--wp--preset--font-family--urbanist) !important;}.has-work-sans-font-family{font-family: var(--wp--preset--font-family--work-sans) !important;}
+/*# sourceURL=global-styles-inline-css */
+</style>
+
+<link crossorigin='anonymous' rel='stylesheet' id='all-css-14-1' href='/wp-content/themes/pub/isola/style.css?m=1741693332i&cssminify=yes' type='text/css' media='all' />
+<link rel='stylesheet' id='isola-source-sans-pro-css' href='https://fonts-api.wp.com/css?family=Source+Sans+Pro:400,600,700,300italic,400italic,600italic,700italic&#038;subset=latin,latin-ext&#038;ver=7.1-alpha-62543' media='all' />
+<link crossorigin='anonymous' rel='stylesheet' id='all-css-16-1' href='/_static/??-eJx9jsEKwjAQRH/IuO2h5iR+iqRhjamb3dBNKP69KXiIKN7mwbxhYMvGCxfkAqmaTDVEVliwZOcfbwatDNfIHgIyrrEJ+jseveoBus1yx4QKuc4QVcjBvqLlSWi27CV9Cd2JFWeS0GKA1urwnxRQDIl3JQp/gLmRi+uuXtJ5tHY8DXYapuUFxvtgYA==&cssminify=yes' type='text/css' media='all' />
+<link crossorigin='anonymous' rel='stylesheet' id='print-css-17-1' href='/wp-content/mu-plugins/global-print/global-print.css?m=1465851035i&cssminify=yes' type='text/css' media='print' />
+<style id="jetpack-global-styles-frontend-style-inline-css">
+:root { --font-headings: unset; --font-base: unset; --font-headings-default: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif; --font-base-default: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;}
+/*# sourceURL=jetpack-global-styles-frontend-style-inline-css */
+</style>
+<link crossorigin='anonymous' rel='stylesheet' id='all-css-20-1' href='/_static/??-eJyNjcsKAjEMRX/ImhmUURfip0inLW3GNCmmQfx7H7gRN+7ugcs5cGsuCPfEHaq5RpaRFZbUmw+XD4MaQ5VolBS0+GuKPsb7eyLndVBdwd+iM3KA2ZAiqAT05Eiy6Bf8KHtJ9RkvW8gks6fX4VSP426/mQ7TMA7LA38FSqA=&cssminify=yes' type='text/css' media='all' />
+<script id="jetpack_related-posts-js-extra">
+var related_posts_js_options = {"post_heading":"h4"};
+//# sourceURL=jetpack_related-posts-js-extra
+</script>
+<script id="wpcom-actionbar-placeholder-js-extra">
+var actionbardata = {"siteID":"9034847","postID":"3038","siteURL":"https://cameragx.com","xhrURL":"https://cameragx.com/wp-admin/admin-ajax.php","nonce":"274b7acde6","isLoggedIn":"","statusMessage":"","subsEmailDefault":"instantly","proxyScriptUrl":"https://s0.wp.com/wp-content/js/wpcom-proxy-request.js?m=1513050504i&amp;ver=20211021","shortlink":"https://wp.me/pBUnl-N0","i18n":{"followedText":"New posts from this site will now appear in your \u003Ca href=\"https://wordpress.com/reader\"\u003EReader\u003C/a\u003E","foldBar":"Collapse this bar","unfoldBar":"Expand this bar","shortLinkCopied":"Shortlink copied to clipboard."}};
+//# sourceURL=wpcom-actionbar-placeholder-js-extra
+</script>
+<script id="jetpack-mu-wpcom-settings-js-before">
+var JETPACK_MU_WPCOM_SETTINGS = {"assetsUrl":"https://s0.wp.com/wp-content/mu-plugins/jetpack-mu-wpcom-plugin/sun/jetpack_vendor/automattic/jetpack-mu-wpcom/src/build/"};
+//# sourceURL=jetpack-mu-wpcom-settings-js-before
+</script>
+<script crossorigin='anonymous' type='text/javascript'  src='/_static/??-eJx1jcEOwiAQRH9IunJo2ovxU0yFTQPCguyS2r8XE0zqwdNkMi9vYMvKJBIkgVhVDnV1xOBR8mIevQNXgpsjA/fqgoWCYRG0KicW/m1DdDR4PsHB6xsTROWSXvt3a7JQLfJn9M+KZe9xFPyFVHRraacdvsaLnsbxrPU0z/4NC+ROAA=='></script>
+<script id="rlt-proxy-js-after">
+	rltInitialize( {"token":null,"iframeOrigins":["https:\/\/widgets.wp.com"]} );
+//# sourceURL=rlt-proxy-js-after
+</script>
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://cameragx.wordpress.com/xmlrpc.php?rsd" />
+<meta name="generator" content="WordPress.com" />
+<link rel="canonical" href="https://cameragx.com/2017/05/08/a-final-word-about-the-fujica-x-cameras-of-the-eighties/" />
+<link rel='shortlink' href='https://wp.me/pBUnl-N0' />
+<link rel="alternate" type="application/json+oembed" href="https://public-api.wordpress.com/oembed/?format=json&amp;url=https%3A%2F%2Fcameragx.com%2F2017%2F05%2F08%2Fa-final-word-about-the-fujica-x-cameras-of-the-eighties%2F&amp;for=wpcom-auto-discovery" /><link rel="alternate" type="application/xml+oembed" href="https://public-api.wordpress.com/oembed/?format=xml&amp;url=https%3A%2F%2Fcameragx.com%2F2017%2F05%2F08%2Fa-final-word-about-the-fujica-x-cameras-of-the-eighties%2F&amp;for=wpcom-auto-discovery" />
+<!-- Jetpack Open Graph Tags -->
+<meta property="og:type" content="article" />
+<meta property="og:title" content="A final word about the Fujica &#8220;X&#8221; cameras of the eighties" />
+<meta property="og:url" content="https://cameragx.com/2017/05/08/a-final-word-about-the-fujica-x-cameras-of-the-eighties/" />
+<meta property="og:description" content="When new, the Fujica AX cameras did not make a huge impact &#8211; the attention of the press and of the buying public was focused on the cameras of the big four, and on the duel between Canon and …" />
+<meta property="article:published_time" content="2017-05-08T00:04:11+00:00" />
+<meta property="article:modified_time" content="2017-05-20T18:00:08+00:00" />
+<meta property="og:site_name" content="CamerAgX - a new life for old gear" />
+<meta property="og:image" content="https://cameragx.com/wp-content/uploads/2017/05/fujica-5996.jpg?w=1024" />
+<meta property="og:image:width" content="1024" />
+<meta property="og:image:height" content="644" />
+<meta property="og:image:alt" content="" />
+<meta property="og:locale" content="en_US" />
+<meta property="article:publisher" content="https://www.facebook.com/WordPresscom" />
+<meta name="twitter:creator" content="@xtalfu" />
+<meta name="twitter:text:title" content="A final word about the Fujica &#8220;X&#8221; cameras of the&nbsp;eighties" />
+<meta name="twitter:image" content="https://cameragx.com/wp-content/uploads/2017/05/fujica-5996.jpg?w=640" />
+<meta name="twitter:card" content="summary_large_image" />
+
+<!-- End Jetpack Open Graph Tags -->
+<link rel="shortcut icon" type="image/x-icon" href="https://secure.gravatar.com/blavatar/9c192be17ca727e370ee0897c0e3b0b6acfcf995e2e6946b4ff9c93afa80152e?s=32" sizes="16x16" />
+<link rel="icon" type="image/x-icon" href="https://secure.gravatar.com/blavatar/9c192be17ca727e370ee0897c0e3b0b6acfcf995e2e6946b4ff9c93afa80152e?s=32" sizes="16x16" />
+<link rel="apple-touch-icon" href="https://secure.gravatar.com/blavatar/9c192be17ca727e370ee0897c0e3b0b6acfcf995e2e6946b4ff9c93afa80152e?s=114" />
+<link rel='openid.server' href='https://cameragx.com/?openidserver=1' />
+<link rel='openid.delegate' href='https://cameragx.com/' />
+<link rel="search" type="application/opensearchdescription+xml" href="https://cameragx.com/osd.xml" title="CamerAgX - a new life for old gear" />
+<link rel="search" type="application/opensearchdescription+xml" href="https://s1.wp.com/opensearch.xml" title="WordPress.com" />
+<meta name="description" content="When new, the Fujica AX cameras did not make a huge impact - the attention of the press and of the buying public was focused on the cameras of the big four, and on the duel between Canon and Minolta. There is not much information on the Internet about those cameras (and even fewer pictures), and&hellip;" />
+<link crossorigin='anonymous' rel='stylesheet' id='all-css-0-3' href='/_static/??-eJyVjs0OwjAMg1+IEob42QXxKGhk0dQtbaIlVbW3Z0iMM9xsy/5kqBpQslN2SCUolyFmg5FcO5w+HqxkSNIXJoMa+4HcwEWDiq3KfGHao9kOfqY9YkZ4suC07mtUmv8EbHewm6UY8bezBW/ePd2aa3s+NqdDexlf2Y1YsA==&cssminify=yes' type='text/css' media='all' />
+
+</head>
+
+<body class="wp-singular post-template-default single single-post postid-3038 single-format-standard wp-theme-pubisola customizer-styles-applied widgets-hidden jetpack-reblog-enabled">
+<div id="page" class="hfeed site">
+	<a class="skip-link screen-reader-text" href="#content">Skip to content</a>
+	<header id="masthead" class="site-header" role="banner">
+		<div class="site-header-inner">
+			<div class="site-branding">
+				<button id="menu-toggle" class="toggle">
+					<svg version="1.1" class="menu-toggle-image" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+						 width="24px" height="24px" viewBox="0 0 24 24" enable-background="new 0 0 24 24" xml:space="preserve">
+						<g id="menu">
+							<g>
+								<rect x="3" y="4" width="18" height="3"/>
+								<rect x="3" y="10" width="18" height="3"/>
+								<rect x="3" y="16" width="18" height="3"/>
+							</g>
+						</g>
+					</svg>
+					<span class="screen-reader-text">Primary Menu</span>
+				</button>
+				<h1 class="site-title"><a href="https://cameragx.com/" rel="home">CamerAgX &#8211; a new life for old gear</a></h1>
+				<h2 class="site-description"></h2>
+			</div>
+
+			<div id="site-search" class="header-search">
+				<div class="header-search-form">
+					<form role="search" method="get" class="search-form" action="https://cameragx.com/">
+	<label>
+		<span class="screen-reader-text">Search for:</span>
+		<span class="search-icon">
+		<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+			 width="24px" height="24px" viewBox="0 0 24 24" enable-background="new 0 0 24 24" xml:space="preserve">
+			<g id="search">
+				<path class="icon" d="M15.846,13.846C16.573,12.742,17,11.421,17,10c0-3.866-3.134-7-7-7s-7,3.134-7,7s3.134,7,7,7
+					c1.421,0,2.742-0.427,3.846-1.154L19,21l2-2L15.846,13.846z M10,15c-2.761,0-5-2.238-5-5c0-2.761,2.239-5,5-5c2.762,0,5,2.239,5,5
+					C15,12.762,12.762,15,10,15z"/>
+			</g>
+		</svg>
+	</span>
+		<input type="search" class="search-field" placeholder="Search …" value="" name="s" title="Search for:" />
+	</label>
+	<input type="submit" class="search-submit" value="Search" />
+</form>				</div><!-- .header-search-form -->
+			</div><!-- #site-navigation -->
+		</div><!-- .site-header-inner -->
+	</header><!-- #masthead -->
+
+	<div id="toggle-sidebar">
+		<button id="menu-close">
+			<span class="screen-reader-text">Close Menu</span>
+		</button>
+		<nav id="site-navigation" class="main-navigation" role="navigation">
+			<div class="menu-wrapper">
+				<div class="menu"><ul>
+<li ><a href="https://cameragx.com/">Home</a></li><li class="page_item page-item-10183"><a href="https://cameragx.com/film-processing-at-home/">Film processing at&nbsp;home</a></li>
+<li class="page_item page-item-10150"><a href="https://cameragx.com/the-adobe-lightroom-series/">The Adobe Lightroom&nbsp;Series</a></li>
+<li class="page_item page-item-2862"><a href="https://cameragx.com/2862-2/">Index of CamerAgX&nbsp;Reviews</a></li>
+<li class="page_item page-item-19"><a href="https://cameragx.com/welcome/">Welcome</a></li>
+</ul></div>
+			</div>
+		</nav><!-- #site-navigation -->
+						<div id="secondary" class="widget-area" role="complementary">
+		
+		<aside id="recent-posts-4" class="widget widget_recent_entries">
+		<h1 class="widget-title">Recent Posts</h1>
+		<ul>
+											<li>
+					<a href="https://cameragx.com/2026/08/04/kodak-ektar-h35-and-the-quest-for-the-cheapest-usable-film-camera/">Kodak Ektar H35 and the quest for the cheapest usable film&nbsp;camera</a>
+									</li>
+											<li>
+					<a href="https://cameragx.com/2026/07/21/argus-m5600d-a-generic-long-zoom-travel-compact-film-camera-with-an-american-household-name/">Argus M5600D &#8211; A generic long zoom &#8220;travel&#8221; compact film camera with an American household&nbsp;name</a>
+									</li>
+											<li>
+					<a href="https://cameragx.com/2026/07/07/buyee-jp-a-cheaper-ebay-alternative-to-tap-the-japanese-second-hand-equipment-market/">Testing Buyee.jp &#8211; a (cheaper) eBay alternative to tap the Japanese second hand equipment&nbsp;market?</a>
+									</li>
+											<li>
+					<a href="https://cameragx.com/2026/06/23/nikon-d80-the-ccd-look-at-its-best/">Nikon D80 &#8211; the CCD-look at its best&nbsp;?</a>
+									</li>
+											<li>
+					<a href="https://cameragx.com/2026/06/09/a-few-words-about-the-pentax-k-3-iii-monochrome/">A few words about the Pentax K-3 III&nbsp;Monochrome</a>
+									</li>
+					</ul>
+
+		</aside><aside id="categories-3" class="widget widget_categories"><h1 class="widget-title">Categories</h1><form action="https://cameragx.com" method="get"><label class="screen-reader-text" for="cat">Categories</label><select  name='cat' id='cat' class='postform'>
+	<option value='-1'>Select Category</option>
+	<option class="level-0" value="640794">Adobe Lightroom&nbsp;&nbsp;(8)</option>
+	<option class="level-0" value="3118915">Angenieux&nbsp;&nbsp;(2)</option>
+	<option class="level-0" value="291">apple&nbsp;&nbsp;(3)</option>
+	<option class="level-0" value="773141">Argus&nbsp;&nbsp;(1)</option>
+	<option class="level-0" value="687620810">Ars-Imago Lab-Box&nbsp;&nbsp;(1)</option>
+	<option class="level-0" value="12374">Artificial Intelligence&nbsp;&nbsp;(1)</option>
+	<option class="level-0" value="2142104">b&amp;w film&nbsp;&nbsp;(1)</option>
+	<option class="level-0" value="78468357">Backups and Archives&nbsp;&nbsp;(4)</option>
+	<option class="level-0" value="14506">Books and magazines&nbsp;&nbsp;(2)</option>
+	<option class="level-0" value="790276007">Buy cameras in Japan&nbsp;&nbsp;(1)</option>
+	<option class="level-0" value="2833760">Camera bags&nbsp;&nbsp;(1)</option>
+	<option class="level-0" value="514176">Canon cameras&nbsp;&nbsp;(23)</option>
+	<option class="level-0" value="790120196">CCD-Look&nbsp;&nbsp;(1)</option>
+	<option class="level-0" value="449375">Contax&nbsp;&nbsp;(9)</option>
+	<option class="level-0" value="778974422">Developing Tanks&nbsp;&nbsp;(4)</option>
+	<option class="level-0" value="24599">Digital Cameras&nbsp;&nbsp;(30)</option>
+	<option class="level-0" value="524">film&nbsp;&nbsp;(14)</option>
+	<option class="level-0" value="457624">film cameras&nbsp;&nbsp;(16)</option>
+	<option class="level-0" value="2254465">film processing&nbsp;&nbsp;(7)</option>
+	<option class="level-0" value="1703856">Film Scanning&nbsp;&nbsp;(6)</option>
+	<option class="level-0" value="8138168">Five Below&nbsp;&nbsp;(1)</option>
+	<option class="level-0" value="557713174">Fujica Cameras&nbsp;&nbsp;(10)</option>
+	<option class="level-0" value="2834521">Fujifilm Cameras&nbsp;&nbsp;(18)</option>
+	<option class="level-0" value="347">Gear&nbsp;&nbsp;(145)</option>
+	<option class="level-0" value="541678500">Holga 120 IB Instax back&nbsp;&nbsp;(1)</option>
+	<option class="level-0" value="2708">How to&nbsp;&nbsp;(10)</option>
+	<option class="level-0" value="31458993">Instant Film Cameras&nbsp;&nbsp;(4)</option>
+	<option class="level-0" value="7480">Intro&nbsp;&nbsp;(6)</option>
+	<option class="level-0" value="790625690">Kodak (Reto)&nbsp;&nbsp;(1)</option>
+	<option class="level-0" value="26512929">Leica Cameras&nbsp;&nbsp;(7)</option>
+	<option class="level-0" value="52354">Lomo&nbsp;&nbsp;(4)</option>
+	<option class="level-0" value="603222964">Lomo Instant Square&nbsp;&nbsp;(1)</option>
+	<option class="level-0" value="916390">Manfrotto&nbsp;&nbsp;(1)</option>
+	<option class="level-0" value="41303">Market Place&nbsp;&nbsp;(7)</option>
+	<option class="level-0" value="776615851">Migrate to Lightroom Mobile&nbsp;&nbsp;(3)</option>
+	<option class="level-0" value="12585648">Minolta Cameras&nbsp;&nbsp;(14)</option>
+	<option class="level-0" value="103006">Monochrome&nbsp;&nbsp;(2)</option>
+	<option class="level-0" value="266118">Netgear&nbsp;&nbsp;(4)</option>
+	<option class="level-0" value="103">News&nbsp;&nbsp;(17)</option>
+	<option class="level-0" value="911309">Nikon Cameras&nbsp;&nbsp;(41)</option>
+	<option class="level-0" value="2762956">Olympus cameras&nbsp;&nbsp;(20)</option>
+	<option class="level-0" value="352">Opinion&nbsp;&nbsp;(7)</option>
+	<option class="level-0" value="38321">Panasonic&nbsp;&nbsp;(2)</option>
+	<option class="level-0" value="1343321">Paterson&nbsp;&nbsp;(1)</option>
+	<option class="level-0" value="911745">Pentax Cameras&nbsp;&nbsp;(30)</option>
+	<option class="level-0" value="835">Pictures&nbsp;&nbsp;(9)</option>
+	<option class="level-0" value="12800649">Point and Shoot Cameras&nbsp;&nbsp;(4)</option>
+	<option class="level-0" value="1811">Polls&nbsp;&nbsp;(2)</option>
+	<option class="level-0" value="449414">praktica&nbsp;&nbsp;(2)</option>
+	<option class="level-0" value="814652">Replacement batteries&nbsp;&nbsp;(1)</option>
+	<option class="level-0" value="2509311">Sling Bags&nbsp;&nbsp;(1)</option>
+	<option class="level-0" value="67454">Smart Phones&nbsp;&nbsp;(5)</option>
+	<option class="level-0" value="49818">Social Media&nbsp;&nbsp;(3)</option>
+	<option class="level-0" value="2834556">Sony Cameras&nbsp;&nbsp;(5)</option>
+	<option class="level-0" value="5738577">Tamron Lenses&nbsp;&nbsp;(1)</option>
+	<option class="level-0" value="11161">Technique&nbsp;&nbsp;(12)</option>
+	<option class="level-0" value="26512908">the APS format&nbsp;&nbsp;(3)</option>
+	<option class="level-0" value="390037">Tokina&nbsp;&nbsp;(3)</option>
+	<option class="level-0" value="1">Uncategorized&nbsp;&nbsp;(11)</option>
+	<option class="level-0" value="403310">Underwater Photography&nbsp;&nbsp;(5)</option>
+	<option class="level-0" value="30559720">Weird cameras&nbsp;&nbsp;(11)</option>
+	<option class="level-0" value="4264">Welcome&nbsp;&nbsp;(2)</option>
+	<option class="level-0" value="246466">Yashica&nbsp;&nbsp;(2)</option>
+	<option class="level-0" value="30340735">Yuneec&nbsp;&nbsp;(2)</option>
+	<option class="level-0" value="703164">Zeiss&nbsp;&nbsp;(5)</option>
+</select>
+</form><script>
+( ( dropdownId ) => {
+	const dropdown = document.getElementById( dropdownId );
+	function onSelectChange() {
+		setTimeout( () => {
+			if ( 'escape' === dropdown.dataset.lastkey ) {
+				return;
+			}
+			if ( dropdown.value && parseInt( dropdown.value ) > 0 && dropdown instanceof HTMLSelectElement ) {
+				dropdown.parentElement.submit();
+			}
+		}, 250 );
+	}
+	function onKeyUp( event ) {
+		if ( 'Escape' === event.key ) {
+			dropdown.dataset.lastkey = 'escape';
+		} else {
+			delete dropdown.dataset.lastkey;
+		}
+	}
+	function onClick() {
+		delete dropdown.dataset.lastkey;
+	}
+	dropdown.addEventListener( 'keyup', onKeyUp );
+	dropdown.addEventListener( 'click', onClick );
+	dropdown.addEventListener( 'change', onSelectChange );
+})( "cat" );
+
+//# sourceURL=WP_Widget_Categories%3A%3Awidget
+</script>
+</aside><aside id="media_image-3" class="widget widget_media_image"><style>.widget.widget_media_image { overflow: hidden; }.widget.widget_media_image img { height: auto; max-width: 100%; }</style><figure style="width: 1000px" class="wp-caption alignnone"><img width="1000" height="663" src="https://cameragx.com/wp-content/uploads/2009/08/72970006.jpg" class="image wp-image-3  attachment-full size-full" alt="" style="max-width: 100%; height: auto;" decoding="async" srcset="https://cameragx.com/wp-content/uploads/2009/08/72970006.jpg 1000w, https://cameragx.com/wp-content/uploads/2009/08/72970006.jpg?w=150&amp;h=99 150w, https://cameragx.com/wp-content/uploads/2009/08/72970006.jpg?w=300&amp;h=199 300w, https://cameragx.com/wp-content/uploads/2009/08/72970006.jpg?w=768&amp;h=509 768w" sizes="(max-width: 1000px) 100vw, 1000px" data-attachment-id="3" data-permalink="https://cameragx.com/2009/08/03/intro_nikon_fa/attachment/72970006/" data-orig-file="https://cameragx.com/wp-content/uploads/2009/08/72970006.jpg" data-orig-size="1000,663" data-comments-opened="1" data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;Xavier Talfumiere&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;}" data-image-title="Paris- Garden of the Pont Neuf &amp;#8211; April 2009" data-image-description="&lt;p&gt;Nikon F3 &amp;#8211; Nikkor 24mm &amp;#8211; Kodak CN400&lt;/p&gt;
+" data-image-caption="&lt;p&gt;Paris- Garden of the Pont Neuf &amp;#8211; April 2009 &amp;#8211; Nikon F3; Nikkor 24mm&lt;/p&gt;
+" data-large-file="https://cameragx.com/wp-content/uploads/2009/08/72970006.jpg?w=1000" /><figcaption class="wp-caption-text">Paris- Garden of the Pont Neuf - April 2009 - Nikon F3; Nikkor 24mm</figcaption></figure></aside><aside id="text-4" class="widget widget_text"><h1 class="widget-title">Welcome</h1>			<div class="textwidget"><p>This blog is about photography. About old film cameras, and the pictures you can still make with them.</p>
+<p>Like anybody else, I use digital cameras. They’re convenient. But I also love shooting with film cameras. It’s a different experience, and using different tools make you see the world differently.</p>
+<p>Nobody makes new film cameras anymore. But there is such an ample supply of nice second hand cameras that finding one you like is not a problem.</p>
+<p>Film cameras are now extraordinarily cheap, and as long as you’re in no hurry to see your images and don’t take too many pictures, using SLRs or rangefinder cameras from yesteryear is a rewarding experience.</p>
+<p>In the nineteenth century, photography did not kill watercolor painting and cars did not drive horses to extinction. In the nineteen eighties digital watches did not kill mechanical watches, and vinyl records are making a comeback 20 years after CDs were launched.</p>
+<p>People paint, ride horses, wear mechanical watches and play vinyl records for a multitude of reasons, some of them unsuspected 150 or 20 years ago. And they will still be shooting film 10 years from now.</p>
+<p>I love taking pictures, I love old cameras, and that’s all it is about. If you’re in the same frame of mind, welcome.</p>
+</div>
+		</aside><aside id="follow_button_widget-3" class="widget widget_follow_button_widget">
+		<a class="wordpress-follow-button" href="https://cameragx.com" data-blog="9034847" data-lang="en" >Follow CamerAgX &#8211; a new life for old gear on WordPress.com</a>
+		<script type="text/javascript">(function(d){ window.wpcomPlatform = {"titles":{"timelines":"Embeddable Timelines","followButton":"Follow Button","wpEmbeds":"WordPress Embeds"}}; var f = d.getElementsByTagName('SCRIPT')[0], p = d.createElement('SCRIPT');p.type = 'text/javascript';p.async = true;p.src = '//widgets.wp.com/platform.js';f.parentNode.insertBefore(p,f);}(document));</script>
+
+		</aside><aside id="top-posts-4" class="widget widget_top-posts"><h1 class="widget-title">Top Posts &amp; Pages</h1><ul class='widgets-list-layout no-grav'>
+<li><a href="https://cameragx.com/2025/05/21/pentax-me-a-deeper-look-at-a-very-likable-film-camera/" title="Pentax ME - a deeper look at a very likable film camera" class="bump-view" data-bump-view="tp"><img loading="lazy" width="40" height="40" src="https://i0.wp.com/cameragx.com/wp-content/uploads/2025/04/21-dscf8258.jpg?fit=1200%2C675&#038;ssl=1&#038;resize=40%2C40" srcset="https://i0.wp.com/cameragx.com/wp-content/uploads/2025/04/21-dscf8258.jpg?fit=1200%2C675&amp;ssl=1&amp;resize=40%2C40 1x, https://i0.wp.com/cameragx.com/wp-content/uploads/2025/04/21-dscf8258.jpg?fit=1200%2C675&amp;ssl=1&amp;resize=60%2C60 1.5x, https://i0.wp.com/cameragx.com/wp-content/uploads/2025/04/21-dscf8258.jpg?fit=1200%2C675&amp;ssl=1&amp;resize=80%2C80 2x, https://i0.wp.com/cameragx.com/wp-content/uploads/2025/04/21-dscf8258.jpg?fit=1200%2C675&amp;ssl=1&amp;resize=120%2C120 3x, https://i0.wp.com/cameragx.com/wp-content/uploads/2025/04/21-dscf8258.jpg?fit=1200%2C675&amp;ssl=1&amp;resize=160%2C160 4x" alt="Pentax ME - a deeper look at a very likable film camera" data-pin-nopin="true" class="widgets-list-layout-blavatar" /></a><div class="widgets-list-layout-links">
+								<a href="https://cameragx.com/2025/05/21/pentax-me-a-deeper-look-at-a-very-likable-film-camera/" title="Pentax ME - a deeper look at a very likable film camera" class="bump-view" data-bump-view="tp">Pentax ME - a deeper look at a very likable film camera</a>
+							</div>
+							</li><li><a href="https://cameragx.com/2025/02/12/canon-photura-epoca-a-strange-looking-point-and-shoot-camera-of-the-film-era/" title="Canon Photura (Epoca) - a strange looking point and shoot camera of the film era." class="bump-view" data-bump-view="tp"><img loading="lazy" width="40" height="40" src="https://i0.wp.com/cameragx.com/wp-content/uploads/2025/01/dsc_7475-1.jpg?fit=1200%2C710&#038;ssl=1&#038;resize=40%2C40" srcset="https://i0.wp.com/cameragx.com/wp-content/uploads/2025/01/dsc_7475-1.jpg?fit=1200%2C710&amp;ssl=1&amp;resize=40%2C40 1x, https://i0.wp.com/cameragx.com/wp-content/uploads/2025/01/dsc_7475-1.jpg?fit=1200%2C710&amp;ssl=1&amp;resize=60%2C60 1.5x, https://i0.wp.com/cameragx.com/wp-content/uploads/2025/01/dsc_7475-1.jpg?fit=1200%2C710&amp;ssl=1&amp;resize=80%2C80 2x, https://i0.wp.com/cameragx.com/wp-content/uploads/2025/01/dsc_7475-1.jpg?fit=1200%2C710&amp;ssl=1&amp;resize=120%2C120 3x, https://i0.wp.com/cameragx.com/wp-content/uploads/2025/01/dsc_7475-1.jpg?fit=1200%2C710&amp;ssl=1&amp;resize=160%2C160 4x" alt="Canon Photura (Epoca) - a strange looking point and shoot camera of the film era." data-pin-nopin="true" class="widgets-list-layout-blavatar" /></a><div class="widgets-list-layout-links">
+								<a href="https://cameragx.com/2025/02/12/canon-photura-epoca-a-strange-looking-point-and-shoot-camera-of-the-film-era/" title="Canon Photura (Epoca) - a strange looking point and shoot camera of the film era." class="bump-view" data-bump-view="tp">Canon Photura (Epoca) - a strange looking point and shoot camera of the film era.</a>
+							</div>
+							</li><li><a href="https://cameragx.com/2026/08/04/kodak-ektar-h35-and-the-quest-for-the-cheapest-usable-film-camera/" title="Kodak Ektar H35 and the quest for the cheapest usable film camera" class="bump-view" data-bump-view="tp"><img loading="lazy" width="40" height="40" src="https://i0.wp.com/cameragx.com/wp-content/uploads/2026/05/dscf9849.jpg?fit=1200%2C742&#038;ssl=1&#038;resize=40%2C40" srcset="https://i0.wp.com/cameragx.com/wp-content/uploads/2026/05/dscf9849.jpg?fit=1200%2C742&amp;ssl=1&amp;resize=40%2C40 1x, https://i0.wp.com/cameragx.com/wp-content/uploads/2026/05/dscf9849.jpg?fit=1200%2C742&amp;ssl=1&amp;resize=60%2C60 1.5x, https://i0.wp.com/cameragx.com/wp-content/uploads/2026/05/dscf9849.jpg?fit=1200%2C742&amp;ssl=1&amp;resize=80%2C80 2x, https://i0.wp.com/cameragx.com/wp-content/uploads/2026/05/dscf9849.jpg?fit=1200%2C742&amp;ssl=1&amp;resize=120%2C120 3x, https://i0.wp.com/cameragx.com/wp-content/uploads/2026/05/dscf9849.jpg?fit=1200%2C742&amp;ssl=1&amp;resize=160%2C160 4x" alt="Kodak Ektar H35 and the quest for the cheapest usable film camera" data-pin-nopin="true" class="widgets-list-layout-blavatar" /></a><div class="widgets-list-layout-links">
+								<a href="https://cameragx.com/2026/08/04/kodak-ektar-h35-and-the-quest-for-the-cheapest-usable-film-camera/" title="Kodak Ektar H35 and the quest for the cheapest usable film camera" class="bump-view" data-bump-view="tp">Kodak Ektar H35 and the quest for the cheapest usable film camera</a>
+							</div>
+							</li><li><a href="https://cameragx.com/2025/01/15/olympus-om-40-om-pc-the-ugly-little-duckling/" title="Olympus OM-40 / OM-PC : the ugly little duckling" class="bump-view" data-bump-view="tp"><img loading="lazy" width="40" height="40" src="https://i0.wp.com/cameragx.com/wp-content/uploads/2025/01/dsc_7458-1.jpg?fit=1200%2C665&#038;ssl=1&#038;resize=40%2C40" srcset="https://i0.wp.com/cameragx.com/wp-content/uploads/2025/01/dsc_7458-1.jpg?fit=1200%2C665&amp;ssl=1&amp;resize=40%2C40 1x, https://i0.wp.com/cameragx.com/wp-content/uploads/2025/01/dsc_7458-1.jpg?fit=1200%2C665&amp;ssl=1&amp;resize=60%2C60 1.5x, https://i0.wp.com/cameragx.com/wp-content/uploads/2025/01/dsc_7458-1.jpg?fit=1200%2C665&amp;ssl=1&amp;resize=80%2C80 2x, https://i0.wp.com/cameragx.com/wp-content/uploads/2025/01/dsc_7458-1.jpg?fit=1200%2C665&amp;ssl=1&amp;resize=120%2C120 3x, https://i0.wp.com/cameragx.com/wp-content/uploads/2025/01/dsc_7458-1.jpg?fit=1200%2C665&amp;ssl=1&amp;resize=160%2C160 4x" alt="Olympus OM-40 / OM-PC : the ugly little duckling" data-pin-nopin="true" class="widgets-list-layout-blavatar" /></a><div class="widgets-list-layout-links">
+								<a href="https://cameragx.com/2025/01/15/olympus-om-40-om-pc-the-ugly-little-duckling/" title="Olympus OM-40 / OM-PC : the ugly little duckling" class="bump-view" data-bump-view="tp">Olympus OM-40 / OM-PC : the ugly little duckling</a>
+							</div>
+							</li><li><a href="https://cameragx.com/2025/02/05/the-camera-lens-coffee-mug-review-inspired-by-canons-ef-s-28-135mm/" title="The camera lens coffee mug review - inspired by Canon’s EF-S 28-135mm" class="bump-view" data-bump-view="tp"><img loading="lazy" width="40" height="40" src="https://i0.wp.com/cameragx.com/wp-content/uploads/2025/01/dsc_7518-1.jpg?fit=818%2C1200&#038;ssl=1&#038;resize=40%2C40" srcset="https://i0.wp.com/cameragx.com/wp-content/uploads/2025/01/dsc_7518-1.jpg?fit=818%2C1200&amp;ssl=1&amp;resize=40%2C40 1x, https://i0.wp.com/cameragx.com/wp-content/uploads/2025/01/dsc_7518-1.jpg?fit=818%2C1200&amp;ssl=1&amp;resize=60%2C60 1.5x, https://i0.wp.com/cameragx.com/wp-content/uploads/2025/01/dsc_7518-1.jpg?fit=818%2C1200&amp;ssl=1&amp;resize=80%2C80 2x, https://i0.wp.com/cameragx.com/wp-content/uploads/2025/01/dsc_7518-1.jpg?fit=818%2C1200&amp;ssl=1&amp;resize=120%2C120 3x, https://i0.wp.com/cameragx.com/wp-content/uploads/2025/01/dsc_7518-1.jpg?fit=818%2C1200&amp;ssl=1&amp;resize=160%2C160 4x" alt="The camera lens coffee mug review - inspired by Canon’s EF-S 28-135mm" data-pin-nopin="true" class="widgets-list-layout-blavatar" /></a><div class="widgets-list-layout-links">
+								<a href="https://cameragx.com/2025/02/05/the-camera-lens-coffee-mug-review-inspired-by-canons-ef-s-28-135mm/" title="The camera lens coffee mug review - inspired by Canon’s EF-S 28-135mm" class="bump-view" data-bump-view="tp">The camera lens coffee mug review - inspired by Canon’s EF-S 28-135mm</a>
+							</div>
+							</li><li><a href="https://cameragx.com/2026/01/20/doubling-down-on-a-strange-camera-the-canon-photura-135-caption/" title="Doubling down on a strange camera -  the Canon Photura 135 Caption" class="bump-view" data-bump-view="tp"><img loading="lazy" width="40" height="40" src="https://i0.wp.com/cameragx.com/wp-content/uploads/2026/01/imgp2054.jpg?fit=1200%2C798&#038;ssl=1&#038;resize=40%2C40" srcset="https://i0.wp.com/cameragx.com/wp-content/uploads/2026/01/imgp2054.jpg?fit=1200%2C798&amp;ssl=1&amp;resize=40%2C40 1x, https://i0.wp.com/cameragx.com/wp-content/uploads/2026/01/imgp2054.jpg?fit=1200%2C798&amp;ssl=1&amp;resize=60%2C60 1.5x, https://i0.wp.com/cameragx.com/wp-content/uploads/2026/01/imgp2054.jpg?fit=1200%2C798&amp;ssl=1&amp;resize=80%2C80 2x, https://i0.wp.com/cameragx.com/wp-content/uploads/2026/01/imgp2054.jpg?fit=1200%2C798&amp;ssl=1&amp;resize=120%2C120 3x, https://i0.wp.com/cameragx.com/wp-content/uploads/2026/01/imgp2054.jpg?fit=1200%2C798&amp;ssl=1&amp;resize=160%2C160 4x" alt="Doubling down on a strange camera -  the Canon Photura 135 Caption" data-pin-nopin="true" class="widgets-list-layout-blavatar" /></a><div class="widgets-list-layout-links">
+								<a href="https://cameragx.com/2026/01/20/doubling-down-on-a-strange-camera-the-canon-photura-135-caption/" title="Doubling down on a strange camera -  the Canon Photura 135 Caption" class="bump-view" data-bump-view="tp">Doubling down on a strange camera -  the Canon Photura 135 Caption</a>
+							</div>
+							</li><li><a href="https://cameragx.com/2026/03/17/the-last-dslrs-with-ccd-sensors/" title="The last dSLRs with CCD sensors" class="bump-view" data-bump-view="tp"><img loading="lazy" width="40" height="40" src="https://i0.wp.com/cameragx.com/wp-content/uploads/2025/11/2012-venice-published-6436.jpg?fit=1200%2C833&#038;ssl=1&#038;resize=40%2C40" srcset="https://i0.wp.com/cameragx.com/wp-content/uploads/2025/11/2012-venice-published-6436.jpg?fit=1200%2C833&amp;ssl=1&amp;resize=40%2C40 1x, https://i0.wp.com/cameragx.com/wp-content/uploads/2025/11/2012-venice-published-6436.jpg?fit=1200%2C833&amp;ssl=1&amp;resize=60%2C60 1.5x, https://i0.wp.com/cameragx.com/wp-content/uploads/2025/11/2012-venice-published-6436.jpg?fit=1200%2C833&amp;ssl=1&amp;resize=80%2C80 2x, https://i0.wp.com/cameragx.com/wp-content/uploads/2025/11/2012-venice-published-6436.jpg?fit=1200%2C833&amp;ssl=1&amp;resize=120%2C120 3x, https://i0.wp.com/cameragx.com/wp-content/uploads/2025/11/2012-venice-published-6436.jpg?fit=1200%2C833&amp;ssl=1&amp;resize=160%2C160 4x" alt="The last dSLRs with CCD sensors" data-pin-nopin="true" class="widgets-list-layout-blavatar" /></a><div class="widgets-list-layout-links">
+								<a href="https://cameragx.com/2026/03/17/the-last-dslrs-with-ccd-sensors/" title="The last dSLRs with CCD sensors" class="bump-view" data-bump-view="tp">The last dSLRs with CCD sensors</a>
+							</div>
+							</li><li><a href="https://cameragx.com/2020/03/29/and-now-for-something-completely-different-the-fujifilm-xq2/" title="And now for something completely different: the Fujifilm XQ2" class="bump-view" data-bump-view="tp"><img loading="lazy" width="40" height="40" src="https://i0.wp.com/cameragx.com/wp-content/uploads/2020/03/fujiflm-xq2-6629.jpg?fit=1200%2C943&#038;ssl=1&#038;resize=40%2C40" srcset="https://i0.wp.com/cameragx.com/wp-content/uploads/2020/03/fujiflm-xq2-6629.jpg?fit=1200%2C943&amp;ssl=1&amp;resize=40%2C40 1x, https://i0.wp.com/cameragx.com/wp-content/uploads/2020/03/fujiflm-xq2-6629.jpg?fit=1200%2C943&amp;ssl=1&amp;resize=60%2C60 1.5x, https://i0.wp.com/cameragx.com/wp-content/uploads/2020/03/fujiflm-xq2-6629.jpg?fit=1200%2C943&amp;ssl=1&amp;resize=80%2C80 2x, https://i0.wp.com/cameragx.com/wp-content/uploads/2020/03/fujiflm-xq2-6629.jpg?fit=1200%2C943&amp;ssl=1&amp;resize=120%2C120 3x, https://i0.wp.com/cameragx.com/wp-content/uploads/2020/03/fujiflm-xq2-6629.jpg?fit=1200%2C943&amp;ssl=1&amp;resize=160%2C160 4x" alt="And now for something completely different: the Fujifilm XQ2" data-pin-nopin="true" class="widgets-list-layout-blavatar" /></a><div class="widgets-list-layout-links">
+								<a href="https://cameragx.com/2020/03/29/and-now-for-something-completely-different-the-fujifilm-xq2/" title="And now for something completely different: the Fujifilm XQ2" class="bump-view" data-bump-view="tp">And now for something completely different: the Fujifilm XQ2</a>
+							</div>
+							</li><li><a href="https://cameragx.com/2026/06/23/nikon-d80-the-ccd-look-at-its-best/" title="Nikon D80 - the CCD-look at its best ?" class="bump-view" data-bump-view="tp"><img loading="lazy" width="40" height="40" src="https://i0.wp.com/cameragx.com/wp-content/uploads/2026/06/dsc_9735.jpg?fit=1200%2C803&#038;ssl=1&#038;resize=40%2C40" srcset="https://i0.wp.com/cameragx.com/wp-content/uploads/2026/06/dsc_9735.jpg?fit=1200%2C803&amp;ssl=1&amp;resize=40%2C40 1x, https://i0.wp.com/cameragx.com/wp-content/uploads/2026/06/dsc_9735.jpg?fit=1200%2C803&amp;ssl=1&amp;resize=60%2C60 1.5x, https://i0.wp.com/cameragx.com/wp-content/uploads/2026/06/dsc_9735.jpg?fit=1200%2C803&amp;ssl=1&amp;resize=80%2C80 2x, https://i0.wp.com/cameragx.com/wp-content/uploads/2026/06/dsc_9735.jpg?fit=1200%2C803&amp;ssl=1&amp;resize=120%2C120 3x, https://i0.wp.com/cameragx.com/wp-content/uploads/2026/06/dsc_9735.jpg?fit=1200%2C803&amp;ssl=1&amp;resize=160%2C160 4x" alt="Nikon D80 - the CCD-look at its best ?" data-pin-nopin="true" class="widgets-list-layout-blavatar" /></a><div class="widgets-list-layout-links">
+								<a href="https://cameragx.com/2026/06/23/nikon-d80-the-ccd-look-at-its-best/" title="Nikon D80 - the CCD-look at its best ?" class="bump-view" data-bump-view="tp">Nikon D80 - the CCD-look at its best ?</a>
+							</div>
+							</li><li><a href="https://cameragx.com/2020/08/03/yashica-fx-3-super-2000/" title="Yashica FX-3 Super 2000 - of the need of a hair dryer in a photographer&#039;s repair kit" class="bump-view" data-bump-view="tp"><img loading="lazy" width="40" height="40" src="https://i0.wp.com/cameragx.com/wp-content/uploads/2020/08/dsc_6890.jpg?fit=1200%2C878&#038;ssl=1&#038;resize=40%2C40" srcset="https://i0.wp.com/cameragx.com/wp-content/uploads/2020/08/dsc_6890.jpg?fit=1200%2C878&amp;ssl=1&amp;resize=40%2C40 1x, https://i0.wp.com/cameragx.com/wp-content/uploads/2020/08/dsc_6890.jpg?fit=1200%2C878&amp;ssl=1&amp;resize=60%2C60 1.5x, https://i0.wp.com/cameragx.com/wp-content/uploads/2020/08/dsc_6890.jpg?fit=1200%2C878&amp;ssl=1&amp;resize=80%2C80 2x, https://i0.wp.com/cameragx.com/wp-content/uploads/2020/08/dsc_6890.jpg?fit=1200%2C878&amp;ssl=1&amp;resize=120%2C120 3x, https://i0.wp.com/cameragx.com/wp-content/uploads/2020/08/dsc_6890.jpg?fit=1200%2C878&amp;ssl=1&amp;resize=160%2C160 4x" alt="Yashica FX-3 Super 2000 - of the need of a hair dryer in a photographer&#039;s repair kit" data-pin-nopin="true" class="widgets-list-layout-blavatar" /></a><div class="widgets-list-layout-links">
+								<a href="https://cameragx.com/2020/08/03/yashica-fx-3-super-2000/" title="Yashica FX-3 Super 2000 - of the need of a hair dryer in a photographer&#039;s repair kit" class="bump-view" data-bump-view="tp">Yashica FX-3 Super 2000 - of the need of a hair dryer in a photographer&#039;s repair kit</a>
+							</div>
+							</li></ul>
+</aside>	</div><!-- #secondary -->
+			</div>
+
+			<div class="site-header-image">
+			<a href="https://cameragx.com/" rel="home">
+				<div style="background-image: url('https://cameragx.com/wp-content/uploads/2009/08/72970006.jpg')"></div>
+			</a>
+		</div>
+	
+	<div id="content" class="site-content">
+
+	<div id="primary" class="content-area">
+		<main id="main" class="site-main" role="main">
+
+		
+			
+<article id="post-3038" class="post-3038 post type-post status-publish format-standard hentry category-fujica-cameras category-gear tag-fuji-ax-multi-program tag-fujica-ax-5 tag-fujica-ax3">
+	<header class="entry-header">
+		<h1 class="entry-title">A final word about the Fujica &#8220;X&#8221; cameras of the&nbsp;eighties</h1>	</header><!-- .entry-header -->
+
+	
+	
+	<div class="entry-content">
+					<p>When new, the Fujica AX cameras did not make a huge impact &#8211; the attention of the press and of the buying public was focused on the cameras of the big four, and on the duel between Canon and Minolta.</p>
+<figure data-shortcode="caption" id="attachment_3062" aria-describedby="caption-attachment-3062" style="width: 1034px" class="wp-caption aligncenter"><a href="https://cameragx.com/wp-content/uploads/2017/05/fujica-5996.jpg"><img data-attachment-id="3062" data-permalink="https://cameragx.com/2017/05/08/a-final-word-about-the-fujica-x-cameras-of-the-eighties/fujica-5996/" data-orig-file="https://cameragx.com/wp-content/uploads/2017/05/fujica-5996.jpg" data-orig-size="1600,1006" data-comments-opened="1" data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;1&quot;}" data-image-title="Fujica AX-3, AX-5 and AX Multi Program" data-image-description="" data-image-caption="&lt;p&gt;Fujica AX-3, AX-5 and AX Multi Program&lt;/p&gt;
+" data-large-file="https://cameragx.com/wp-content/uploads/2017/05/fujica-5996.jpg?w=1024" class="wp-image-3062 size-large" src="https://cameragx.com/wp-content/uploads/2017/05/fujica-5996.jpg?w=1024&#038;h=644" alt="" width="1024" height="644" srcset="https://cameragx.com/wp-content/uploads/2017/05/fujica-5996.jpg?w=1024 1024w, https://cameragx.com/wp-content/uploads/2017/05/fujica-5996.jpg?w=150 150w, https://cameragx.com/wp-content/uploads/2017/05/fujica-5996.jpg?w=300 300w, https://cameragx.com/wp-content/uploads/2017/05/fujica-5996.jpg?w=768 768w, https://cameragx.com/wp-content/uploads/2017/05/fujica-5996.jpg?w=1440 1440w, https://cameragx.com/wp-content/uploads/2017/05/fujica-5996.jpg 1600w" sizes="(max-width: 1024px) 100vw, 1024px" /></a><figcaption id="caption-attachment-3062" class="wp-caption-text">Fujica AX-3, AX-5 and AX Multi Program</figcaption></figure>
+<p>There is not much information on the Internet about those cameras (and even fewer pictures), and since I&#8217;ve been enough of a fool to buy a few of them recently, I&#8217;ll go through a quick comparison of three models &#8211; with plenty of pictures.</p>
+<p>Fuji launched the &#8220;X&#8221; bayonet mount in 1978-79,  with 4 models:</p>
+<ul>
+<li>Fujica ST-X &#8211; a close derivative of the semi-auto ST605 of the previous m42 screw mount generation, updated with the new bayonet and full aperture metering. Designed for a low price point, with a shutter speed limited to 1/700 sec., it shares very little with the AX models (except for the bayonet, of course)</li>
+<li>Fujica AX-1 &#8211; if it was a car, we could say that it shares its platform (or chassis) with the other Fujica AX cameras. Designed for people with no interest in the technical aspects of photography, it offers a simplified set of controls, and only works in a fully automatic program exposure mode, with no manual or semi-manual override.</li>
+<li>Fujica AX-3 &#8211; a conventional &#8220;enthusiast&#8221; SLR, with all the functions needed by a knowledgeable photographer (aperture priority automatic exposure, semi auto and manual modes, depth of field preview, aperture and selected shutter speed information in the viewfinder). The AX-3 is a good surprise &#8211; it&#8217;s a compact and light camera, with well thought ergonomics  (an embryo of  control wheel replaces the conventional shutter speed knob) and all commands grouped on the top plate. All the features a photographer will need (depth of field preview, AE Lock, semi-auto mode in addition to the aperture priority auto exposure) are present and easy to find. It&#8217;s one of the easiest cameras to use without a manual. The compactness and light weight of the camera come at the cost: the viewfinder. It&#8217;s informative: shutter speeds with corresponding LEDs on the left, periscopic view of selected aperture on top, but a bit dark, with a short eye point and a strange barrel distortion if you wear glasses. The viewfinder is worse than what you find on Canon cameras of the same vintage, and than its Fujica predecessors (such as a the ST801).</li>
+<li>Fujica AX-5 &#8211; the top of line, it adds a shutter priority mode and a program to the AX-3. The aperture and the shutter speed information are displayed in two columns on the left of the viewfinder, which is a bit confusing at first. The Fujica AX-5 was analyzed in detail in <a href="http://wp.me/pBUnl-HW">the comparison with the Canon A-1</a> recently added to this blog.    In my opinion, it draws a bit above its weight. The underpinnings of the camera (shared with the AX-1 and the AX-3) are more suited to a beginner&#8217;s or an enthusiast&#8217;s model, and the AX-5 feels (and probably is) too small and fragile to compete with the Canon A-1, and too limited technically (its shutter speed can&#8217;t exceed 1/1000sec, the viewfinder is the same as the AX-3&#8217;s) compared to the multi-automatic cameras that Nikon or Pentax proposed in the last years of its sales career.</li>
+</ul>
+<p>In 1983,  Fujica cameras were rebranded as &#8220;Fuji&#8221;, and the the STX-1 was replaced with the STX-2 (the same with a black body, a 1/1000sec shutter and exposure information provided by LEDs instead of a galvanometer&#8217;s needle).</p>
+<figure data-shortcode="caption" id="attachment_3059" aria-describedby="caption-attachment-3059" style="width: 310px" class="wp-caption alignleft"><a href="https://cameragx.com/wp-content/uploads/2017/05/fujica-6004.jpg"><img data-attachment-id="3059" data-permalink="https://cameragx.com/2017/05/08/a-final-word-about-the-fujica-x-cameras-of-the-eighties/fujica-6004/" data-orig-file="https://cameragx.com/wp-content/uploads/2017/05/fujica-6004.jpg" data-orig-size="1600,1077" data-comments-opened="1" data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;1&quot;}" data-image-title="The Fuji AX Multi Program" data-image-description="" data-image-caption="&lt;p&gt;The Fuji AX Multi Program &amp;#8211; here with the 43-75 f/3.5-4.5 zoom. The body shell is in plastic.&lt;/p&gt;
+" data-large-file="https://cameragx.com/wp-content/uploads/2017/05/fujica-6004.jpg?w=1024" class="wp-image-3059 size-medium" src="https://cameragx.com/wp-content/uploads/2017/05/fujica-6004.jpg?w=300&#038;h=202" alt="" width="300" height="202" srcset="https://cameragx.com/wp-content/uploads/2017/05/fujica-6004.jpg?w=300 300w, https://cameragx.com/wp-content/uploads/2017/05/fujica-6004.jpg?w=600 600w, https://cameragx.com/wp-content/uploads/2017/05/fujica-6004.jpg?w=150 150w" sizes="(max-width: 300px) 100vw, 300px" /></a><figcaption id="caption-attachment-3059" class="wp-caption-text">The Fuji AX Multi Program &#8211; here with the 43-75 f/3.5-4.5 zoom. The body shell is in plastic.</figcaption></figure>
+<p>The three AX cameras were discontinued, replaced by the AX-Multi Program, a derivative of the AX-1, supposedly designed for people totally ignorant of the basics of aperture and shutter speed determination. To make their life easier, it offered 3 different program auto exposure modes, and no manual or semi-auto mode. Having 3 programs (one normal, one for action scenes, one for landscapes) was not a bad idea, but the execution was sure to alienate the very type of user the camera was trying to reach:</p>
+<ul>
+<li>the 3 programs were not designated by a symbol corresponding to the intended use (normal, sports, landscape), but by obscure initials (P, DP, HP) and the possible aperture/shutter speed combinations were only documented on a diagram printed on the back of film loading door.</li>
+<li>there was absolutely no indication of the shutter speed in the viewfinder &#8211; a single LED was supposed to blink when the shutter speed was too low, but what constituted &#8220;too low&#8221; was never clearly defined, and the camera could take pictures at 1/30sec with a tele-objective without a warning for the photographer.</li>
+<li>There was not even the +2EV push button proposed by many simplified cameras to help photographers with back-lit scenes.</li>
+<li>The camera used many more plastic parts than its predecessors, and was shouting &#8220;cheap&#8221; very loud.</li>
+</ul>
+<figure data-shortcode="caption" id="attachment_3058" aria-describedby="caption-attachment-3058" style="width: 310px" class="wp-caption alignleft"><a href="https://cameragx.com/wp-content/uploads/2017/05/fujica-6006.jpg"><img data-attachment-id="3058" data-permalink="https://cameragx.com/2017/05/08/a-final-word-about-the-fujica-x-cameras-of-the-eighties/fujica-6006/" data-orig-file="https://cameragx.com/wp-content/uploads/2017/05/fujica-6006.jpg" data-orig-size="1600,1024" data-comments-opened="1" data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;1&quot;}" data-image-title="Fuji AX Multi Program" data-image-description="" data-image-caption="&lt;p&gt;The three programs (DP to maximize the depth of field, HP to maximize the shutter speed, and the default P) are described by this diagram on the film door. Not very user friendly.&lt;/p&gt;
+" data-large-file="https://cameragx.com/wp-content/uploads/2017/05/fujica-6006.jpg?w=1024" class="wp-image-3058 size-medium" src="https://cameragx.com/wp-content/uploads/2017/05/fujica-6006.jpg?w=300&#038;h=192" alt="" width="300" height="192" srcset="https://cameragx.com/wp-content/uploads/2017/05/fujica-6006.jpg?w=300 300w, https://cameragx.com/wp-content/uploads/2017/05/fujica-6006.jpg?w=600 600w, https://cameragx.com/wp-content/uploads/2017/05/fujica-6006.jpg?w=150 150w" sizes="(max-width: 300px) 100vw, 300px" /></a><figcaption id="caption-attachment-3058" class="wp-caption-text">The three programs (DP to maximize the depth of field, HP to maximize the shutter speed, and the default P) are described by this diagram on the back of the film door. Not very beginner friendly.</figcaption></figure>
+<p>The AX-Multi Program was one of the many over simplified SLRs launched at the beginning of the eighties. The sales of SLRs had been going down for a while, and the camera makers, seeing that potential buyers were attracted by easier to use point and shoot cameras, tried at first to make the SLRs less intimidating by removing controls &#8211; but by doing so they did not make their  cameras more &#8220;intelligent&#8221;, they just deprived photographers of ways to override the basic automatic systems when they were obviously off the mark.</p>
+<p>The fantastic success of the Minolta Maxxum 7000 proved that cameras had to be made more accessible to the public at large not by removing features and  controls from the photographer, but by adding better automatisms that made it easier to get good pictures, even in the most difficult situations.</p>
+<p>For Fuji, the writing was on the wall, and they left the SLR market in 1987.</p>
+<hr />
+<p><strong>The viewfinders:</strong></p>
+<figure data-shortcode="caption" id="attachment_3046" aria-describedby="caption-attachment-3046" style="width: 1034px" class="wp-caption alignleft"><a href="https://cameragx.com/wp-content/uploads/2017/05/fullsizerender-8.jpg"><img data-attachment-id="3046" data-permalink="https://cameragx.com/2017/05/08/a-final-word-about-the-fujica-x-cameras-of-the-eighties/fullsizerender-8/" data-orig-file="https://cameragx.com/wp-content/uploads/2017/05/fullsizerender-8.jpg" data-orig-size="1941,1468" data-comments-opened="1" data-image-meta="{&quot;aperture&quot;:&quot;2.2&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;iPhone 6&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;1494249839&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;4.15&quot;,&quot;iso&quot;:&quot;250&quot;,&quot;shutter_speed&quot;:&quot;0.066666666666667&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;0&quot;,&quot;latitude&quot;:&quot;33.836811111111&quot;,&quot;longitude&quot;:&quot;-84.5272&quot;}" data-image-title="Fuji AX-3" data-image-description="" data-image-caption="&lt;p&gt;Fuji AX-3. The viewfinder shows the selected shutter speed. The aperture value is displayed at the top (not visible here).&lt;/p&gt;
+" data-large-file="https://cameragx.com/wp-content/uploads/2017/05/fullsizerender-8.jpg?w=1024" loading="lazy" class="wp-image-3046 size-large" src="https://cameragx.com/wp-content/uploads/2017/05/fullsizerender-8.jpg?w=1024&#038;h=774" alt="" width="1024" height="774" srcset="https://cameragx.com/wp-content/uploads/2017/05/fullsizerender-8.jpg?w=1024 1024w, https://cameragx.com/wp-content/uploads/2017/05/fullsizerender-8.jpg?w=150 150w, https://cameragx.com/wp-content/uploads/2017/05/fullsizerender-8.jpg?w=300 300w, https://cameragx.com/wp-content/uploads/2017/05/fullsizerender-8.jpg?w=768 768w, https://cameragx.com/wp-content/uploads/2017/05/fullsizerender-8.jpg?w=1440 1440w, https://cameragx.com/wp-content/uploads/2017/05/fullsizerender-8.jpg 1941w" sizes="auto, (max-width: 1024px) 100vw, 1024px" /></a><figcaption id="caption-attachment-3046" class="wp-caption-text">Fuji AX-3. The viewfinder shows the selected shutter speed. The aperture value is displayed at the top (not visible on this picture).</figcaption></figure>
+<figure data-shortcode="caption" id="attachment_3047" aria-describedby="caption-attachment-3047" style="width: 1034px" class="wp-caption alignleft"><a href="https://cameragx.com/wp-content/uploads/2017/05/fullsizerender-9.jpg"><img data-attachment-id="3047" data-permalink="https://cameragx.com/2017/05/08/a-final-word-about-the-fujica-x-cameras-of-the-eighties/fullsizerender-9/" data-orig-file="https://cameragx.com/wp-content/uploads/2017/05/fullsizerender-9.jpg" data-orig-size="1280,826" data-comments-opened="1" data-image-meta="{&quot;aperture&quot;:&quot;2.2&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;iPhone 6&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;1494250284&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;4.15&quot;,&quot;iso&quot;:&quot;200&quot;,&quot;shutter_speed&quot;:&quot;0.033333333333333&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;0&quot;,&quot;latitude&quot;:&quot;33.836891666667&quot;,&quot;longitude&quot;:&quot;-84.526908333333&quot;}" data-image-title="Fujica AX-5 &amp;#8211; viewfinder" data-image-description="" data-image-caption="&lt;p&gt;Fujica AX-5 &amp;#8211; The viewfinder shows the aperture value (left column, yellow LED) and the selected speed (right column, red LED). &lt;/p&gt;
+" data-large-file="https://cameragx.com/wp-content/uploads/2017/05/fullsizerender-9.jpg?w=1024" loading="lazy" class="wp-image-3047 size-large" src="https://cameragx.com/wp-content/uploads/2017/05/fullsizerender-9.jpg?w=1024&#038;h=661" alt="" width="1024" height="661" srcset="https://cameragx.com/wp-content/uploads/2017/05/fullsizerender-9.jpg?w=1024 1024w, https://cameragx.com/wp-content/uploads/2017/05/fullsizerender-9.jpg?w=150 150w, https://cameragx.com/wp-content/uploads/2017/05/fullsizerender-9.jpg?w=300 300w, https://cameragx.com/wp-content/uploads/2017/05/fullsizerender-9.jpg?w=768 768w, https://cameragx.com/wp-content/uploads/2017/05/fullsizerender-9.jpg 1280w" sizes="auto, (max-width: 1024px) 100vw, 1024px" /></a><figcaption id="caption-attachment-3047" class="wp-caption-text">Fujica AX-5 &#8211; The viewfinder shows the aperture value (left column, yellow LED) and the selected speed (right column, red LED).</figcaption></figure>
+<figure data-shortcode="caption" id="attachment_3049" aria-describedby="caption-attachment-3049" style="width: 1034px" class="wp-caption alignleft"><a href="https://cameragx.com/wp-content/uploads/2017/05/fullsizerender-11.jpg"><img data-attachment-id="3049" data-permalink="https://cameragx.com/2017/05/08/a-final-word-about-the-fujica-x-cameras-of-the-eighties/fullsizerender-11/" data-orig-file="https://cameragx.com/wp-content/uploads/2017/05/fullsizerender-11.jpg" data-orig-size="1280,852" data-comments-opened="1" data-image-meta="{&quot;aperture&quot;:&quot;2.2&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;iPhone 6&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;1494248080&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;4.15&quot;,&quot;iso&quot;:&quot;250&quot;,&quot;shutter_speed&quot;:&quot;0.058823529411765&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;0&quot;,&quot;latitude&quot;:&quot;33.836794444444&quot;,&quot;longitude&quot;:&quot;-84.527083333333&quot;}" data-image-title="Fuji AX Multi Program Viewfinder" data-image-description="" data-image-caption="&lt;p&gt;Fuji AX Multi Program Viewfinder &amp;#8211; the LED shows which of the three programs is being used. &lt;/p&gt;
+" data-large-file="https://cameragx.com/wp-content/uploads/2017/05/fullsizerender-11.jpg?w=1024" loading="lazy" class="wp-image-3049 size-large" src="https://cameragx.com/wp-content/uploads/2017/05/fullsizerender-11.jpg?w=1024&#038;h=682" alt="" width="1024" height="682" srcset="https://cameragx.com/wp-content/uploads/2017/05/fullsizerender-11.jpg?w=1024 1024w, https://cameragx.com/wp-content/uploads/2017/05/fullsizerender-11.jpg?w=150 150w, https://cameragx.com/wp-content/uploads/2017/05/fullsizerender-11.jpg?w=300 300w, https://cameragx.com/wp-content/uploads/2017/05/fullsizerender-11.jpg?w=768 768w, https://cameragx.com/wp-content/uploads/2017/05/fullsizerender-11.jpg 1280w" sizes="auto, (max-width: 1024px) 100vw, 1024px" /></a><figcaption id="caption-attachment-3049" class="wp-caption-text">Fuji AX Multi Program Viewfinder &#8211; the LED only shows which one of the three programs is being selected.</figcaption></figure>
+<p>&nbsp;</p>
+<p><strong>The top plate</strong></p>
+<figure data-shortcode="caption" id="attachment_3061" aria-describedby="caption-attachment-3061" style="width: 1034px" class="wp-caption alignleft"><a href="https://cameragx.com/wp-content/uploads/2017/05/fujica-5998.jpg"><img data-attachment-id="3061" data-permalink="https://cameragx.com/2017/05/08/a-final-word-about-the-fujica-x-cameras-of-the-eighties/fujica-5998/" data-orig-file="https://cameragx.com/wp-content/uploads/2017/05/fujica-5998.jpg" data-orig-size="1600,1302" data-comments-opened="1" data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;1&quot;}" data-image-title="Fuji AX Multi Program &amp;#8211; top plate" data-image-description="" data-image-caption="&lt;p&gt;The top plate of the AX Multi Program is simplified  &amp;#8211; the three programs (DP, P, HP) are the only choice left to the user&lt;/p&gt;
+" data-large-file="https://cameragx.com/wp-content/uploads/2017/05/fujica-5998.jpg?w=1024" loading="lazy" class="wp-image-3061 size-large" src="https://cameragx.com/wp-content/uploads/2017/05/fujica-5998.jpg?w=1024&#038;h=833" alt="" width="1024" height="833" srcset="https://cameragx.com/wp-content/uploads/2017/05/fujica-5998.jpg?w=1024 1024w, https://cameragx.com/wp-content/uploads/2017/05/fujica-5998.jpg?w=150 150w, https://cameragx.com/wp-content/uploads/2017/05/fujica-5998.jpg?w=300 300w, https://cameragx.com/wp-content/uploads/2017/05/fujica-5998.jpg?w=768 768w, https://cameragx.com/wp-content/uploads/2017/05/fujica-5998.jpg?w=1440 1440w, https://cameragx.com/wp-content/uploads/2017/05/fujica-5998.jpg 1600w" sizes="auto, (max-width: 1024px) 100vw, 1024px" /></a><figcaption id="caption-attachment-3061" class="wp-caption-text">The top plate of the AX Multi Program is simplified &#8211; the three programs (DP, P, HP) are the only choice left to the user</figcaption></figure>
+<p>&nbsp;</p>
+<figure data-shortcode="caption" id="attachment_3060" aria-describedby="caption-attachment-3060" style="width: 1034px" class="wp-caption alignleft"><a href="https://cameragx.com/wp-content/uploads/2017/05/fujica-6003.jpg"><img data-attachment-id="3060" data-permalink="https://cameragx.com/2017/05/08/a-final-word-about-the-fujica-x-cameras-of-the-eighties/fujica-6003/" data-orig-file="https://cameragx.com/wp-content/uploads/2017/05/fujica-6003.jpg" data-orig-size="1600,1067" data-comments-opened="1" data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;1&quot;}" data-image-title="Fujica AX-5 &amp;#8211; top plate" data-image-description="" data-image-caption="&lt;p&gt;The AX-3 and the AX-5 share the same command layout. The AX-5 represented here is in Program mode (Automatic Exposure on the control wheel, and diamond position on the lens)&lt;/p&gt;
+" data-large-file="https://cameragx.com/wp-content/uploads/2017/05/fujica-6003.jpg?w=1024" loading="lazy" class="wp-image-3060 size-large" src="https://cameragx.com/wp-content/uploads/2017/05/fujica-6003.jpg?w=1024&#038;h=683" alt="" width="1024" height="683" srcset="https://cameragx.com/wp-content/uploads/2017/05/fujica-6003.jpg?w=1024 1024w, https://cameragx.com/wp-content/uploads/2017/05/fujica-6003.jpg?w=150 150w, https://cameragx.com/wp-content/uploads/2017/05/fujica-6003.jpg?w=300 300w, https://cameragx.com/wp-content/uploads/2017/05/fujica-6003.jpg?w=768 768w, https://cameragx.com/wp-content/uploads/2017/05/fujica-6003.jpg?w=1440 1440w, https://cameragx.com/wp-content/uploads/2017/05/fujica-6003.jpg 1600w" sizes="auto, (max-width: 1024px) 100vw, 1024px" /></a><figcaption id="caption-attachment-3060" class="wp-caption-text">The AX-3 and the AX-5 share the same command layout. The AX-5 represented here is in Program mode (Automatic Exposure on the control wheel, and diamond position on the lens)</figcaption></figure>
+<p><strong>The bayonet mount</strong></p>
+<figure data-shortcode="caption" id="attachment_3055" aria-describedby="caption-attachment-3055" style="width: 1034px" class="wp-caption alignleft"><a href="https://cameragx.com/wp-content/uploads/2017/05/fujica-6011.jpg"><img data-attachment-id="3055" data-permalink="https://cameragx.com/2017/05/08/a-final-word-about-the-fujica-x-cameras-of-the-eighties/fujica-6011/" data-orig-file="https://cameragx.com/wp-content/uploads/2017/05/fujica-6011.jpg" data-orig-size="1600,1067" data-comments-opened="1" data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;1&quot;}" data-image-title="Fujica AX-5 &amp;#8211; mount" data-image-description="" data-image-caption="&lt;p&gt;The mount on the AX-5 is almost identical to the AX-3&amp;#8217;s. A tiny sensor is added at the bottom right of the flange.&lt;/p&gt;
+" data-large-file="https://cameragx.com/wp-content/uploads/2017/05/fujica-6011.jpg?w=1024" loading="lazy" class="wp-image-3055 size-large" src="https://cameragx.com/wp-content/uploads/2017/05/fujica-6011.jpg?w=1024&#038;h=683" alt="" width="1024" height="683" srcset="https://cameragx.com/wp-content/uploads/2017/05/fujica-6011.jpg?w=1024 1024w, https://cameragx.com/wp-content/uploads/2017/05/fujica-6011.jpg?w=150 150w, https://cameragx.com/wp-content/uploads/2017/05/fujica-6011.jpg?w=300 300w, https://cameragx.com/wp-content/uploads/2017/05/fujica-6011.jpg?w=768 768w, https://cameragx.com/wp-content/uploads/2017/05/fujica-6011.jpg?w=1440 1440w, https://cameragx.com/wp-content/uploads/2017/05/fujica-6011.jpg 1600w" sizes="auto, (max-width: 1024px) 100vw, 1024px" /></a><figcaption id="caption-attachment-3055" class="wp-caption-text">The mount on the AX-5 is almost identical to the AX-3&#8217;s. A tiny sensor is added at the bottom right of the flange.</figcaption></figure>
+<figure data-shortcode="caption" id="attachment_3056" aria-describedby="caption-attachment-3056" style="width: 1034px" class="wp-caption alignleft"><a href="https://cameragx.com/wp-content/uploads/2017/05/fujica-6009.jpg"><img data-attachment-id="3056" data-permalink="https://cameragx.com/2017/05/08/a-final-word-about-the-fujica-x-cameras-of-the-eighties/fujica-6009/" data-orig-file="https://cameragx.com/wp-content/uploads/2017/05/fujica-6009.jpg" data-orig-size="1600,1067" data-comments-opened="1" data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;1&quot;}" data-image-title="Fujica AX-3: the X bayonet" data-image-description="" data-image-caption="&lt;p&gt;The mount is almost identical to the  mount on the AX-5 &amp;#8211; it can receive the value selected on the aperture ring.&lt;/p&gt;
+" data-large-file="https://cameragx.com/wp-content/uploads/2017/05/fujica-6009.jpg?w=1024" loading="lazy" class="wp-image-3056 size-large" src="https://cameragx.com/wp-content/uploads/2017/05/fujica-6009.jpg?w=1024&#038;h=683" alt="" width="1024" height="683" srcset="https://cameragx.com/wp-content/uploads/2017/05/fujica-6009.jpg?w=1024 1024w, https://cameragx.com/wp-content/uploads/2017/05/fujica-6009.jpg?w=150 150w, https://cameragx.com/wp-content/uploads/2017/05/fujica-6009.jpg?w=300 300w, https://cameragx.com/wp-content/uploads/2017/05/fujica-6009.jpg?w=768 768w, https://cameragx.com/wp-content/uploads/2017/05/fujica-6009.jpg?w=1440 1440w, https://cameragx.com/wp-content/uploads/2017/05/fujica-6009.jpg 1600w" sizes="auto, (max-width: 1024px) 100vw, 1024px" /></a><figcaption id="caption-attachment-3056" class="wp-caption-text">The mount is almost identical to the mount on the AX-5</figcaption></figure>
+<figure data-shortcode="caption" id="attachment_3057" aria-describedby="caption-attachment-3057" style="width: 1034px" class="wp-caption alignleft"><a href="https://cameragx.com/wp-content/uploads/2017/05/fujica-6008.jpg"><img data-attachment-id="3057" data-permalink="https://cameragx.com/2017/05/08/a-final-word-about-the-fujica-x-cameras-of-the-eighties/fujica-6008/" data-orig-file="https://cameragx.com/wp-content/uploads/2017/05/fujica-6008.jpg" data-orig-size="1600,1067" data-comments-opened="1" data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;1&quot;}" data-image-title="Fuji AX Multi &amp;#8211; X bayonet mount" data-image-description="" data-image-caption="&lt;p&gt;The bayonet has been simplified on the AX Multi: the aperture value selected on the lens can not be transmitted to the body. &lt;/p&gt;
+" data-large-file="https://cameragx.com/wp-content/uploads/2017/05/fujica-6008.jpg?w=1024" loading="lazy" class="wp-image-3057 size-large" src="https://cameragx.com/wp-content/uploads/2017/05/fujica-6008.jpg?w=1024&#038;h=683" alt="" width="1024" height="683" srcset="https://cameragx.com/wp-content/uploads/2017/05/fujica-6008.jpg?w=1024 1024w, https://cameragx.com/wp-content/uploads/2017/05/fujica-6008.jpg?w=150 150w, https://cameragx.com/wp-content/uploads/2017/05/fujica-6008.jpg?w=300 300w, https://cameragx.com/wp-content/uploads/2017/05/fujica-6008.jpg?w=768 768w, https://cameragx.com/wp-content/uploads/2017/05/fujica-6008.jpg?w=1440 1440w, https://cameragx.com/wp-content/uploads/2017/05/fujica-6008.jpg 1600w" sizes="auto, (max-width: 1024px) 100vw, 1024px" /></a><figcaption id="caption-attachment-3057" class="wp-caption-text">The bayonet has been simplified on the AX Multi: the aperture value selected on the lens can not be transmitted to the body.</figcaption></figure>
+<p><strong>The FM and DM lenses</strong></p>
+<figure data-shortcode="caption" id="attachment_3054" aria-describedby="caption-attachment-3054" style="width: 1034px" class="wp-caption alignleft"><a href="https://cameragx.com/wp-content/uploads/2017/05/fujica-6012.jpg"><img data-attachment-id="3054" data-permalink="https://cameragx.com/2017/05/08/a-final-word-about-the-fujica-x-cameras-of-the-eighties/fujica-6012/" data-orig-file="https://cameragx.com/wp-content/uploads/2017/05/fujica-6012.jpg" data-orig-size="1600,1067" data-comments-opened="1" data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;1&quot;}" data-image-title="Fujinon 50mm" data-image-description="" data-image-caption="&lt;p&gt;Fujinon 50mm  DM (on the left) and FM (on the right). They look the same but the aperture ring of the DM has an extra position for the shutter priority and program modes (marked by the orange diamond) &lt;/p&gt;
+" data-large-file="https://cameragx.com/wp-content/uploads/2017/05/fujica-6012.jpg?w=1024" loading="lazy" class="wp-image-3054 size-large" src="https://cameragx.com/wp-content/uploads/2017/05/fujica-6012.jpg?w=1024&#038;h=683" alt="" width="1024" height="683" srcset="https://cameragx.com/wp-content/uploads/2017/05/fujica-6012.jpg?w=1024 1024w, https://cameragx.com/wp-content/uploads/2017/05/fujica-6012.jpg?w=150 150w, https://cameragx.com/wp-content/uploads/2017/05/fujica-6012.jpg?w=300 300w, https://cameragx.com/wp-content/uploads/2017/05/fujica-6012.jpg?w=768 768w, https://cameragx.com/wp-content/uploads/2017/05/fujica-6012.jpg?w=1440 1440w, https://cameragx.com/wp-content/uploads/2017/05/fujica-6012.jpg 1600w" sizes="auto, (max-width: 1024px) 100vw, 1024px" /></a><figcaption id="caption-attachment-3054" class="wp-caption-text">Fujinon 50mm DM (on the left) and FM (on the right). They look the same but the aperture ring of the DM has an extra position for the shutter priority and program modes (marked by the orange diamond). It is protected by a push button lock.</figcaption></figure>
+<figure data-shortcode="caption" id="attachment_3053" aria-describedby="caption-attachment-3053" style="width: 1034px" class="wp-caption alignleft"><a href="https://cameragx.com/wp-content/uploads/2017/05/fujica-6013.jpg"><img data-attachment-id="3053" data-permalink="https://cameragx.com/2017/05/08/a-final-word-about-the-fujica-x-cameras-of-the-eighties/fujica-6013/" data-orig-file="https://cameragx.com/wp-content/uploads/2017/05/fujica-6013.jpg" data-orig-size="1600,1067" data-comments-opened="1" data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;1&quot;}" data-image-title="X-Fujinon 50mm" data-image-description="" data-image-caption="&lt;p&gt;The X-Fujinon FM was bundled with the STX-1 and the AX-3&lt;/p&gt;
+" data-large-file="https://cameragx.com/wp-content/uploads/2017/05/fujica-6013.jpg?w=1024" loading="lazy" class="wp-image-3053 size-large" src="https://cameragx.com/wp-content/uploads/2017/05/fujica-6013.jpg?w=1024&#038;h=683" alt="" width="1024" height="683" srcset="https://cameragx.com/wp-content/uploads/2017/05/fujica-6013.jpg?w=1024 1024w, https://cameragx.com/wp-content/uploads/2017/05/fujica-6013.jpg?w=150 150w, https://cameragx.com/wp-content/uploads/2017/05/fujica-6013.jpg?w=300 300w, https://cameragx.com/wp-content/uploads/2017/05/fujica-6013.jpg?w=768 768w, https://cameragx.com/wp-content/uploads/2017/05/fujica-6013.jpg?w=1440 1440w, https://cameragx.com/wp-content/uploads/2017/05/fujica-6013.jpg 1600w" sizes="auto, (max-width: 1024px) 100vw, 1024px" /></a><figcaption id="caption-attachment-3053" class="wp-caption-text">The X-Fujinon FM was bundled with the STX-1 and the AX-3, the DM with the AX-1, AX-5 and AX Multi Program.</figcaption></figure>
+<p><strong>One last picture&#8230;</strong></p>
+<figure data-shortcode="caption" id="attachment_3052" aria-describedby="caption-attachment-3052" style="width: 1034px" class="wp-caption aligncenter"><a href="https://cameragx.com/wp-content/uploads/2017/05/fujica-6017.jpg"><img data-attachment-id="3052" data-permalink="https://cameragx.com/2017/05/08/a-final-word-about-the-fujica-x-cameras-of-the-eighties/fujica-6017/" data-orig-file="https://cameragx.com/wp-content/uploads/2017/05/fujica-6017.jpg" data-orig-size="1600,1081" data-comments-opened="1" data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;1&quot;}" data-image-title="Fujica AX-5 with zoom" data-image-description="" data-image-caption="&lt;p&gt;Fujica AX-5 with the 43-75mm zoom. The zoom is identical to the screw mount model sold with the AZ-1. Good lens but with a very long minimal focusing distance (1.2m or 4 ft)&lt;/p&gt;
+" data-large-file="https://cameragx.com/wp-content/uploads/2017/05/fujica-6017.jpg?w=1024" loading="lazy" class="wp-image-3052 size-large" src="https://cameragx.com/wp-content/uploads/2017/05/fujica-6017.jpg?w=1024&#038;h=692" alt="" width="1024" height="692" srcset="https://cameragx.com/wp-content/uploads/2017/05/fujica-6017.jpg?w=1024 1024w, https://cameragx.com/wp-content/uploads/2017/05/fujica-6017.jpg?w=150 150w, https://cameragx.com/wp-content/uploads/2017/05/fujica-6017.jpg?w=300 300w, https://cameragx.com/wp-content/uploads/2017/05/fujica-6017.jpg?w=768 768w, https://cameragx.com/wp-content/uploads/2017/05/fujica-6017.jpg?w=1440 1440w, https://cameragx.com/wp-content/uploads/2017/05/fujica-6017.jpg 1600w" sizes="auto, (max-width: 1024px) 100vw, 1024px" /></a><figcaption id="caption-attachment-3052" class="wp-caption-text">Fujica AX-5 with the X-Fujinon 43-75mm zoom. The zoom is identical to the screw mount model sold with the AZ-1. Good lens but with a very long minimal focusing distance (1.2m or 4 ft)</figcaption></figure>
+<hr />
+<p>More information about the <a href="http://wp.me/pBUnl-DC">Fujica &#8220;X&#8221; system on CamerAgX</a></p>
+<p>User manuals and catalogs for the Fujica cameras (and many other cameras of the same vintage) on <a href="http://www.butkus.org/chinon/" target="_blank" rel="noopener noreferrer">butkus.org</a></p>
+<p>A thank you note to <a href="https://www.casualphotophile.com/2015/04/20/canon-a-1-camera-review/">The Casual Photophile</a> &#8211; for telling me how to take pictures of the inside of a viewfinder &#8211; the answer? use an iPhone.</p>
+<div id="jp-post-flair" class="sharedaddy sd-like-enabled sd-sharing-enabled"><div class="sharedaddy sd-sharing-enabled"><div class="robots-nocontent sd-block sd-social sd-social-icon-text sd-sharing"><h3 class="sd-title">Share this:</h3><div class="sd-content"><ul><li class="share-bluesky"><a rel="nofollow noopener noreferrer"
+				data-shared="sharing-bluesky-3038"
+				class="share-bluesky sd-button share-icon"
+				href="https://cameragx.com/2017/05/08/a-final-word-about-the-fujica-x-cameras-of-the-eighties/?share=bluesky"
+				target="_blank"
+				aria-labelledby="sharing-bluesky-3038"
+				>
+				<span id="sharing-bluesky-3038" hidden>Share on Bluesky (Opens in new window)</span>
+				<span>Bluesky</span>
+			</a></li><li class="share-end"></li></ul></div></div></div><div class='sharedaddy sd-block sd-like jetpack-likes-widget-wrapper jetpack-likes-widget-unloaded' id='like-post-wrapper-9034847-3038-6a79178dcb52e' data-src='//widgets.wp.com/likes/index.html?ver=20260810#blog_id=9034847&amp;post_id=3038&amp;origin=cameragx.wordpress.com&amp;obj_id=9034847-3038-6a79178dcb52e&amp;domain=cameragx.com' data-name='like-post-frame-9034847-3038-6a79178dcb52e' data-title='Like or Reblog'><div class='likes-widget-placeholder post-likes-widget-placeholder' style='height: 55px;'><span class='button'><span>Like</span></span> <span class='loading'>Loading...</span></div><span class='sd-text-color'></span><a class='sd-link-color'></a></div>
+<div id='jp-relatedposts' class='jp-relatedposts' >
+	<h3 class="jp-relatedposts-headline"><em>Related</em></h3>
+</div></div>					</div><!-- .entry-content -->
+
+	<footer class="entry-footer">
+		<div class="entry-meta">
+			<span class="posted-on"><a href="https://cameragx.com/2017/05/08/a-final-word-about-the-fujica-x-cameras-of-the-eighties/" rel="bookmark"><time class="entry-date published" datetime="2017-05-08T00:04:11+00:00">May 8, 2017</time><time class="updated" datetime="2017-05-20T18:00:08+00:00">May 20, 2017</time></a></span><span class="byline"> <span class="author vcard"><a class="url fn n" href="https://cameragx.com/author/xtalfu/">xtalfu</a></span></span>		</div><!-- .entry-meta -->
+		<span class="tags-links"><a href="https://cameragx.com/tag/fuji-ax-multi-program/" rel="tag">Fuji AX Multi Program</a><a href="https://cameragx.com/tag/fujica-ax-5/" rel="tag">Fujica AX-5</a><a href="https://cameragx.com/tag/fujica-ax3/" rel="tag">Fujica AX3</a></span>
+			</footer><!-- .entry-footer -->
+</article><!-- #post-## -->
+
+				<nav class="navigation post-navigation" role="navigation">
+		<h1 class="screen-reader-text">Post navigation</h1>
+		<div class="nav-links">
+			<div class="nav-previous"><a href="https://cameragx.com/2017/04/26/tamrons-adaptall/" rel="prev"><span class="meta-nav">&larr;</span> Tamron&#8217;s Adaptall interchangeable lens&nbsp;mount</a></div><div class="nav-next"><a href="https://cameragx.com/2017/05/20/should-we-start-collecting-digital-cameras/" rel="next">Should we start collecting digital&nbsp;cameras? <span class="meta-nav">&rarr;</span></a></div>		</div><!-- .nav-links -->
+	</nav><!-- .navigation -->
+	
+			
+		
+		</main><!-- #main -->
+	</div><!-- #primary -->
+
+
+	</div><!-- #content -->
+
+	<footer id="colophon" class="site-footer" role="contentinfo">
+		<div class="site-info">
+			<a href="https://wordpress.com/?ref=footer_custom_powered" rel="nofollow">Website Powered by WordPress.com</a>.
+			
+					</div><!-- .site-info -->
+	</footer><!-- #colophon -->
+</div><!-- #page -->
+
+<!--  -->
+<script type="speculationrules">
+{"prefetch":[{"source":"document","where":{"and":[{"href_matches":"/*"},{"not":{"href_matches":["/wp-*.php","/wp-admin/*","/files/*","/wp-content/*","/wp-content/plugins/*","/wp-content/themes/pub/isola/*","/*\\?(.+)"]}},{"not":{"selector_matches":"a[rel~=\"nofollow\"]"}},{"not":{"selector_matches":".no-prefetch, .no-prefetch a"}}]},"eagerness":"conservative"}]}
+</script>
+<script id="grofiles-cards-js" src="//0.gravatar.com/js/hovercards/hovercards.min.js?ver=202633d1133547e8a1f2801609f51cef12522abe7f6647d869e9fbc974fe356a37e613"></script>
+<script id="wpgroho-js-extra">
+var WPGroHo = {"my_hash":""};
+//# sourceURL=wpgroho-js-extra
+</script>
+<script crossorigin='anonymous' type='text/javascript'  src='/wp-content/mu-plugins/gravatar-hovercards/wpgroho.js?m=1610363240i'></script>
+
+	<script>
+		// Initialize and attach hovercards to all gravatars
+		( function() {
+			function init() {
+				if ( typeof Gravatar === 'undefined' ) {
+					return;
+				}
+
+				if ( typeof Gravatar.init !== 'function' ) {
+					return;
+				}
+
+				Gravatar.profile_cb = function ( hash, id ) {
+					WPGroHo.syncProfileData( hash, id );
+				};
+
+				Gravatar.my_hash = WPGroHo.my_hash;
+				Gravatar.init(
+					'body',
+					'#wp-admin-bar-my-account',
+					{
+						i18n: {
+							'Edit your profile →': 'Edit your profile →',
+							'View profile →': 'View profile →',
+							'Contact': 'Contact',
+							'Send money': 'Send money',
+							'Sorry, we are unable to load this Gravatar profile.': 'Sorry, we are unable to load this Gravatar profile.',
+							'Gravatar not found.': 'Gravatar not found.',
+							'Too Many Requests.': 'Too Many Requests.',
+							'Internal Server Error.': 'Internal Server Error.',
+							'Is this you?': 'Is this you?',
+							'Claim your free profile.': 'Claim your free profile.',
+							'Email': 'Email',
+							'Home Phone': 'Home Phone',
+							'Work Phone': 'Work Phone',
+							'Cell Phone': 'Cell Phone',
+							'Contact Form': 'Contact Form',
+							'Calendar': 'Calendar',
+						},
+					}
+				);
+			}
+
+			if ( document.readyState !== 'loading' ) {
+				init();
+			} else {
+				document.addEventListener( 'DOMContentLoaded', init );
+			}
+		} )();
+	</script>
+
+		<div style="display:none">
+	</div>
+		<div id="actionbar" dir="ltr" style="display: none;"
+			class="actnbr-pub-isola actnbr-has-follow actnbr-has-actions">
+		<ul>
+								<li class="actnbr-btn actnbr-hidden">
+						<a class="actnbr-action actnbr-actn-reblog" href="">
+							<svg class="gridicon gridicons-reblog" height="20" width="20" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><g><path d="M22.086 9.914L20 7.828V18c0 1.105-.895 2-2 2h-7v-2h7V7.828l-2.086 2.086L14.5 8.5 19 4l4.5 4.5-1.414 1.414zM6 16.172V6h7V4H6c-1.105 0-2 .895-2 2v10.172l-2.086-2.086L.5 15.5 5 20l4.5-4.5-1.414-1.414L6 16.172z"/></g></svg><span>Reblog</span>
+						</a>
+					</li>
+									<li class="actnbr-btn actnbr-hidden">
+								<a class="actnbr-action actnbr-actn-follow " href="">
+			<svg class="gridicon" height="20" width="20" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"><path clip-rule="evenodd" d="m4 4.5h12v6.5h1.5v-6.5-1.5h-1.5-12-1.5v1.5 10.5c0 1.1046.89543 2 2 2h7v-1.5h-7c-.27614 0-.5-.2239-.5-.5zm10.5 2h-9v1.5h9zm-5 3h-4v1.5h4zm3.5 1.5h-1v1h1zm-1-1.5h-1.5v1.5 1 1.5h1.5 1 1.5v-1.5-1-1.5h-1.5zm-2.5 2.5h-4v1.5h4zm6.5 1.25h1.5v2.25h2.25v1.5h-2.25v2.25h-1.5v-2.25h-2.25v-1.5h2.25z"  fill-rule="evenodd"></path></svg>
+			<span>Subscribe</span>
+		</a>
+		<a class="actnbr-action actnbr-actn-following  no-display" href="">
+			<svg class="gridicon" height="20" width="20" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="none"><path fill-rule="evenodd" clip-rule="evenodd" d="M16 4.5H4V15C4 15.2761 4.22386 15.5 4.5 15.5H11.5V17H4.5C3.39543 17 2.5 16.1046 2.5 15V3H17.5V12.5H16V4.5ZM5.5 6.5H14.5V8H5.5V6.5ZM5.5 9.5H9.5V11H5.5V9.5ZM12 11H13V12H12V11ZM10.5 9.5H14.5V13.5H10.5V9.5ZM5.5 12H9.5V13.5H5.5V12Z" fill="#008A20"></path><path d="M19.5303 15.0303L15.5 19.0605L12.9697 16.5303L14.0303 15.4697L15.5 16.9395L18.4697 13.9697L19.5303 15.0303Z" fill="#008A20"></path></svg>
+			<span>Subscribed</span>
+		</a>
+							<div class="actnbr-popover tip tip-top-left actnbr-notice" id="follow-bubble">
+							<div class="tip-arrow"></div>
+							<div class="tip-inner actnbr-follow-bubble">
+															<ul>
+											<li class="actnbr-sitename">
+			<a href="https://cameragx.com">
+				<img loading='lazy' alt='' src='https://secure.gravatar.com/blavatar/9c192be17ca727e370ee0897c0e3b0b6acfcf995e2e6946b4ff9c93afa80152e?s=50&#038;d=https%3A%2F%2Fs0.wp.com%2Fi%2Flogo%2Fwpcom-gray-white.png' srcset='https://secure.gravatar.com/blavatar/9c192be17ca727e370ee0897c0e3b0b6acfcf995e2e6946b4ff9c93afa80152e?s=50&#038;d=https%3A%2F%2Fs0.wp.com%2Fi%2Flogo%2Fwpcom-gray-white.png 1x, https://secure.gravatar.com/blavatar/9c192be17ca727e370ee0897c0e3b0b6acfcf995e2e6946b4ff9c93afa80152e?s=75&#038;d=https%3A%2F%2Fs0.wp.com%2Fi%2Flogo%2Fwpcom-gray-white.png 1.5x, https://secure.gravatar.com/blavatar/9c192be17ca727e370ee0897c0e3b0b6acfcf995e2e6946b4ff9c93afa80152e?s=100&#038;d=https%3A%2F%2Fs0.wp.com%2Fi%2Flogo%2Fwpcom-gray-white.png 2x, https://secure.gravatar.com/blavatar/9c192be17ca727e370ee0897c0e3b0b6acfcf995e2e6946b4ff9c93afa80152e?s=150&#038;d=https%3A%2F%2Fs0.wp.com%2Fi%2Flogo%2Fwpcom-gray-white.png 3x, https://secure.gravatar.com/blavatar/9c192be17ca727e370ee0897c0e3b0b6acfcf995e2e6946b4ff9c93afa80152e?s=200&#038;d=https%3A%2F%2Fs0.wp.com%2Fi%2Flogo%2Fwpcom-gray-white.png 4x' class='avatar avatar-50' height='50' width='50' />				CamerAgX - a new life for old gear			</a>
+		</li>
+										<div class="actnbr-message no-display"></div>
+									<form method="post" action="https://subscribe.wordpress.com" accept-charset="utf-8" style="display: none;">
+																						<div class="actnbr-follow-count">Join 102 other subscribers</div>
+																					<div>
+										<input type="email" name="email" placeholder="Enter your email address" class="actnbr-email-field" aria-label="Enter your email address" />
+										</div>
+										<input type="hidden" name="action" value="subscribe" />
+										<input type="hidden" name="blog_id" value="9034847" />
+										<input type="hidden" name="source" value="https://cameragx.com/2017/05/08/a-final-word-about-the-fujica-x-cameras-of-the-eighties/" />
+										<input type="hidden" name="sub-type" value="actionbar-follow" />
+										<input type="hidden" id="_wpnonce" name="_wpnonce" value="45d646f283" />										<div class="actnbr-button-wrap">
+											<button type="submit" value="Sign me up">
+												Sign me up											</button>
+										</div>
+									</form>
+									<li class="actnbr-login-nudge">
+										<div>
+											Already have a WordPress.com account? <a href="https://wordpress.com/log-in?redirect_to=https%3A%2F%2Fr-login.wordpress.com%2Fremote-login.php%3Faction%3Dlink%26back%3Dhttps%253A%252F%252Fcameragx.com%252F2017%252F05%252F08%252Fa-final-word-about-the-fujica-x-cameras-of-the-eighties%252F">Log in now.</a>										</div>
+									</li>
+								</ul>
+															</div>
+						</div>
+					</li>
+							<li class="actnbr-ellipsis actnbr-hidden">
+				<svg class="gridicon gridicons-ellipsis" height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><g><path d="M7 12c0 1.104-.896 2-2 2s-2-.896-2-2 .896-2 2-2 2 .896 2 2zm12-2c-1.104 0-2 .896-2 2s.896 2 2 2 2-.896 2-2-.896-2-2-2zm-7 0c-1.104 0-2 .896-2 2s.896 2 2 2 2-.896 2-2-.896-2-2-2z"/></g></svg>				<div class="actnbr-popover tip tip-top-left actnbr-more">
+					<div class="tip-arrow"></div>
+					<div class="tip-inner">
+						<ul>
+								<li class="actnbr-sitename">
+			<a href="https://cameragx.com">
+				<img loading='lazy' alt='' src='https://secure.gravatar.com/blavatar/9c192be17ca727e370ee0897c0e3b0b6acfcf995e2e6946b4ff9c93afa80152e?s=50&#038;d=https%3A%2F%2Fs0.wp.com%2Fi%2Flogo%2Fwpcom-gray-white.png' srcset='https://secure.gravatar.com/blavatar/9c192be17ca727e370ee0897c0e3b0b6acfcf995e2e6946b4ff9c93afa80152e?s=50&#038;d=https%3A%2F%2Fs0.wp.com%2Fi%2Flogo%2Fwpcom-gray-white.png 1x, https://secure.gravatar.com/blavatar/9c192be17ca727e370ee0897c0e3b0b6acfcf995e2e6946b4ff9c93afa80152e?s=75&#038;d=https%3A%2F%2Fs0.wp.com%2Fi%2Flogo%2Fwpcom-gray-white.png 1.5x, https://secure.gravatar.com/blavatar/9c192be17ca727e370ee0897c0e3b0b6acfcf995e2e6946b4ff9c93afa80152e?s=100&#038;d=https%3A%2F%2Fs0.wp.com%2Fi%2Flogo%2Fwpcom-gray-white.png 2x, https://secure.gravatar.com/blavatar/9c192be17ca727e370ee0897c0e3b0b6acfcf995e2e6946b4ff9c93afa80152e?s=150&#038;d=https%3A%2F%2Fs0.wp.com%2Fi%2Flogo%2Fwpcom-gray-white.png 3x, https://secure.gravatar.com/blavatar/9c192be17ca727e370ee0897c0e3b0b6acfcf995e2e6946b4ff9c93afa80152e?s=200&#038;d=https%3A%2F%2Fs0.wp.com%2Fi%2Flogo%2Fwpcom-gray-white.png 4x' class='avatar avatar-50' height='50' width='50' />				CamerAgX - a new life for old gear			</a>
+		</li>
+								<li class="actnbr-folded-follow">
+										<a class="actnbr-action actnbr-actn-follow " href="">
+			<svg class="gridicon" height="20" width="20" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"><path clip-rule="evenodd" d="m4 4.5h12v6.5h1.5v-6.5-1.5h-1.5-12-1.5v1.5 10.5c0 1.1046.89543 2 2 2h7v-1.5h-7c-.27614 0-.5-.2239-.5-.5zm10.5 2h-9v1.5h9zm-5 3h-4v1.5h4zm3.5 1.5h-1v1h1zm-1-1.5h-1.5v1.5 1 1.5h1.5 1 1.5v-1.5-1-1.5h-1.5zm-2.5 2.5h-4v1.5h4zm6.5 1.25h1.5v2.25h2.25v1.5h-2.25v2.25h-1.5v-2.25h-2.25v-1.5h2.25z"  fill-rule="evenodd"></path></svg>
+			<span>Subscribe</span>
+		</a>
+		<a class="actnbr-action actnbr-actn-following  no-display" href="">
+			<svg class="gridicon" height="20" width="20" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="none"><path fill-rule="evenodd" clip-rule="evenodd" d="M16 4.5H4V15C4 15.2761 4.22386 15.5 4.5 15.5H11.5V17H4.5C3.39543 17 2.5 16.1046 2.5 15V3H17.5V12.5H16V4.5ZM5.5 6.5H14.5V8H5.5V6.5ZM5.5 9.5H9.5V11H5.5V9.5ZM12 11H13V12H12V11ZM10.5 9.5H14.5V13.5H10.5V9.5ZM5.5 12H9.5V13.5H5.5V12Z" fill="#008A20"></path><path d="M19.5303 15.0303L15.5 19.0605L12.9697 16.5303L14.0303 15.4697L15.5 16.9395L18.4697 13.9697L19.5303 15.0303Z" fill="#008A20"></path></svg>
+			<span>Subscribed</span>
+		</a>
+								</li>
+														<li class="actnbr-signup"><a href="https://wordpress.com/start/">Sign up</a></li>
+							<li class="actnbr-login"><a href="https://wordpress.com/log-in?redirect_to=https%3A%2F%2Fr-login.wordpress.com%2Fremote-login.php%3Faction%3Dlink%26back%3Dhttps%253A%252F%252Fcameragx.com%252F2017%252F05%252F08%252Fa-final-word-about-the-fujica-x-cameras-of-the-eighties%252F">Log in</a></li>
+																<li class="actnbr-shortlink">
+										<a href="https://wp.me/pBUnl-N0">
+											<span class="actnbr-shortlink__text">Copy shortlink</span>
+											<span class="actnbr-shortlink__icon"><svg class="gridicon gridicons-checkmark" height="16" width="16" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><g><path d="M9 19.414l-6.707-6.707 1.414-1.414L9 16.586 20.293 5.293l1.414 1.414"/></g></svg></span>
+										</a>
+									</li>
+																<li class="flb-report">
+									<a href="https://wordpress.com/abuse/?report_url=https://cameragx.com/2017/05/08/a-final-word-about-the-fujica-x-cameras-of-the-eighties/" target="_blank" rel="noopener noreferrer">
+										Report this content									</a>
+								</li>
+															<li class="actnbr-reader">
+									<a href="https://wordpress.com/reader/blogs/9034847/posts/3038">
+										View post in Reader									</a>
+								</li>
+															<li class="actnbr-subs">
+									<a href="https://subscribe.wordpress.com/">Manage subscriptions</a>
+								</li>
+																<li class="actnbr-fold"><a href="">Collapse this bar</a></li>
+														</ul>
+					</div>
+				</div>
+			</li>
+		</ul>
+	</div>
+	
+<script>
+window.addEventListener( "DOMContentLoaded", function( event ) {
+	var link = document.createElement( "link" );
+	link.href = "/wp-content/mu-plugins/actionbar/actionbar.css?v=20250116";
+	link.type = "text/css";
+	link.rel = "stylesheet";
+	document.head.appendChild( link );
+
+	var script = document.createElement( "script" );
+	script.src = "/wp-content/mu-plugins/actionbar/actionbar.js?v=20250204";
+	document.body.appendChild( script );
+} );
+</script>
+
+			<div id="jp-carousel-loading-overlay">
+			<div id="jp-carousel-loading-wrapper">
+				<span id="jp-carousel-library-loading"><svg class="jetpack-spinner" width="40" height="40" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false"><circle cx="50" cy="50" r="46" fill="none" stroke="#ddd" stroke-width="8"/><path d="M 50 4 A 46 46 0 0 1 96 50" fill="none" stroke="currentColor" stroke-width="8" stroke-linecap="round"><animateTransform attributeName="transform" type="rotate" dur="1.4s" from="0 50 50" to="360 50 50" repeatCount="indefinite"/></path></svg></span>
+			</div>
+		</div>
+		<div class="jp-carousel-overlay" style="display: none;">
+
+		<div class="jp-carousel-container">
+			<!-- The Carousel Swiper -->
+			<div
+				class="jp-carousel-wrap swiper jp-carousel-swiper-container jp-carousel-transitions"
+				itemscope
+				itemtype="https://schema.org/ImageGallery">
+				<div class="jp-carousel swiper-wrapper"></div>
+				<div class="jp-swiper-button-prev swiper-button-prev">
+					<svg width="25" height="24" viewBox="0 0 25 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+						<mask id="maskPrev" mask-type="alpha" maskUnits="userSpaceOnUse" x="8" y="6" width="9" height="12">
+							<path d="M16.2072 16.59L11.6496 12L16.2072 7.41L14.8041 6L8.8335 12L14.8041 18L16.2072 16.59Z" fill="white"/>
+						</mask>
+						<g mask="url(#maskPrev)">
+							<rect x="0.579102" width="23.8823" height="24" fill="#FFFFFF"/>
+						</g>
+					</svg>
+				</div>
+				<div class="jp-swiper-button-next swiper-button-next">
+					<svg width="25" height="24" viewBox="0 0 25 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+						<mask id="maskNext" mask-type="alpha" maskUnits="userSpaceOnUse" x="8" y="6" width="8" height="12">
+							<path d="M8.59814 16.59L13.1557 12L8.59814 7.41L10.0012 6L15.9718 12L10.0012 18L8.59814 16.59Z" fill="white"/>
+						</mask>
+						<g mask="url(#maskNext)">
+							<rect x="0.34375" width="23.8822" height="24" fill="#FFFFFF"/>
+						</g>
+					</svg>
+				</div>
+			</div>
+			<!-- The main close buton -->
+			<div class="jp-carousel-close-hint">
+				<svg width="25" height="24" viewBox="0 0 25 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+					<mask id="maskClose" mask-type="alpha" maskUnits="userSpaceOnUse" x="5" y="5" width="15" height="14">
+						<path d="M19.3166 6.41L17.9135 5L12.3509 10.59L6.78834 5L5.38525 6.41L10.9478 12L5.38525 17.59L6.78834 19L12.3509 13.41L17.9135 19L19.3166 17.59L13.754 12L19.3166 6.41Z" fill="white"/>
+					</mask>
+					<g mask="url(#maskClose)">
+						<rect x="0.409668" width="23.8823" height="24" fill="#FFFFFF"/>
+					</g>
+				</svg>
+			</div>
+			<!-- Image info, comments and meta -->
+			<div class="jp-carousel-info">
+				<div class="jp-carousel-info-footer">
+					<div class="jp-carousel-pagination-container">
+						<div class="jp-swiper-pagination swiper-pagination"></div>
+						<div class="jp-carousel-pagination"></div>
+					</div>
+					<div class="jp-carousel-photo-title-container">
+						<div class="jp-carousel-photo-caption"></div>
+					</div>
+					<div class="jp-carousel-photo-icons-container">
+						<a href="#" class="jp-carousel-icon-btn jp-carousel-icon-info" aria-label="Toggle photo metadata visibility">
+							<span class="jp-carousel-icon">
+								<svg width="25" height="24" viewBox="0 0 25 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+									<mask id="maskInfo" mask-type="alpha" maskUnits="userSpaceOnUse" x="2" y="2" width="21" height="20">
+										<path fill-rule="evenodd" clip-rule="evenodd" d="M12.7537 2C7.26076 2 2.80273 6.48 2.80273 12C2.80273 17.52 7.26076 22 12.7537 22C18.2466 22 22.7046 17.52 22.7046 12C22.7046 6.48 18.2466 2 12.7537 2ZM11.7586 7V9H13.7488V7H11.7586ZM11.7586 11V17H13.7488V11H11.7586ZM4.79292 12C4.79292 16.41 8.36531 20 12.7537 20C17.142 20 20.7144 16.41 20.7144 12C20.7144 7.59 17.142 4 12.7537 4C8.36531 4 4.79292 7.59 4.79292 12Z" fill="white"/>
+									</mask>
+									<g mask="url(#maskInfo)">
+										<rect x="0.8125" width="23.8823" height="24" fill="#FFFFFF"/>
+									</g>
+								</svg>
+							</span>
+						</a>
+												<a href="#" class="jp-carousel-icon-btn jp-carousel-icon-comments" aria-label="Toggle photo comments visibility">
+							<span class="jp-carousel-icon">
+								<svg width="25" height="24" viewBox="0 0 25 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+									<mask id="maskComments" mask-type="alpha" maskUnits="userSpaceOnUse" x="2" y="2" width="21" height="20">
+										<path fill-rule="evenodd" clip-rule="evenodd" d="M4.3271 2H20.2486C21.3432 2 22.2388 2.9 22.2388 4V16C22.2388 17.1 21.3432 18 20.2486 18H6.31729L2.33691 22V4C2.33691 2.9 3.2325 2 4.3271 2ZM6.31729 16H20.2486V4H4.3271V18L6.31729 16Z" fill="white"/>
+									</mask>
+									<g mask="url(#maskComments)">
+										<rect x="0.34668" width="23.8823" height="24" fill="#FFFFFF"/>
+									</g>
+								</svg>
+
+								<span class="jp-carousel-has-comments-indicator" aria-label="This image has comments."></span>
+							</span>
+						</a>
+											</div>
+				</div>
+				<div class="jp-carousel-info-extra">
+					<div class="jp-carousel-info-content-wrapper">
+						<div class="jp-carousel-photo-title-container">
+							<div class="jp-carousel-photo-title"></div>
+						</div>
+						<div class="jp-carousel-comments-wrapper">
+															<div id="jp-carousel-comments-loading">
+									<span>Loading Comments...</span>
+								</div>
+								<div class="jp-carousel-comments"></div>
+								<div id="jp-carousel-comment-form-container">
+									<span id="jp-carousel-comment-form-spinner"><svg class="jetpack-spinner" width="20" height="20" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false"><circle cx="50" cy="50" r="46" fill="none" stroke="#ddd" stroke-width="8"/><path d="M 50 4 A 46 46 0 0 1 96 50" fill="none" stroke="currentColor" stroke-width="8" stroke-linecap="round"><animateTransform attributeName="transform" type="rotate" dur="1.4s" from="0 50 50" to="360 50 50" repeatCount="indefinite"/></path></svg></span>
+									<div id="jp-carousel-comment-post-results"></div>
+																														<form id="jp-carousel-comment-form">
+												<label for="jp-carousel-comment-form-comment-field" class="screen-reader-text">Write a Comment...</label>
+												<textarea
+													name="comment"
+													class="jp-carousel-comment-form-field jp-carousel-comment-form-textarea"
+													id="jp-carousel-comment-form-comment-field"
+													placeholder="Write a Comment..."
+												></textarea>
+												<div id="jp-carousel-comment-form-submit-and-info-wrapper">
+													<div id="jp-carousel-comment-form-commenting-as">
+																													<fieldset>
+																<label for="jp-carousel-comment-form-email-field">Email (Required)</label>
+																<input type="text" name="email" class="jp-carousel-comment-form-field jp-carousel-comment-form-text-field" id="jp-carousel-comment-form-email-field" />
+															</fieldset>
+															<fieldset>
+																<label for="jp-carousel-comment-form-author-field">Name (Required)</label>
+																<input type="text" name="author" class="jp-carousel-comment-form-field jp-carousel-comment-form-text-field" id="jp-carousel-comment-form-author-field" />
+															</fieldset>
+															<fieldset>
+																<label for="jp-carousel-comment-form-url-field">Website</label>
+																<input type="text" name="url" class="jp-carousel-comment-form-field jp-carousel-comment-form-text-field" id="jp-carousel-comment-form-url-field" />
+															</fieldset>
+																											</div>
+													<input
+														type="submit"
+														name="submit"
+														class="jp-carousel-comment-form-button"
+														id="jp-carousel-comment-form-button-submit"
+														value="Post Comment" />
+												</div>
+											</form>
+																											</div>
+													</div>
+						<div class="jp-carousel-image-meta">
+							<div class="jp-carousel-title-and-caption">
+								<div class="jp-carousel-photo-info">
+									<div class="jp-carousel-caption" itemprop="caption description"></div>
+								</div>
+
+								<div class="jp-carousel-photo-description"></div>
+							</div>
+							<a class="jp-carousel-image-download" href="#" aria-label="Download image" target="_blank" style="display: none;">
+								<svg width="25" height="24" viewBox="0 0 25 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+									<mask id="mask0" mask-type="alpha" maskUnits="userSpaceOnUse" x="3" y="3" width="19" height="18">
+										<path fill-rule="evenodd" clip-rule="evenodd" d="M5.84615 5V19H19.7775V12H21.7677V19C21.7677 20.1 20.8721 21 19.7775 21H5.84615C4.74159 21 3.85596 20.1 3.85596 19V5C3.85596 3.9 4.74159 3 5.84615 3H12.8118V5H5.84615ZM14.802 5V3H21.7677V10H19.7775V6.41L9.99569 16.24L8.59261 14.83L18.3744 5H14.802Z" fill="white"/>
+									</mask>
+									<g mask="url(#mask0)">
+										<rect x="0.870605" width="23.8823" height="24" fill="#FFFFFF"/>
+									</g>
+								</svg>
+								<span class="jp-carousel-download-text"></span>
+							</a>
+							<div class="jp-carousel-image-map" style="display: none;"></div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		</div>
+		
+	<script type="text/javascript">
+		(function () {
+			var wpcom_reblog = {
+				source: 'toolbar',
+
+				toggle_reblog_box_flair: function (obj_id, post_id) {
+
+					// Go to site selector. This will redirect to their blog if they only have one.
+					const postEndpoint = `https://wordpress.com/post`;
+
+					// Ideally we would use the permalink here, but fortunately this will be replaced with the 
+					// post permalink in the editor.
+					const originalURL = `${ document.location.href }?page_id=${ post_id }`; 
+					
+					const url =
+						postEndpoint +
+						'?url=' +
+						encodeURIComponent( originalURL ) +
+						'&is_post_share=true' +
+						'&v=5';
+
+					const redirect = function () {
+						if (
+							! window.open( url, '_blank' )
+						) {
+							location.href = url;
+						}
+					};
+
+					if ( /Firefox/.test( navigator.userAgent ) ) {
+						setTimeout( redirect, 0 );
+					} else {
+						redirect();
+					}
+				},
+			};
+
+			window.wpcom_reblog = wpcom_reblog;
+		})();
+	</script>
+<script id="jetpack-carousel-js-extra">
+var jetpackSwiperLibraryPath = {"url":"/wp-content/mu-plugins/jetpack-plugin/sun/_inc/blocks/swiper.js"};
+var jetpackCarouselStrings = {"widths":[370,700,1000,1200,1400,2000],"is_logged_in":"","lang":"en","ajaxurl":"https://cameragx.com/wp-admin/admin-ajax.php","nonce":"e8a40cf8d4","display_exif":"1","display_comments":"1","single_image_gallery":"1","single_image_gallery_media_file":"","background_color":"black","comment":"Comment","post_comment":"Post Comment","write_comment":"Write a Comment...","loading_comments":"Loading Comments...","image_label":"Open image in full-screen.","download_original":"View full size \u003Cspan class=\"photo-size\"\u003E{0}\u003Cspan class=\"photo-size-times\"\u003E\u00d7\u003C/span\u003E{1}\u003C/span\u003E","no_comment_text":"Please be sure to submit some text with your comment.","no_comment_email":"Please provide an email address to comment.","no_comment_author":"Please provide your name to comment.","comment_post_error":"Sorry, but there was an error posting your comment. Please try again later.","comment_approved":"Your comment was approved.","comment_unapproved":"Your comment is in moderation.","camera":"Camera","aperture":"Aperture","shutter_speed":"Shutter Speed","focal_length":"Focal Length","copyright":"Copyright","comment_registration":"0","require_name_email":"1","login_url":"https://cameragx.wordpress.com/wp-login.php?redirect_to=https%3A%2F%2Fcameragx.com%2F2017%2F05%2F08%2Fa-final-word-about-the-fujica-x-cameras-of-the-eighties%2F","blog_id":"9034847","meta_data":["camera","aperture","shutter_speed","focal_length","copyright"],"stats_query_args":"blog=9034847&v=wpcom&tz=0&user_id=0&subd=cameragx","is_public":"1"};
+//# sourceURL=jetpack-carousel-js-extra
+</script>
+<script id="sharing-js-js-extra">
+var sharing_js_options = {"lang":"en","counts":"1","is_stats_active":"1"};
+//# sourceURL=sharing-js-js-extra
+</script>
+<script crossorigin='anonymous' type='text/javascript'  src='/_static/??-eJydjkkOwjAMRS9EMCCmDeIoKE1M6zZxQh0z3B7EpAo2iN3/1vvWg1M2LnFBLhDV5KA1sUCgDgUOioqNZR+wH7cyggFcGow3JGsFJClYaOURfgHZHqm2hRL/QktH2QTizuyTUzF7On/OBuotlmxd9+wgyrAjdlApBQ/O9kkFwxt7HcaRvmQGX1+YOWWX4kf920Ya26O33l/ukbh+amzjZrpaL2bT+WS9bK/3BZ1i'></script>
+<script id="sharing-js-js-after">
+var windowOpen;
+			( function () {
+				function matches( el, sel ) {
+					return !! (
+						el.matches && el.matches( sel ) ||
+						el.msMatchesSelector && el.msMatchesSelector( sel )
+					);
+				}
+
+				document.body.addEventListener( 'click', function ( event ) {
+					if ( ! event.target ) {
+						return;
+					}
+
+					var el;
+					if ( matches( event.target, 'a.share-bluesky' ) ) {
+						el = event.target;
+					} else if ( event.target.parentNode && matches( event.target.parentNode, 'a.share-bluesky' ) ) {
+						el = event.target.parentNode;
+					}
+
+					if ( el ) {
+						event.preventDefault();
+
+						// If there's another sharing window open, close it.
+						if ( typeof windowOpen !== 'undefined' ) {
+							windowOpen.close();
+						}
+						windowOpen = window.open( el.getAttribute( 'href' ), 'wpcombluesky', 'menubar=1,resizable=1,width=600,height=400' );
+						return false;
+					}
+				} );
+			} )();
+//# sourceURL=sharing-js-js-after
+</script>
+<script id="wp-emoji-settings" type="application/json">
+{"baseUrl":"https://s0.wp.com/wp-content/mu-plugins/wpcom-smileys/twemoji/2/72x72/","ext":".png","svgUrl":"https://s0.wp.com/wp-content/mu-plugins/wpcom-smileys/twemoji/2/svg/","svgExt":".svg","source":{"concatemoji":"/wp-includes/js/wp-emoji-release.min.js?m=1783090810i&ver=7.1-alpha-62543"}}
+</script>
+<script type="module">
+/*! This file is auto-generated */
+var e="script#wp-emoji-settings",t=document.querySelector(e);if(!(t instanceof HTMLScriptElement))throw new Error("Element missing: "+e);const r=JSON.parse(t.text),s=(window._wpemojiSettings=r,"wpEmojiSettingsSupports"),o=["flag","emoji"];function i(e){try{var t={supportTests:e,timestamp:(new Date).valueOf()};sessionStorage.setItem(s,JSON.stringify(t))}catch(e){}}function c(e,t,n){e.clearRect(0,0,e.canvas.width,e.canvas.height),e.fillText(t,0,0);t=new Uint32Array(e.getImageData(0,0,e.canvas.width,e.canvas.height).data);e.clearRect(0,0,e.canvas.width,e.canvas.height),e.fillText(n,0,0);const r=new Uint32Array(e.getImageData(0,0,e.canvas.width,e.canvas.height).data);return t.every((e,t)=>e===r[t])}function p(e,t){e.clearRect(0,0,e.canvas.width,e.canvas.height),e.fillText(t,0,0);var n=e.getImageData(16,16,1,1);for(let e=0;e<n.data.length;e++)if(0!==n.data[e])return!1;return!0}function u(e,t,n,r){switch(t){case"flag":return n(e,"\ud83c\udff3\ufe0f\u200d\u26a7\ufe0f","\ud83c\udff3\ufe0f\u200b\u26a7\ufe0f")?!1:!n(e,"\ud83c\udde8\ud83c\uddf6","\ud83c\udde8\u200b\ud83c\uddf6")&&!n(e,"\ud83c\udff4\udb40\udc67\udb40\udc62\udb40\udc65\udb40\udc6e\udb40\udc67\udb40\udc7f","\ud83c\udff4\u200b\udb40\udc67\u200b\udb40\udc62\u200b\udb40\udc65\u200b\udb40\udc6e\u200b\udb40\udc67\u200b\udb40\udc7f");case"emoji":return!r(e,"\ud83e\u1fac8")}return!1}function f(e,t,n,r){let a;const s=(a="undefined"!=typeof WorkerGlobalScope&&self instanceof WorkerGlobalScope?new OffscreenCanvas(300,150):document.createElement("canvas")).getContext("2d",{willReadFrequently:!0}),o=(s.textBaseline="top",s.font="600 32px Arial",{});return e.forEach(e=>{o[e]=t(s,e,n,r)}),o}function a(e){var t=document.createElement("script");t.src=e,t.defer=!0,document.head.appendChild(t)}r.supports={everything:!0,everythingExceptFlag:!0},new Promise(t=>{let n=function(){try{var e=JSON.parse(sessionStorage.getItem(s));if("object"==typeof e&&"number"==typeof e.timestamp&&(new Date).valueOf()<e.timestamp+604800&&"object"==typeof e.supportTests)return e.supportTests}catch(e){}return null}();if(!n){if("undefined"!=typeof Worker&&"undefined"!=typeof OffscreenCanvas&&"undefined"!=typeof URL&&URL.createObjectURL&&"undefined"!=typeof Blob)try{var e="postMessage("+f.toString()+"("+[JSON.stringify(o),u.toString(),c.toString(),p.toString()].join(",")+"));",r=new Blob([e],{type:"text/javascript"});const a=new Worker(URL.createObjectURL(r),{name:"wpTestEmojiSupports"});return void(a.onmessage=e=>{i(n=e.data),a.terminate(),t(n)})}catch(e){}i(n=f(o,u,c,p))}t(n)}).then(e=>{for(const n in e)r.supports[n]=e[n],r.supports.everything=r.supports.everything&&r.supports[n],"flag"!==n&&(r.supports.everythingExceptFlag=r.supports.everythingExceptFlag&&r.supports[n]);var t;r.supports.everythingExceptFlag=r.supports.everythingExceptFlag&&!r.supports.flag,r.supports.everything||((t=r.source||{}).concatemoji?a(t.concatemoji):t.wpemoji&&t.twemoji&&(a(t.twemoji),a(t.wpemoji)))});
+//# sourceURL=/wp-includes/js/wp-emoji-loader.min.js
+</script>
+	<iframe src='https://widgets.wp.com/likes/master.html?ver=20260810#ver=20260810' scrolling='no' id='likes-master' name='likes-master' style='display:none;'></iframe>
+	<div id='likes-other-gravatars' role="dialog" aria-hidden="true" tabindex="-1"><div class="likes-text"><span>%d</span></div><ul class="wpl-avatars sd-like-gravatars"></ul></div>
+	<script src="//stats.wp.com/w.js?69" defer></script> <script type="text/javascript">
+_tkq = window._tkq || [];
+_stq = window._stq || [];
+_tkq.push(['storeContext', {'blog_id':'9034847','blog_tz':'0','user_lang':'en','blog_lang':'en','user_id':'0'}]);
+		// Prevent sending pageview tracking from WP-Admin pages.
+		_stq.push(['view', {'blog':'9034847','v':'wpcom','tz':'0','user_id':'0','post':'3038','subd':'cameragx'}]);
+		_stq.push(['extra', {'crypt':'UE5tW3cvZGRTWGRQWmwybFNzc2dMd1lbQSVjRjdMM1s1ZkRpM18vb0h6L3doOU1pb1ouTjRTNSxpenpsM0ZkVXhBRWZbZk1MeCVqb0t1OUFYfFtJT0QuazA1R0pUJVU1ZmtNMXNRTDN5NT0rfkhOUVREMklDWDhzM1o4X2ZxX18mJi9EJT8wfFc4ZVNfSVdWa2NtVUhKLTNpJUJHbU45Unp8UEcmVHNMUUxhLX5PSklhX1Y1MFF6MV0lVWd4Q242ViVRNXpPRlJzZmhod2VPYzNVYmg5TVhZXyxRUzdkb3Y/ckdiOD8uJlBF'}]);
+_stq.push([ 'clickTrackerInit', '9034847', '3038' ]);
+</script>
+<noscript><img src="https://pixel.wp.com/b.gif?v=noscript" style="height:1px;width:1px;overflow:hidden;position:absolute;bottom:1px;" alt="" /></noscript>
+<meta id="bilmur" property="bilmur:data" content="" data-provider="wordpress.com" data-service="simple" data-site-tz="Etc/GMT-0" data-custom-props="{&quot;enq_jquery&quot;:&quot;1&quot;,&quot;logged_in&quot;:&quot;0&quot;,&quot;wptheme&quot;:&quot;pub\/isola&quot;,&quot;wptheme_is_block&quot;:&quot;0&quot;}"   >
+		<script defer src="/wp-content/js/bilmur.min.js?i=17&amp;m=202633"></script> 	
+</body>
+</html>
+<!--
+	generated in 0.297 seconds
+	144458 bytes batcached for 300 seconds
+-->
