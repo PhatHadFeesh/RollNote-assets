@@ -1,0 +1,39 @@
+{
+  "file": "/Users/mac/Documents/Codex/2026-05-25/RollNote/public/assets/cameras/polaroid-spectra-review-20260812/final/polaroid-spectra-rollnote-v1.png",
+  "mode": "RGBA",
+  "size": [
+    1536,
+    1024
+  ],
+  "cornerPixels": [
+    [
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0
+    ]
+  ],
+  "opaquePixels": 637411,
+  "transparentPixels": 932463,
+  "partiallyTransparentPixels": 2990,
+  "opaqueGreenKeyLikePixels": 0,
+  "passed": true
+}
