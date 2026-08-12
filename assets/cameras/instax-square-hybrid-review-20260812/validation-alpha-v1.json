@@ -1,0 +1,34 @@
+[
+  {
+    "file": "instax-sq10-rollnote-v1.png",
+    "mode": "RGBA",
+    "size": [
+      1254,
+      1254
+    ],
+    "cornerAlpha": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "opaqueRatio": 0.6,
+    "pureKeyGreenPixels": 0
+  },
+  {
+    "file": "instax-sq20-rollnote-v1.png",
+    "mode": "RGBA",
+    "size": [
+      1536,
+      1024
+    ],
+    "cornerAlpha": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "opaqueRatio": 0.4599,
+    "pureKeyGreenPixels": 0
+  }
+]
