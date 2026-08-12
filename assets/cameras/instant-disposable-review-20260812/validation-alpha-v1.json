@@ -1,0 +1,156 @@
+[
+  {
+    "file": "fujifilm-quicksnap-active-rollnote-v1-candidate.png",
+    "size": [
+      1536,
+      1024
+    ],
+    "cornerAlpha": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "bbox": [
+      197,
+      166,
+      1341,
+      854
+    ],
+    "opaquePct": 44.89,
+    "partialPct": 0.22,
+    "magentaPixels": 0
+  },
+  {
+    "file": "fujifilm-quicksnap-rollnote-v1.png",
+    "size": [
+      1536,
+      1024
+    ],
+    "cornerAlpha": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "bbox": [
+      162,
+      175,
+      1396,
+      809
+    ],
+    "opaquePct": 48.36,
+    "partialPct": 0.2,
+    "magentaPixels": 0
+  },
+  {
+    "file": "instax-mini12-rollnote-v1-candidate.png",
+    "size": [
+      1254,
+      1254
+    ],
+    "cornerAlpha": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "bbox": [
+      160,
+      81,
+      1095,
+      1177
+    ],
+    "opaquePct": 62.74,
+    "partialPct": 0.38,
+    "magentaPixels": 0
+  },
+  {
+    "file": "instax-mini12-rollnote-v2.png",
+    "size": [
+      1254,
+      1254
+    ],
+    "cornerAlpha": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "bbox": [
+      132,
+      60,
+      1120,
+      1180
+    ],
+    "opaquePct": 67.44,
+    "partialPct": 0.31,
+    "magentaPixels": 0
+  },
+  {
+    "file": "instax-minievo-rollnote-v1.png",
+    "size": [
+      1254,
+      1254
+    ],
+    "cornerAlpha": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "bbox": [
+      229,
+      99,
+      1025,
+      1153
+    ],
+    "opaquePct": 52.63,
+    "partialPct": 0.51,
+    "magentaPixels": 0
+  },
+  {
+    "file": "kodak-funsaver-rollnote-v1.png",
+    "size": [
+      1536,
+      1024
+    ],
+    "cornerAlpha": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "bbox": [
+      171,
+      159,
+      1372,
+      824
+    ],
+    "opaquePct": 46.75,
+    "partialPct": 0.22,
+    "magentaPixels": 0
+  },
+  {
+    "file": "kodak-sport-rollnote-v1.png",
+    "size": [
+      1536,
+      1024
+    ],
+    "cornerAlpha": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "bbox": [
+      86,
+      131,
+      1347,
+      878
+    ],
+    "opaquePct": 50.58,
+    "partialPct": 0.23,
+    "magentaPixels": 0
+  }
+]
