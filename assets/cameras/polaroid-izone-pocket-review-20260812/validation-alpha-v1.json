@@ -1,0 +1,78 @@
+{
+  "checkedOn": "2026-08-13",
+  "items": [
+    {
+      "file": "polaroid-izone-original-rollnote-v1.png",
+      "mode": "RGBA",
+      "size": [
+        1936,
+        1936
+      ],
+      "hasAlpha": true,
+      "cornerAlpha": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "alphaBBox": [
+        276,
+        707,
+        1660,
+        1228
+      ],
+      "opaqueRatio": 0.1537,
+      "transparentRatio": 0.8463,
+      "passed": true
+    },
+    {
+      "file": "polaroid-izone200-rollnote-v1.png",
+      "mode": "RGBA",
+      "size": [
+        1730,
+        1730
+      ],
+      "hasAlpha": true,
+      "cornerAlpha": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "alphaBBox": [
+        247,
+        524,
+        1483,
+        1206
+      ],
+      "opaqueRatio": 0.2564,
+      "transparentRatio": 0.7436,
+      "passed": true
+    },
+    {
+      "file": "polaroid-mio-rollnote-v1.png",
+      "mode": "RGBA",
+      "size": [
+        1647,
+        1647
+      ],
+      "hasAlpha": true,
+      "cornerAlpha": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "alphaBBox": [
+        317,
+        267,
+        1330,
+        1380
+      ],
+      "opaqueRatio": 0.3635,
+      "transparentRatio": 0.6322,
+      "passed": true
+    }
+  ],
+  "passed": true
+}
