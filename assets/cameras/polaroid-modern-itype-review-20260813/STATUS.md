@@ -33,7 +33,7 @@
 - Do not bundle these original camera PNGs in app builds; run the GitHub-assets sync scripts after data changes.
 - Uploaded to RollNote-assets commit `2f82c98`.
 - Raw GitHub URLs returned 200 for the four production PNGs, preview board, and STATUS after upload.
-- GitHub Pages URLs returned 404 immediately after upload and are pending normal propagation.
+- GitHub Pages URLs returned 404 immediately after upload, then returned 200 for the four production PNGs, preview board, and STATUS on the 2026-08-13 propagation check.
 - `src/data.js` is connected through `variantAssets` and `imageStub.remoteAssetCommit`.
 - `npm run ios:sync:github-assets` completed after connection and confirmed no remote library asset originals were bundled into dist or iOS.
 
