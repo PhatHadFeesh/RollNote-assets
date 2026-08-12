@@ -24,6 +24,7 @@
 - App paths remain `/assets/cameras/<file>.png` and are resolved through `VITE_ROLLNOTE_LIBRARY_ASSET_BASE_URL`.
 - Do not bundle these original camera PNGs in app builds; run the GitHub-assets sync scripts after data changes.
 - Publication check at 2026-08-12 16:32 CST: GitHub raw URLs for the new file and STATUS returned 200, and `npm run ios:sync:github-assets` completed with no remote library originals bundled into `dist` or iOS. The new GitHub Pages URLs still returned 404 immediately after push, so recheck Pages propagation in the next heartbeat.
+- Publication recheck at 2026-08-12 16:52 CST: GitHub Pages URLs for the production PNG, preview board, and STATUS all returned 200.
 
 ## Rollback stub
 - Remove the accepted file above from RollNote-assets if rejected.
