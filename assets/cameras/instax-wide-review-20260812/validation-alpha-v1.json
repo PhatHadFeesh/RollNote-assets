@@ -1,0 +1,140 @@
+[
+  {
+    "file": "instax-wide100-rollnote-v1.png",
+    "size": [
+      1536,
+      1024
+    ],
+    "mode": "RGBA",
+    "corners": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "opaque_green": 0,
+    "opaque_pixels": 890923,
+    "transparent_pixels": 679214,
+    "opaque_bbox": [
+      144,
+      116,
+      1378,
+      919
+    ]
+  },
+  {
+    "file": "instax-wide200-rollnote-v1.png",
+    "size": [
+      1402,
+      1122
+    ],
+    "mode": "RGBA",
+    "corners": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "opaque_green": 0,
+    "opaque_pixels": 806747,
+    "transparent_pixels": 762508,
+    "opaque_bbox": [
+      113,
+      178,
+      1309,
+      922
+    ]
+  },
+  {
+    "file": "instax-wide210-rollnote-v1.png",
+    "size": [
+      1402,
+      1122
+    ],
+    "mode": "RGBA",
+    "corners": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "opaque_green": 0,
+    "opaque_pixels": 837302,
+    "transparent_pixels": 732085,
+    "opaque_bbox": [
+      110,
+      173,
+      1315,
+      942
+    ]
+  },
+  {
+    "file": "instax-wide300-rollnote-v1.png",
+    "size": [
+      1536,
+      1024
+    ],
+    "mode": "RGBA",
+    "corners": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "opaque_green": 0,
+    "opaque_pixels": 802400,
+    "transparent_pixels": 767738,
+    "opaque_bbox": [
+      156,
+      123,
+      1363,
+      872
+    ]
+  },
+  {
+    "file": "instax-wide400-rollnote-v1.png",
+    "size": [
+      1536,
+      1024
+    ],
+    "mode": "RGBA",
+    "corners": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "opaque_green": 0,
+    "opaque_pixels": 910314,
+    "transparent_pixels": 659275,
+    "opaque_bbox": [
+      173,
+      101,
+      1362,
+      917
+    ]
+  },
+  {
+    "file": "instax-wide500af-rollnote-v1.png",
+    "size": [
+      1536,
+      1024
+    ],
+    "mode": "RGBA",
+    "corners": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "opaque_green": 0,
+    "opaque_pixels": 850144,
+    "transparent_pixels": 719294,
+    "opaque_bbox": [
+      163,
+      142,
+      1389,
+      902
+    ]
+  }
+]
