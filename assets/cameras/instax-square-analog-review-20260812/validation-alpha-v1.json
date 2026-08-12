@@ -1,0 +1,66 @@
+[
+  {
+    "file": "instax-sq1-rollnote-v1.png",
+    "mode": "RGBA",
+    "size": [
+      1254,
+      1254
+    ],
+    "cornerAlpha": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "opaqueRatio": 0.5,
+    "pureKeyGreenPixels": 0
+  },
+  {
+    "file": "instax-sq6-rollnote-v1.png",
+    "mode": "RGBA",
+    "size": [
+      1254,
+      1254
+    ],
+    "cornerAlpha": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "opaqueRatio": 0.419,
+    "pureKeyGreenPixels": 0
+  },
+  {
+    "file": "instax-sq6-special-black-gold-rollnote-v1.png",
+    "mode": "RGBA",
+    "size": [
+      1254,
+      1254
+    ],
+    "cornerAlpha": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "opaqueRatio": 0.5159,
+    "pureKeyGreenPixels": 0
+  },
+  {
+    "file": "instax-sq40-rollnote-v1.png",
+    "mode": "RGBA",
+    "size": [
+      1254,
+      1254
+    ],
+    "cornerAlpha": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "opaqueRatio": 0.5192,
+    "pureKeyGreenPixels": 0
+  }
+]
