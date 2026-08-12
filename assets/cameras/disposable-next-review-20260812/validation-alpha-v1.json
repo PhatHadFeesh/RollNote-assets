@@ -1,0 +1,70 @@
+[
+  {
+    "file": "ilford-hp5-single-use-rollnote-v1.png",
+    "size": [
+      1536,
+      1024
+    ],
+    "mode": "RGBA",
+    "corners": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "opaque_green": 0,
+    "opaque_pixels": 734300,
+    "transparent_pixels": 835849
+  },
+  {
+    "file": "ilford-xp2-single-use-rollnote-v1.png",
+    "size": [
+      1254,
+      1254
+    ],
+    "mode": "RGBA",
+    "corners": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "opaque_green": 0,
+    "opaque_pixels": 653155,
+    "transparent_pixels": 915574
+  },
+  {
+    "file": "lomography-simple-use-color-rollnote-v1.png",
+    "size": [
+      1536,
+      1024
+    ],
+    "mode": "RGBA",
+    "corners": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "opaque_green": 0,
+    "opaque_pixels": 745426,
+    "transparent_pixels": 815022
+  },
+  {
+    "file": "lomography-simple-use-purple-rollnote-v1.png",
+    "size": [
+      1254,
+      1254
+    ],
+    "mode": "RGBA",
+    "corners": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "opaque_green": 0,
+    "opaque_pixels": 686340,
+    "transparent_pixels": 873098
+  }
+]
