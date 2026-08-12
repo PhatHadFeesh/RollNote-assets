@@ -1,0 +1,54 @@
+{
+  "checkedOn": "2026-08-12",
+  "items": [
+    {
+      "file": "polaroid-captiva-rollnote-v1.png",
+      "mode": "RGBA",
+      "size": [
+        1348,
+        1348
+      ],
+      "hasAlpha": true,
+      "cornerAlpha": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "alphaBBox": [
+        192,
+        423,
+        1156,
+        924
+      ],
+      "opaqueRatio": 0.2561,
+      "transparentRatio": 0.7439,
+      "passed": true
+    },
+    {
+      "file": "polaroid-joycam-rollnote-v1.png",
+      "mode": "RGBA",
+      "size": [
+        1654,
+        1654
+      ],
+      "hasAlpha": true,
+      "cornerAlpha": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "alphaBBox": [
+        236,
+        528,
+        1418,
+        1126
+      ],
+      "opaqueRatio": 0.2511,
+      "transparentRatio": 0.7489,
+      "passed": true
+    }
+  ],
+  "passed": true
+}
