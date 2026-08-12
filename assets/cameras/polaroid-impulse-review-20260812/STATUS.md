@@ -24,7 +24,7 @@
 - Target remote base: `https://phathadfeesh.github.io/RollNote-assets`
 - App paths remain `/assets/cameras/<file>.png` and are resolved through `VITE_ROLLNOTE_LIBRARY_ASSET_BASE_URL`.
 - Do not bundle these original camera PNGs in app builds; run the GitHub-assets sync scripts after data changes.
-- Publication check is pending until this batch is copied to RollNote-assets, committed, pushed, and rechecked through GitHub raw / Pages URLs.
+- Publication check at 2026-08-12 19:24 CST: GitHub raw URLs and GitHub Pages URLs for the production PNG, preview board, and STATUS all returned 200, and `npm run ios:sync:github-assets` completed with no remote library originals bundled into `dist` or iOS. The batch is fully reachable through the remote asset base.
 
 ## Rollback stub
 - Remove the accepted file above from RollNote-assets if rejected.
