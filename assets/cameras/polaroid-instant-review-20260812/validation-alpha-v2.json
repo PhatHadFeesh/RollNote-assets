@@ -1,0 +1,122 @@
+[
+  {
+    "file": "polaroid-now-plus-rollnote-v1.png",
+    "size": [
+      1254,
+      1254
+    ],
+    "cornerAlpha": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "bbox": [
+      105,
+      171,
+      1148,
+      1091
+    ],
+    "greenPixels": 0
+  },
+  {
+    "file": "polaroid-onestep-white-rainbow-rollnote-v1.png",
+    "size": [
+      1254,
+      1254
+    ],
+    "cornerAlpha": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "bbox": [
+      134,
+      173,
+      1119,
+      1080
+    ],
+    "greenPixels": 0
+  },
+  {
+    "file": "polaroid-sun660-af-rollnote-v1-candidate.png",
+    "size": [
+      1254,
+      1254
+    ],
+    "cornerAlpha": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "bbox": [
+      75,
+      104,
+      1186,
+      1170
+    ],
+    "greenPixels": 0
+  },
+  {
+    "file": "polaroid-sun660-af-rollnote-v2.png",
+    "size": [
+      1254,
+      1254
+    ],
+    "cornerAlpha": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "bbox": [
+      101,
+      131,
+      1166,
+      1140
+    ],
+    "greenPixels": 0
+  },
+  {
+    "file": "polaroid-sx70-original-rollnote-v1.png",
+    "size": [
+      1536,
+      1024
+    ],
+    "cornerAlpha": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "bbox": [
+      195,
+      47,
+      1366,
+      970
+    ],
+    "greenPixels": 0
+  },
+  {
+    "file": "polaroid-sx70-sonar-rollnote-v1.png",
+    "size": [
+      1536,
+      1024
+    ],
+    "cornerAlpha": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "bbox": [
+      205,
+      49,
+      1367,
+      972
+    ],
+    "greenPixels": 0
+  }
+]
