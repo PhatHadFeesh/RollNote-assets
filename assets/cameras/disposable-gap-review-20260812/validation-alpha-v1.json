@@ -1,0 +1,117 @@
+[
+  {
+    "file": "agfaphoto-lebox-ocean-rollnote-v1.png",
+    "size": [
+      1536,
+      1024
+    ],
+    "mode": "RGBA",
+    "corners": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "opaque_green": 0,
+    "opaque_pixels": 777641,
+    "transparent_pixels": 792785,
+    "opaque_bbox": [
+      165,
+      173,
+      1369,
+      846
+    ]
+  },
+  {
+    "file": "agfaphoto-lebox-bw-rollnote-v1.png",
+    "size": [
+      1536,
+      1024
+    ],
+    "mode": "RGBA",
+    "corners": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "opaque_green": 0,
+    "opaque_pixels": 845679,
+    "transparent_pixels": 713619,
+    "opaque_bbox": [
+      166,
+      143,
+      1375,
+      880
+    ]
+  },
+  {
+    "file": "ilford-ilfocolor-rapid-retro-rollnote-v1.png",
+    "size": [
+      1536,
+      1024
+    ],
+    "mode": "RGBA",
+    "corners": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "opaque_green": 0,
+    "opaque_pixels": 885777,
+    "transparent_pixels": 684734,
+    "opaque_bbox": [
+      123,
+      148,
+      1411,
+      856
+    ]
+  },
+  {
+    "file": "lomography-simple-use-metropolis-rollnote-v1.png",
+    "size": [
+      1536,
+      1024
+    ],
+    "mode": "RGBA",
+    "corners": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "opaque_green": 0,
+    "opaque_pixels": 738039,
+    "transparent_pixels": 825579,
+    "opaque_bbox": [
+      182,
+      89,
+      1351,
+      864
+    ]
+  },
+  {
+    "file": "lomography-simple-use-bw-rollnote-v1.png",
+    "size": [
+      1536,
+      1024
+    ],
+    "mode": "RGBA",
+    "corners": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "opaque_green": 0,
+    "opaque_pixels": 771377,
+    "transparent_pixels": 799153,
+    "opaque_bbox": [
+      161,
+      169,
+      1372,
+      830
+    ]
+  }
+]
