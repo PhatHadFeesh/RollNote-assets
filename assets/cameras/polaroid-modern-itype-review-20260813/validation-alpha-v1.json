@@ -1,0 +1,105 @@
+{
+  "checkedAt": "2026-08-13T00:59:00+08:00",
+  "files": [
+    {
+      "file": "polaroid-impossible-i1-rollnote-v1.png",
+      "mode": "RGBA",
+      "size": [
+        1254,
+        1254
+      ],
+      "cornerAlpha": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "transparentPixels": 962119,
+      "partialAlphaPixels": 5934,
+      "opaquePixels": 604463,
+      "subjectBBox": [
+        154,
+        172,
+        1100,
+        1087
+      ],
+      "opaqueGreenishPixels": 0,
+      "passed": true
+    },
+    {
+      "file": "polaroid-onestep2-rollnote-v1.png",
+      "mode": "RGBA",
+      "size": [
+        1254,
+        1254
+      ],
+      "cornerAlpha": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "transparentPixels": 755070,
+      "partialAlphaPixels": 10263,
+      "opaquePixels": 807183,
+      "subjectBBox": [
+        129,
+        190,
+        1132,
+        1038
+      ],
+      "opaqueGreenishPixels": 0,
+      "passed": true
+    },
+    {
+      "file": "polaroid-i2-rollnote-v1.png",
+      "mode": "RGBA",
+      "size": [
+        1536,
+        1024
+      ],
+      "cornerAlpha": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "transparentPixels": 1006501,
+      "partialAlphaPixels": 2493,
+      "opaquePixels": 563870,
+      "subjectBBox": [
+        350,
+        141,
+        1184,
+        919
+      ],
+      "opaqueGreenishPixels": 0,
+      "passed": true
+    },
+    {
+      "file": "polaroid-flip-rollnote-v1.png",
+      "mode": "RGBA",
+      "size": [
+        1254,
+        1254
+      ],
+      "cornerAlpha": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "transparentPixels": 826752,
+      "partialAlphaPixels": 6808,
+      "opaquePixels": 738956,
+      "subjectBBox": [
+        194,
+        156,
+        1060,
+        1085
+      ],
+      "opaqueGreenishPixels": 0,
+      "passed": true
+    }
+  ]
+}
