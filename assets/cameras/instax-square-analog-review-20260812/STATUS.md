@@ -29,6 +29,7 @@
 - Target remote base: `https://phathadfeesh.github.io/RollNote-assets`
 - App paths remain `/assets/cameras/<file>.png` and are resolved through `VITE_ROLLNOTE_LIBRARY_ASSET_BASE_URL`.
 - Do not bundle these original camera PNGs in app builds; run the GitHub-assets sync scripts after data changes.
+- Publication check at 2026-08-12 14:38 CST: GitHub raw URLs for the new files returned 200, existing GitHub Pages assets returned 200, but the new GitHub Pages URLs still returned 404. Treat this as a Pages propagation/build delay unless it persists across later checks.
 
 ## Rollback stub
 - Remove the four accepted files above from RollNote-assets if rejected.
