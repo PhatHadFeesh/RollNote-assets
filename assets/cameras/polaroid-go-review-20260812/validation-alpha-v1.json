@@ -1,0 +1,54 @@
+{
+  "checkedOn": "2026-08-12",
+  "items": [
+    {
+      "file": "polaroid-go-gen3-rollnote-v1.png",
+      "mode": "RGBA",
+      "size": [
+        1019,
+        1019
+      ],
+      "hasAlpha": true,
+      "cornerAlpha": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "alphaBBox": [
+        165,
+        202,
+        854,
+        817
+      ],
+      "opaqueRatio": 0.3592,
+      "transparentRatio": 0.6408,
+      "passed": true
+    },
+    {
+      "file": "polaroid-go-gen2-rollnote-v1.png",
+      "mode": "RGBA",
+      "size": [
+        965,
+        965
+      ],
+      "hasAlpha": true,
+      "cornerAlpha": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "alphaBBox": [
+        156,
+        169,
+        809,
+        795
+      ],
+      "opaqueRatio": 0.389,
+      "transparentRatio": 0.611,
+      "passed": true
+    }
+  ],
+  "passed": true
+}
