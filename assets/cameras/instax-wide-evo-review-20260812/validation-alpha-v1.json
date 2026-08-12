@@ -1,0 +1,39 @@
+{
+  "file": "/Users/mac/Documents/Codex/2026-05-25/RollNote/public/assets/cameras/instax-wide-evo-review-20260812/final/instax-wide-evo-rollnote-v1.png",
+  "mode": "RGBA",
+  "size": [
+    1536,
+    1024
+  ],
+  "cornerPixels": [
+    [
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0
+    ]
+  ],
+  "opaquePixels": 910105,
+  "transparentPixels": 659776,
+  "partiallyTransparentPixels": 2983,
+  "opaqueGreenKeyLikePixels": 0,
+  "passed": true
+}
