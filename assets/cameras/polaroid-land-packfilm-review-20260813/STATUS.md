@@ -21,7 +21,8 @@
 - [x] Colorpack and Passport / ID references and generation.
 - [x] Colorpack and Passport / ID transparent PNGs extracted and validated.
 - [x] Full five-camera v2 preview board and alpha validation.
-- [ ] Remote upload and app connection.
+- [x] Remote upload to RollNote-assets.
+- [x] App connection through `src/data.js` imageUrl / variantAssets / imageStub.
 
 ## Accepted assets so far
 - `polaroid-model95-rollnote-v1.png`
@@ -56,7 +57,11 @@
 - Target remote base: `https://phathadfeesh.github.io/RollNote-assets`
 - App paths should remain `/assets/cameras/<file>.png` and be resolved through `VITE_ROLLNOTE_LIBRARY_ASSET_BASE_URL` after upload.
 - Do not bundle original camera PNGs in app builds; run GitHub-assets sync scripts after data changes.
-- Production upload pending for this Land / packfilm batch.
+- Uploaded to RollNote-assets commit `05ee32d`.
+- Raw GitHub URLs returned 200 for the five production PNGs, preview board, and STATUS after upload.
+- GitHub Pages URLs returned 404 immediately after upload, so the batch needs the usual Pages propagation recheck.
+- `src/data.js` is connected through `imageUrl`, `variantAssets`, and `imageStub.remoteAssetCommit`.
 
 ## Rollback stub
-- Before app connection, rejection requires removing the five production PNGs above and the review folder outputs from RollNote-assets. No `src/data.js` rollback is required until the imageUrl / variantAssets / imageStub changes are applied.
+- Remove the five accepted production PNGs above and the `polaroid-land-packfilm-review-20260813` review files from RollNote-assets if rejected.
+- In `src/data.js`, remove `POLAROID_LAND_PACKFILM_REVIEW_PREVIEW_URL`, remove the five Polaroid Land / packfilm entries from `CAMERA_VARIANT_ASSETS`, and remove the new `imageUrl` / `imageStub` blocks from `cam-polaroid-land-rollfilm`, `cam-polaroid-automatic-packfilm`, `cam-polaroid-professional-packfilm`, `cam-polaroid-colorpack-rigid`, and `cam-polaroid-passport-id`.
