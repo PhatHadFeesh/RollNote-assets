@@ -17,7 +17,7 @@
 - [x] Generate RollNote-style sources on removable chroma-key backgrounds.
 - [x] Extract transparent PNGs and validate alpha.
 - [x] Create preview board.
-- [ ] Upload accepted assets to RollNote-assets and connect app data with imageStub rollback notes.
+- [x] Upload accepted assets to RollNote-assets and connect app data with imageStub rollback notes.
 
 ## Quality target
 - Use real camera references for model identity and RollNote rounded light-cartoon style for rendering.
@@ -44,9 +44,15 @@
 - All final PNGs have alpha channels and transparent backgrounds.
 - Visual preview keeps the real front layouts and rounded RollNote cartoon style. mini 25 is acceptable but appears smaller on the preview board because the source composition is more generously padded; mark it for optional user review before replacing.
 
+## App connection
+- Remote asset commit: `RollNote-assets 9f4f4a7`
+- App data: `src/data.js` adds `INSTAX_MINI_EARLY_REVIEW_PREVIEW_URL`, `CAMERA_VARIANT_ASSETS["cam-instax-mini-early"]`, parent `imageUrl`, and `imageStub` rollback metadata.
+- Variant mapping: mini 10, 20, 25, 30, 50, 50S, 55, and 70 use their own assets; mini 20 Cheki reuses the mini 20 representative.
+- GitHub Raw URLs verified 200 immediately after push. GitHub Pages URLs were still 404 during the first post-push check and need a later propagation recheck.
+
 ## Remote loading
 - Target remote base: `https://phathadfeesh.github.io/RollNote-assets`
 - App paths should remain `/assets/cameras/<file>.png` and resolve through `VITE_ROLLNOTE_LIBRARY_ASSET_BASE_URL` after upload.
 
 ## Rollback stub
-- This batch is not connected yet. If abandoned, remove `public/assets/cameras/instax-mini-early-review-20260813`; no `src/data.js` rollback is required.
+- Remove `imageUrl` / `imageStub` from `cam-instax-mini-early`, remove `cam-instax-mini-early` from `CAMERA_VARIANT_ASSETS`, and remove this batch's production PNGs if rejected. The previous image state was `prompt-ready` with no `imageUrl`.
