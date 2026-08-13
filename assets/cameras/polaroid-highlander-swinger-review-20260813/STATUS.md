@@ -15,7 +15,7 @@
 - [x] Generate RollNote-style sources on removable chroma-key backgrounds.
 - [x] Extract transparent PNGs and validate alpha.
 - [x] Create preview board.
-- [ ] Upload accepted assets to RollNote-assets and connect app data with imageStub rollback notes.
+- [x] Upload accepted assets to RollNote-assets and connect app data with imageStub rollback notes.
 
 ## Existing references
 - Swinger Model 20 reference: `references/downloads/polaroid-swinger-model20-commons.jpg`
@@ -45,6 +45,8 @@
 - The generated set keeps RollNote's rounded, light-cartoon app style and uses mostly straight/front views.
 - Transparent PNG validation passed with alpha channels and transparent corners for all seven finals.
 - No generated asset was connected before upload.
+- Uploaded to RollNote-assets commit `ce7c674`.
+- App `src/data.js` now maps Highlander / Swinger child variants to remote-resolved `/assets/cameras/*.png` URLs and keeps an `imageStub` rollback note.
 
 ## Rejected carryover
 - `rejected/polaroid-swinger-rollnote-v1-rejected-display-base-shape.png`: cute style, but it included a large display-base/tray form and departed too far from the real Model 20 compact shape. Do not reuse this candidate.
@@ -59,7 +61,7 @@
 - Target remote base: `https://phathadfeesh.github.io/RollNote-assets`
 - App paths should remain `/assets/cameras/<file>.png` and be resolved through `VITE_ROLLNOTE_LIBRARY_ASSET_BASE_URL` after upload.
 - Do not bundle original camera PNGs in app builds; run GitHub-assets sync scripts after data changes.
-- Production assets are ready locally and staged for upload to RollNote-assets.
+- Production assets are uploaded to RollNote-assets commit `ce7c674` and connected in the app through remote-resolved asset paths.
 
 ## Rollback stub
 - Before app connection, remove `public/assets/cameras/polaroid-highlander-swinger-review-20260813` and the seven root-level `public/assets/cameras/polaroid-*-rollnote-v1.png` files for this batch.
