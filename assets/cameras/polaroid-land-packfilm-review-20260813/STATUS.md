@@ -59,8 +59,9 @@
 - Do not bundle original camera PNGs in app builds; run GitHub-assets sync scripts after data changes.
 - Uploaded to RollNote-assets commit `05ee32d`.
 - Raw GitHub URLs returned 200 for the five production PNGs, preview board, and STATUS after upload.
-- GitHub Pages URLs returned 404 immediately after upload, so the batch needs the usual Pages propagation recheck.
+- GitHub Pages URLs returned 404 immediately after upload, then returned 200 for the five production PNGs, preview board, and STATUS on the 2026-08-13 propagation recheck.
 - `src/data.js` is connected through `imageUrl`, `variantAssets`, and `imageStub.remoteAssetCommit`.
+- `npm run build:github-assets` completed after connection and confirmed no remote library camera originals were bundled into `dist`.
 
 ## Rollback stub
 - Remove the five accepted production PNGs above and the `polaroid-land-packfilm-review-20260813` review files from RollNote-assets if rejected.
