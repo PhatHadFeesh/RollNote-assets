@@ -41,7 +41,7 @@
 - Remote asset commit: `RollNote-assets 07f6abd`
 - App data: `src/data.js` adds `FUJI_FOTORAMA_REVIEW_PREVIEW_URL`, `CAMERA_VARIANT_ASSETS["cam-fuji-fotorama"]`, parent `imageUrl`, and `imageStub` rollback metadata.
 - Variant mapping: FP-1 uses its own asset; FP-14 / FP-100 reuse the FP-UL-style folding representative; Fotorama 800 / 850E / 880 reuse the 800AF representative; 90ACE, MX800, SlimACE, and Mr. Handy Ace each use their own asset.
-- GitHub Raw URLs verified 200 immediately after push. GitHub Pages URLs were still 404 during the first post-push check and need a later propagation recheck.
+- GitHub Raw URLs verified 200 immediately after push. GitHub Pages URLs initially returned 404 during propagation, then all seven production PNGs and the preview board returned 200 on the follow-up check.
 
 ## Quality target
 - Use real camera references for model identity and RollNote's rounded light-cartoon style for rendering.
