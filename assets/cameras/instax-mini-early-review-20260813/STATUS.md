@@ -45,10 +45,10 @@
 - Visual preview keeps the real front layouts and rounded RollNote cartoon style. mini 25 is acceptable but appears smaller on the preview board because the source composition is more generously padded; mark it for optional user review before replacing.
 
 ## App connection
-- Remote asset commit: `RollNote-assets 9f4f4a7`
+- Remote asset commit: `RollNote-assets 9884e86`
 - App data: `src/data.js` adds `INSTAX_MINI_EARLY_REVIEW_PREVIEW_URL`, `CAMERA_VARIANT_ASSETS["cam-instax-mini-early"]`, parent `imageUrl`, and `imageStub` rollback metadata.
 - Variant mapping: mini 10, 20, 25, 30, 50, 50S, 55, and 70 use their own assets; mini 20 Cheki reuses the mini 20 representative.
-- GitHub Raw URLs verified 200 immediately after push. GitHub Pages URLs were still 404 during the first post-push check and need a later propagation recheck.
+- GitHub Raw URLs verified 200 immediately after push. GitHub Pages URLs initially returned 404 during propagation; follow-up checks returned 200 for all production PNGs, the preview board, and STATUS. One mini 50S request briefly returned 503, then returned 200 on three consecutive retries.
 
 ## Remote loading
 - Target remote base: `https://phathadfeesh.github.io/RollNote-assets`
