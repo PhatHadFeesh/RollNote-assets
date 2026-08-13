@@ -1,0 +1,130 @@
+{
+  "checkedAt": "2026-08-13T02:55:00+08:00",
+  "files": [
+    {
+      "file": "polaroid-model95-rollnote-v1.png",
+      "mode": "RGBA",
+      "size": [
+        1086,
+        1448
+      ],
+      "cornerAlpha": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "transparentPixels": 933244,
+      "partialAlphaPixels": 5792,
+      "opaquePixels": 633492,
+      "subjectBBox": [
+        184,
+        79,
+        870,
+        1325
+      ],
+      "opaqueGreenishPixels": 0,
+      "passed": true
+    },
+    {
+      "file": "polaroid-automatic100-rollnote-v1.png",
+      "mode": "RGBA",
+      "size": [
+        1254,
+        1254
+      ],
+      "cornerAlpha": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "transparentPixels": 775470,
+      "partialAlphaPixels": 4614,
+      "opaquePixels": 792432,
+      "subjectBBox": [
+        127,
+        144,
+        1127,
+        1094
+      ],
+      "opaqueGreenishPixels": 0,
+      "passed": true
+    },
+    {
+      "file": "polaroid-600se-rollnote-v1.png",
+      "mode": "RGBA",
+      "size": [
+        1536,
+        1024
+      ],
+      "cornerAlpha": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "transparentPixels": 828014,
+      "partialAlphaPixels": 4304,
+      "opaquePixels": 740546,
+      "subjectBBox": [
+        211,
+        72,
+        1358,
+        908
+      ],
+      "opaqueGreenishPixels": 0,
+      "passed": true
+    },
+    {
+      "file": "polaroid-colorpack80-rollnote-v1.png",
+      "mode": "RGBA",
+      "size": [
+        1254,
+        1254
+      ],
+      "cornerAlpha": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "transparentPixels": 792948,
+      "partialAlphaPixels": 4741,
+      "opaquePixels": 774827,
+      "subjectBBox": [
+        127,
+        149,
+        1154,
+        1061
+      ],
+      "opaqueGreenishPixels": 0,
+      "passed": true
+    },
+    {
+      "file": "polaroid-passport402-rollnote-v1.png",
+      "mode": "RGBA",
+      "size": [
+        1351,
+        1164
+      ],
+      "cornerAlpha": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "transparentPixels": 772305,
+      "partialAlphaPixels": 47432,
+      "opaquePixels": 752827,
+      "subjectBBox": [
+        62,
+        45,
+        1326,
+        1114
+      ],
+      "opaqueGreenishPixels": 0,
+      "passed": true
+    }
+  ]
+}
