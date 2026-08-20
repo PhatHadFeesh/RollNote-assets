@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="360" height="236" viewBox="0 0 360 236" preserveAspectRatio="xMidYMid meet" role="img" aria-label="Kodak Verita 200D 5206 分装 120 front artwork">
+  <defs>
+    <filter id="cutoutShadow" x="-12%" y="-20%" width="124%" height="150%">
+      <feDropShadow dx="0" dy="8" stdDeviation="5.5" flood-color="#1f1b18" flood-opacity="0.18"/>
+    </filter>
+    <pattern id="paperGrain" width="18" height="18" patternUnits="userSpaceOnUse">
+      <circle cx="3" cy="4" r="0.8" fill="#ffffff" opacity="0.45"/>
+      <circle cx="12" cy="8" r="0.7" fill="#000000" opacity="0.18"/>
+      <circle cx="7" cy="15" r="0.6" fill="#ffffff" opacity="0.30"/>
+      <circle cx="16" cy="15" r="0.5" fill="#000000" opacity="0.14"/>
+    </pattern>
+    <linearGradient id="topGloss" x1="0" x2="0" y1="0" y2="1">
+      <stop offset="0" stop-color="#ffffff" stop-opacity="0.58"/>
+      <stop offset="1" stop-color="#ffffff" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+  
+    <g>
+      <defs>
+        <clipPath id="motionCanOuterClip"><circle cx="180" cy="118" r="82"/></clipPath>
+        <clipPath id="motionCanLabelClip"><circle cx="180" cy="118" r="55"/></clipPath>
+      </defs>
+      <circle cx="180" cy="118" r="92" fill="#8e7c56" opacity="0.30"/>
+      <circle cx="180" cy="118" r="82" fill="#b29b6b" stroke="#4a3e28" stroke-width="2.2"/>
+      <g clip-path="url(#motionCanOuterClip)">
+        <circle cx="169" cy="105" r="74" fill="#bca87e" opacity="0.36"/>
+        <circle cx="180" cy="118" r="73" fill="none" stroke="#c8b794" stroke-width="2.2"/>
+        <circle cx="180" cy="118" r="60" fill="none" stroke="#8e7c56" stroke-width="1.4" opacity="0.58"/>
+        <rect x="227.81925288250036" y="130.56441888656133" width="28" height="8" rx="4" fill="#c1af89" opacity="0.34" transform="rotate(105 241.81925288250036 134.56441888656133)"/><rect x="198" y="169.42562584220406" width="28" height="8" rx="4" fill="#c1af89" opacity="0.34" transform="rotate(150 212 173.42562584220406)"/><rect x="149.43558111343867" y="175.81925288250036" width="28" height="8" rx="4" fill="#c1af89" opacity="0.34" transform="rotate(195 163.43558111343867 179.81925288250036)"/><rect x="110.57437415779592" y="146" width="28" height="8" rx="4" fill="#c1af89" opacity="0.34" transform="rotate(240.00000000000003 124.57437415779592 150)"/><rect x="104.18074711749964" y="97.43558111343867" width="28" height="8" rx="4" fill="#c1af89" opacity="0.34" transform="rotate(285 118.18074711749964 101.43558111343867)"/><rect x="133.99999999999997" y="58.57437415779594" width="28" height="8" rx="4" fill="#c1af89" opacity="0.34" transform="rotate(330 147.99999999999997 62.57437415779594)"/><rect x="182.5644188865613" y="52.18074711749962" width="28" height="8" rx="4" fill="#c1af89" opacity="0.34" transform="rotate(375 196.5644188865613 56.18074711749962)"/><rect x="221.42562584220406" y="81.99999999999997" width="28" height="8" rx="4" fill="#c1af89" opacity="0.34" transform="rotate(419.99999999999994 235.42562584220406 85.99999999999997)"/>
+      </g>
+      <circle cx="180" cy="118" r="59" fill="#9b875d" opacity="0.48"/>
+      <circle cx="180" cy="118" r="55" fill="#f0bf24" stroke="#b6911b" stroke-width="1.4"/>
+      <g clip-path="url(#motionCanLabelClip)">
+        <rect x="125" y="63" width="110" height="110" fill="#f0bf24"/>
+        
+          <rect x="139" y="89" width="82" height="13" rx="2.5" fill="#111111"/>
+          <rect x="125" y="149" width="110" height="24" fill="#d8ac20" opacity="0.18"/>
+        
+        <rect x="166" y="70" width="28" height="18" rx="2.4" fill="#d71920"/>
+        <path d="M 171.8 83.4 L 171.8 73.8 L 178.4 73.8 Z" fill="#f2c42a"/>
+        <path d="M 178.4 73.8 L 188.5 73.8 L 188.5 77.4 L 178.4 79.3 Z" fill="#f2c42a"/>
+        <text x="180" y="97.5" text-anchor="middle" font-family="Arial Black, Arial, sans-serif" font-size="8.3" fill="#d71920">KODAK</text>
+        <text x="180" y="125" text-anchor="middle" font-family="Arial Black, Arial, sans-serif" font-size="17" fill="#111111">VERITA</text>
+        <text x="180" y="139" text-anchor="middle" font-family="Arial Black, Arial, sans-serif" font-size="10.2" fill="#111111" opacity="0.94">200D / 5206</text>
+        <rect x="143" y="147" width="74" height="1.2" fill="#111111" opacity="0.28"/>
+        <text x="180" y="160" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="7.5" font-weight="900" fill="#211a12">ECN-2  ISO 200</text>
+        <text x="180" y="169" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="6.4" font-weight="900" fill="#211a12" opacity="0.78">35 MM</text>
+      </g>
+      <circle cx="180" cy="118" r="55" fill="none" stroke="#a38218" stroke-width="1.2" opacity="0.85"/>
+      <circle cx="180" cy="118" r="79" fill="none" stroke="#ffffff" stroke-width="1.1" opacity="0.32"/>
+    </g>
+  
+</svg>
