@@ -15,12 +15,12 @@
       <stop offset="1" stop-color="#ffffff" stop-opacity="0"/>
     </linearGradient>
   </defs>
-  
+
     <g>
       <clipPath id="faceClip"><rect x="43" y="70" width="276" height="128" rx="6"/></clipPath>
       <rect x="43" y="70" width="276" height="128" rx="6" fill="#555e68" stroke="#22262c" stroke-width="2.2"/>
       <g clip-path="url(#faceClip)">
-        
+
     <rect x="43" y="70" width="276" height="128" fill="#555e68"/>
     <path d="M 43 70 L 189.28 70 L 131.32 198 L 43 198 Z" fill="#3830a2"/>
     <path d="M 167.2 70 L 319 70 L 319 198 L 236.2 198 Z" fill="#c02c7d" opacity="0.96"/>
@@ -34,7 +34,7 @@
     <text x="141" y="171.12" font-family="Arial Black, Arial, sans-serif" font-size="7.5" fill="#ffffff">BLACK &amp; WHITE FILM</text>
     <text x="167.2" y="188" text-anchor="middle" font-family="Arial Black, Arial, sans-serif" font-size="7.8" fill="#252525">HARMAN technology</text>
     <text x="304" y="187" text-anchor="end" font-family="Arial Black, Arial, sans-serif" font-size="9" fill="#252525">120</text>
-  
+
         <rect x="43" y="70" width="276" height="128" fill="url(#paperGrain)" opacity="0.08"/>
       </g>
       <rect x="44.2" y="71.2" width="273.6" height="125.6" rx="5" fill="none" stroke="#000000" stroke-width="0.7" opacity="0.25"/>

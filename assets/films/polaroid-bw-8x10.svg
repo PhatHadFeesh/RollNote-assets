@@ -15,17 +15,17 @@
       <stop offset="1" stop-color="#ffffff" stop-opacity="0"/>
     </linearGradient>
   </defs>
-  
+
     <g>
       <clipPath id="faceClip"><rect x="58" y="46" width="244" height="152" rx="8"/></clipPath>
       <rect x="58" y="46" width="244" height="152" rx="8" fill="#f4f1ea" stroke="#1d1a17" stroke-width="2.2"/>
       <g clip-path="url(#faceClip)">
-        
+
     <rect x="58" y="46" width="244" height="152" fill="#f4f1ea"/>
     <rect x="68" y="56" width="224" height="132" rx="7" fill="#f0f0ec" opacity="1"/>
-    
+
     <rect x="204" y="61" width="77" height="42.56" fill="#111111"/><rect x="211" y="68" width="63" height="27.36" fill="#d7d7d2"/>
-    
+
     <text x="82" y="82" font-family="Arial Black, Arial, sans-serif" font-size="15" fill="#111111">Polaroid</text>
     <text x="82" y="129.60000000000002" font-family="Arial Black, Arial, sans-serif" font-size="17.5" fill="#111111">B&amp;W FILM</text>
     <text x="83" y="149.36" font-family="Arial, Helvetica, sans-serif" font-size="12.5" font-weight="900" fill="#111111" opacity="0.82">FOR 8x10</text>
@@ -36,7 +36,7 @@
       <rect x="215.12" y="160.5776" width="55.760000000000005" height="6" rx="3" fill="#9a9a95"/>
       <rect x="215.12" y="169.0744" width="39.36" height="5" rx="3" fill="#bdbdb8"/>
     </g>
-  
+
         <rect x="58" y="46" width="244" height="152" fill="url(#paperGrain)" opacity="0.08"/>
       </g>
       <rect x="59.2" y="47.2" width="241.6" height="149.6" rx="7" fill="none" stroke="#000000" stroke-width="0.7" opacity="0.25"/>

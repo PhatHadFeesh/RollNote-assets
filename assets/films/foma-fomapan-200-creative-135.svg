@@ -15,12 +15,12 @@
       <stop offset="1" stop-color="#ffffff" stop-opacity="0"/>
     </linearGradient>
   </defs>
-  
+
     <g>
       <clipPath id="faceClip"><rect x="54" y="38" width="252" height="164" rx="6"/></clipPath>
       <rect x="54" y="38" width="252" height="164" rx="6" fill="#223e77" stroke="#142038" stroke-width="2.2"/>
       <g clip-path="url(#faceClip)">
-        
+
     <rect x="54" y="38" width="252" height="164" fill="#223e77"/>
     <path d="M 124.56 38 L 306 38 L 306 202 L 169.92000000000002 202 Z" fill="#f0dfaa"/>
     <rect x="54" y="149.52" width="252" height="52.480000000000004" fill="#49a979"/>
@@ -28,7 +28,7 @@
     <text x="162.36" y="124.92" font-family="Arial Black, Arial, sans-serif" font-size="14.468899521531101" fill="#171717">FOMAPAN 200</text>
     <text x="164.88" y="179.04" font-family="Arial, Helvetica, sans-serif" font-size="7.8" font-weight="900" fill="#ffffff">BLACK &amp; WHITE FILM</text>
     <text x="290" y="191" text-anchor="end" font-family="Arial Black, Arial, sans-serif" font-size="9.4" fill="#ffffff">36 EXP</text>
-  
+
         <rect x="54" y="38" width="252" height="164" fill="url(#paperGrain)" opacity="0.08"/>
       </g>
       <rect x="55.2" y="39.2" width="249.6" height="161.6" rx="5" fill="none" stroke="#000000" stroke-width="0.7" opacity="0.25"/>

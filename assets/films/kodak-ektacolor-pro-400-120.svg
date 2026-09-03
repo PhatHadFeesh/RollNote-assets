@@ -15,12 +15,12 @@
       <stop offset="1" stop-color="#ffffff" stop-opacity="0"/>
     </linearGradient>
   </defs>
-  
+
     <g>
       <clipPath id="faceClip"><rect x="43" y="70" width="276" height="128" rx="6"/></clipPath>
       <rect x="43" y="70" width="276" height="128" rx="6" fill="#efc18a" stroke="#231a0d" stroke-width="2.2"/>
       <g clip-path="url(#faceClip)">
-        
+
       <rect x="43" y="70" width="276" height="128" fill="#f5b21d"/>
       <rect x="43" y="119.92" width="276" height="66.56" fill="#151313"/>
       <rect x="43" y="175.48000000000002" width="276" height="11" fill="#655bd2"/>
@@ -31,17 +31,17 @@
       <text x="96" y="104" text-anchor="middle" font-family="Arial Black, Arial, sans-serif" font-size="5.8" fill="#f5b21d">O</text>
       <text x="96" y="111" text-anchor="middle" font-family="Arial Black, Arial, sans-serif" font-size="5.8" fill="#f5b21d">D</text>
       <text x="96" y="118" text-anchor="middle" font-family="Arial Black, Arial, sans-serif" font-size="5.8" fill="#f5b21d">K</text>
-      
+
         <text x="301" y="90" text-anchor="end" font-family="Arial Black, Arial, sans-serif" font-size="20" fill="#111111">120</text>
         <text x="301" y="106" text-anchor="end" font-family="Arial Black, Arial, sans-serif" font-size="10" fill="#111111">5 ROLLS</text>
-      
+
       <text x="69" y="144.92000000000002" font-family="Arial Black, Arial, sans-serif" font-size="19" fill="#e11f25">KODAK</text>
       <text x="161" y="144.92000000000002" font-family="Arial Black, Arial, sans-serif" font-size="17.5" fill="#ffffff">EKTACOLOR</text>
       <text x="70" y="157.92000000000002" font-family="Arial, Helvetica, sans-serif" font-size="12.5" font-weight="400" fill="#ffffff">COLOR NEGATIVE FILM</text>
       <rect x="119" y="158.48000000000002" width="3.5" height="14" fill="#655bd2"/><rect x="124.7" y="158.48000000000002" width="2.2" height="14" fill="#655bd2"/><rect x="130.4" y="158.48000000000002" width="2.2" height="14" fill="#655bd2"/><rect x="136.1" y="158.48000000000002" width="2.2" height="14" fill="#655bd2"/><rect x="141.8" y="158.48000000000002" width="3.5" height="14" fill="#655bd2"/><rect x="147.5" y="158.48000000000002" width="2.2" height="14" fill="#655bd2"/><rect x="153.2" y="158.48000000000002" width="2.2" height="14" fill="#655bd2"/><rect x="158.9" y="158.48000000000002" width="2.2" height="14" fill="#655bd2"/><rect x="164.6" y="158.48000000000002" width="3.5" height="14" fill="#655bd2"/><rect x="170.3" y="158.48000000000002" width="2.2" height="14" fill="#655bd2"/><rect x="176" y="158.48000000000002" width="2.2" height="14" fill="#655bd2"/><rect x="181.7" y="158.48000000000002" width="2.2" height="14" fill="#655bd2"/>
       <text x="303" y="169.48000000000002" text-anchor="end" font-family="Arial Black, Arial, sans-serif" font-size="28" fill="#ffffff">PRO 400</text>
       <text x="74" y="192.24" font-family="Arial Black, Arial, sans-serif" font-size="15" fill="#ffffff">PROFESSIONAL</text>
-    
+
         <rect x="43" y="70" width="276" height="128" fill="url(#paperGrain)" opacity="0.08"/>
       </g>
       <rect x="44.2" y="71.2" width="273.6" height="125.6" rx="5" fill="none" stroke="#000000" stroke-width="0.7" opacity="0.25"/>

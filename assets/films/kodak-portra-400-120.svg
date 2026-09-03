@@ -15,12 +15,12 @@
       <stop offset="1" stop-color="#ffffff" stop-opacity="0"/>
     </linearGradient>
   </defs>
-  
+
     <g>
       <clipPath id="faceClip"><rect x="43" y="70" width="276" height="128" rx="6"/></clipPath>
       <rect x="43" y="70" width="276" height="128" rx="6" fill="#efc18a" stroke="#231a0d" stroke-width="2.2"/>
       <g clip-path="url(#faceClip)">
-        
+
       <rect x="43" y="70" width="276" height="128" fill="#7a78bd"/>
       <path d="M 43 70 L 319 70 L 319 95.6 C 230.68 75.12, 120.28 81.52, 43 95.6 Z" fill="#8e2a98" opacity="0.55"/>
       <path d="M 43 169.84 L 319 141.68 L 319 198 L 43 198 Z" fill="#f3b51e"/>
@@ -32,7 +32,7 @@
       <text x="75" y="163.44" font-family="Arial, Helvetica, sans-serif" font-size="8.8" font-weight="500" fill="#ffffff">Film • Pelicula • Pellicola</text>
       <text x="77" y="187.76" font-family="Arial Black, Arial, sans-serif" font-size="15" fill="#e11f25">Kodak</text>
       <text x="127" y="187.76" font-family="Arial, Helvetica, sans-serif" font-size="14.5" font-weight="400" fill="#111111">Professional</text>
-    
+
         <rect x="43" y="70" width="276" height="128" fill="url(#paperGrain)" opacity="0.08"/>
       </g>
       <rect x="44.2" y="71.2" width="273.6" height="125.6" rx="5" fill="none" stroke="#000000" stroke-width="0.7" opacity="0.25"/>

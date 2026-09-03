@@ -15,17 +15,17 @@
       <stop offset="1" stop-color="#ffffff" stop-opacity="0"/>
     </linearGradient>
   </defs>
-  
+
     <g>
       <clipPath id="faceClip"><rect x="54" y="38" width="252" height="164" rx="6"/></clipPath>
       <rect x="54" y="38" width="252" height="164" rx="6" fill="#f1f0e8" stroke="#48443a" stroke-width="2.2"/>
       <g clip-path="url(#faceClip)">
-        
+
       <rect x="54" y="38" width="252" height="164" fill="#f1f0ea"/>
       <g stroke="#30302c" stroke-width="1" opacity="0.46">
         <line x1="136" y1="61" x2="278" y2="61"/><line x1="136" y1="66" x2="278" y2="66"/><line x1="136" y1="71" x2="278" y2="71"/><line x1="136" y1="76" x2="278" y2="76"/><line x1="136" y1="81" x2="278" y2="81"/><line x1="136" y1="86" x2="278" y2="86"/><line x1="136" y1="91" x2="278" y2="91"/><line x1="136" y1="96" x2="278" y2="96"/>
       </g>
-      
+
     <rect x="72" y="62" width="24" height="22" rx="2" fill="#d2362d"/>
     <path d="M 77 78 L 77 67 L 84 67 Z" fill="#ffffff"/>
     <path d="M 84 67 L 92 67 L 92 70 L 84 72 Z" fill="#ffffff" opacity="0.92"/>
@@ -39,7 +39,7 @@
       <text x="78" y="193.79999999999998" font-family="Arial, Helvetica, sans-serif" font-size="10" font-weight="900" fill="#1d1d1a">BLACK &amp; WHITE FILM</text>
       <text x="267" y="169.20000000000002" text-anchor="middle" font-family="Arial Black, Arial, sans-serif" font-size="12" fill="#111111">135-</text>
       <text x="267" y="192.16" text-anchor="middle" font-family="Arial Black, Arial, sans-serif" font-size="26" fill="#111111">36</text>
-    
+
         <rect x="54" y="38" width="252" height="164" fill="url(#paperGrain)" opacity="0.08"/>
       </g>
       <rect x="55.2" y="39.2" width="249.6" height="161.6" rx="5" fill="none" stroke="#000000" stroke-width="0.7" opacity="0.25"/>

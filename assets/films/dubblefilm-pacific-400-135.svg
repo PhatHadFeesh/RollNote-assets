@@ -15,12 +15,12 @@
       <stop offset="1" stop-color="#ffffff" stop-opacity="0"/>
     </linearGradient>
   </defs>
-  
+
     <g>
       <clipPath id="faceClip"><rect x="54" y="38" width="252" height="164" rx="6"/></clipPath>
       <rect x="54" y="38" width="252" height="164" rx="6" fill="#f5ece4" stroke="#2c2223" stroke-width="2.2"/>
       <g clip-path="url(#faceClip)">
-        
+
     <rect x="54" y="38" width="252" height="164" fill="#f5ece4"/>
     <circle cx="245.52" cy="77.36" r="45.92" fill="#f39c45" opacity="0.86"/>
     <circle cx="117" cy="139.68" r="52.480000000000004" fill="#ffe16a" opacity="0.86"/>
@@ -30,7 +30,7 @@
     <text x="85" y="169.20000000000002" font-family="Arial Black, Arial, sans-serif" font-size="16" fill="#2e9dc4">ISO 400</text>
     <text x="85" y="188.88" font-family="Arial, Helvetica, sans-serif" font-size="8.7" font-weight="900" fill="#181413">COLOR NEGATIVE FILM</text>
     <text x="290" y="191" text-anchor="end" font-family="Arial Black, Arial, sans-serif" font-size="9.4" fill="#181413">36 EXP</text>
-  
+
         <rect x="54" y="38" width="252" height="164" fill="url(#paperGrain)" opacity="0.08"/>
       </g>
       <rect x="55.2" y="39.2" width="249.6" height="161.6" rx="5" fill="none" stroke="#000000" stroke-width="0.7" opacity="0.25"/>

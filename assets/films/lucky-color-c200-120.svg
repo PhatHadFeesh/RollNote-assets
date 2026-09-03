@@ -15,12 +15,12 @@
       <stop offset="1" stop-color="#ffffff" stop-opacity="0"/>
     </linearGradient>
   </defs>
-  
+
     <g>
       <clipPath id="faceClip"><rect x="43" y="70" width="276" height="128" rx="6"/></clipPath>
       <rect x="43" y="70" width="276" height="128" rx="6" fill="#f3e3b4" stroke="#482f1d" stroke-width="2.2"/>
       <g clip-path="url(#faceClip)">
-        
+
     <rect x="43" y="70" width="276" height="128" fill="#df3028"/>
     <path d="M 43 198 L 142.36 136.56 C 178.24 114.8, 219.64000000000001 136.56, 252.76 198 Z" fill="#ffd02c"/>
     <path d="M 131.32 70 L 194.8 70 L 150.64 140.4 L 92.68 140.4 Z" fill="#f4f1e7" opacity="0"/>
@@ -28,7 +28,7 @@
     <path d="M 131.32 159.6 C 164.44 134, 197.56 128.88, 225.16 107.12" fill="none" stroke="#32aa52" stroke-width="9" stroke-linecap="round" opacity="0.92"/>
     <path d="M 142.36 162.16 C 167.2 149.36, 194.8 144.24, 227.92000000000002 116.08" fill="none" stroke="#254da7" stroke-width="7" stroke-linecap="round" opacity="0.86"/>
     <path d="M 227.92000000000002 104.56 l 6 -11 l 6 11 l 11 5 l -11 5 l -6 11 l -6 -11 l -11 -5 Z" fill="#ffffff" opacity="0.92"/>
-    
+
     <path d="M 70.04 121.34 L 70.04 108.08 L 78.2 108.08 Z" fill="#ffffff"/>
     <path d="M 79.22 108.08 L 91.46000000000001 108.08 L 91.46000000000001 112.16 L 79.22 114.2 Z" fill="#ffffff" opacity="0.96"/>
     <path d="M 79.22 114.2 L 91.46000000000001 112.976 L 91.46000000000001 116.954 L 79.22 119.81 Z" fill="#ffffff" opacity="0.82"/>
@@ -41,7 +41,7 @@
     <text x="304" y="88" text-anchor="end" font-family="Arial Black, Arial, sans-serif" font-size="0" fill="#f8e858">ISO 200</text>
     <ellipse cx="286" cy="90" rx="24" ry="14" fill="#f7ea55"/>
     <text x="286" y="95" text-anchor="middle" font-family="Arial Black, Arial, sans-serif" font-size="16" fill="#191919">120</text>
-  
+
         <rect x="43" y="70" width="276" height="128" fill="url(#paperGrain)" opacity="0.08"/>
       </g>
       <rect x="44.2" y="71.2" width="273.6" height="125.6" rx="5" fill="none" stroke="#000000" stroke-width="0.7" opacity="0.25"/>

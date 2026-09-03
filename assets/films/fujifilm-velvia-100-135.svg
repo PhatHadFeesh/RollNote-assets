@@ -15,12 +15,12 @@
       <stop offset="1" stop-color="#ffffff" stop-opacity="0"/>
     </linearGradient>
   </defs>
-  
+
     <g>
       <clipPath id="faceClip"><rect x="54" y="38" width="252" height="164" rx="6"/></clipPath>
       <rect x="54" y="38" width="252" height="164" rx="6" fill="#f5f5f0" stroke="#1e2a25" stroke-width="2.2"/>
       <g clip-path="url(#faceClip)">
-        
+
     <rect x="54" y="38" width="252" height="164" fill="#f4f3ed"/>
     <rect x="54" y="38" width="75.6" height="164" fill="#078b55"/>
     <path d="M 117 38 L 159.83999999999997 38 L 129.6 202 L 86.75999999999999 202 Z" fill="#0fa568" opacity="0.92"/>
@@ -29,7 +29,7 @@
     <text x="149.76" y="129.84" font-family="Arial Black, Arial, sans-serif" font-size="18.56842105263158" fill="#111111">VELVIA 100</text>
     <text x="149.76" y="179.04" font-family="Arial, Helvetica, sans-serif" font-size="8" font-weight="900" fill="#ffffff">COLOR REVERSAL FILM</text>
     <text x="290" y="191" text-anchor="end" font-family="Arial Black, Arial, sans-serif" font-size="9.4" fill="#ffffff">36 EXP</text>
-  
+
         <rect x="54" y="38" width="252" height="164" fill="url(#paperGrain)" opacity="0.08"/>
       </g>
       <rect x="55.2" y="39.2" width="249.6" height="161.6" rx="5" fill="none" stroke="#000000" stroke-width="0.7" opacity="0.25"/>

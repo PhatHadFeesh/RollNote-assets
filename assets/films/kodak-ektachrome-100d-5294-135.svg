@@ -15,7 +15,7 @@
       <stop offset="1" stop-color="#ffffff" stop-opacity="0"/>
     </linearGradient>
   </defs>
-  
+
     <g>
       <defs>
         <clipPath id="motionCanOuterClip"><circle cx="180" cy="118" r="82"/></clipPath>
@@ -33,10 +33,10 @@
       <circle cx="180" cy="118" r="55" fill="#1f70b7" stroke="#18558b" stroke-width="1.4"/>
       <g clip-path="url(#motionCanLabelClip)">
         <rect x="125" y="63" width="110" height="110" fill="#1f70b7"/>
-        
+
           <rect x="125" y="63" width="110" height="40" fill="#123b73"/>
           <rect x="125" y="146" width="110" height="27" fill="#f0c52e"/>
-        
+
         <rect x="166" y="70" width="28" height="18" rx="2.4" fill="#d71920"/>
         <path d="M 171.8 83.4 L 171.8 73.8 L 178.4 73.8 Z" fill="#f2c42a"/>
         <path d="M 178.4 73.8 L 188.5 73.8 L 188.5 77.4 L 178.4 79.3 Z" fill="#f2c42a"/>
@@ -50,5 +50,5 @@
       <circle cx="180" cy="118" r="55" fill="none" stroke="#154c7c" stroke-width="1.2" opacity="0.85"/>
       <circle cx="180" cy="118" r="79" fill="none" stroke="#ffffff" stroke-width="1.1" opacity="0.32"/>
     </g>
-  
+
 </svg>

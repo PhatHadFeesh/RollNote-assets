@@ -15,19 +15,19 @@
       <stop offset="1" stop-color="#ffffff" stop-opacity="0"/>
     </linearGradient>
   </defs>
-  
+
     <g>
       <clipPath id="faceClip"><rect x="43" y="70" width="276" height="128" rx="6"/></clipPath>
       <rect x="43" y="70" width="276" height="128" rx="6" fill="#171717" stroke="#0e0e0e" stroke-width="2.2"/>
       <g clip-path="url(#faceClip)">
-        
+
     <rect x="43" y="70" width="276" height="128" fill="#171717"/>
     <path d="M 43 155.76 C 120.28 131.44, 214.12 178.8, 319 149.36 L 319 198 L 43 198 Z" fill="#d82028"/>
     <text x="67" y="105" font-family="Arial Black, Arial, sans-serif" font-size="16" fill="#ffffff">FILM FERRANIA</text>
     <text x="69" y="144.24" font-family="Arial Black, Arial, sans-serif" font-size="34" fill="#ffffff">P30</text>
     <text x="71" y="177.51999999999998" font-family="Arial, Helvetica, sans-serif" font-size="8.2" font-weight="900" fill="#ffffff">BLACK &amp; WHITE FILM</text>
     <text x="292" y="177.51999999999998" text-anchor="end" font-family="Arial Black, Arial, sans-serif" font-size="13" fill="#ffffff">120</text>
-  
+
         <rect x="43" y="70" width="276" height="128" fill="url(#paperGrain)" opacity="0.08"/>
       </g>
       <rect x="44.2" y="71.2" width="273.6" height="125.6" rx="5" fill="none" stroke="#000000" stroke-width="0.7" opacity="0.25"/>
