@@ -1,0 +1,44 @@
+[
+  {
+    "model": "instax SQUARE 2",
+    "file": "instax-square-2-1.png",
+    "view": "front, Misty White",
+    "page": "https://www.instax.com/square2/en/",
+    "image": "https://www.instax.com/square2/assets/images/product_mistywhite_front.png"
+  },
+  {
+    "model": "instax SQUARE 2",
+    "file": "instax-square-2-2.png",
+    "view": "side, Misty White",
+    "page": "https://www.instax.com/square2/en/",
+    "image": "https://www.instax.com/square2/assets/images/product_mistywhite_side.png"
+  },
+  {
+    "model": "instax mini Evo Cinema",
+    "file": "instax-mini-evo-cinema-1.png",
+    "view": "front",
+    "page": "https://www.instax.com/mini_evo_cinema/en/",
+    "image": "https://www.instax.com/mini_evo_cinema/assets/images/pd_slider_img_01.png"
+  },
+  {
+    "model": "instax mini Evo Cinema",
+    "file": "instax-mini-evo-cinema-2.png",
+    "view": "three-quarter structural reference",
+    "page": "https://www.instax.com/mini_evo_cinema/en/",
+    "image": "https://www.instax.com/mini_evo_cinema/assets/images/pd_slider_img_02.png"
+  },
+  {
+    "model": "Polaroid OneStep+",
+    "file": "polaroid-onestep-plus-1.jpg",
+    "view": "front, black 9010",
+    "page": "https://www.bestbuy.com/product/polaroid-originals-onestep-analog-instant-film-camera-black/BYK3KKXH4F",
+    "image": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6275/6275506_sd.jpg"
+  },
+  {
+    "model": "Polaroid OneStep+",
+    "file": "polaroid-onestep-plus-3.jpg",
+    "view": "side, black 9010",
+    "page": "https://www.virginmegastore.bh/en/electronics-accessories/cameras-photography/instant-cameras/polaroid-onestep-i-type-instant-camera-black/p/730801",
+    "image": "https://www.virginmegastore.bh/medias/730801-detail3.jpg-Detail?context=bWFzdGVyfHJvb3R8MzQwODl8aW1hZ2UvanBlZ3xhR0psTDJnMk15ODVNek14T0RFeU9Ea3lOekF5TG1wd1p3fDQ3ZGIxN2JjODM1MWMyZjk2YjgyZjdhMDRiMzllM2NmNWQ0ZDRiODFlNjcxYTU0NzJkNDQ2ODgwNWE4MWJlNTk"
+  }
+]
