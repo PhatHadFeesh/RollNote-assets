@@ -1,0 +1,44 @@
+[
+  {
+    "model": "instax mini 8+",
+    "file": "instax-mini-8-plus-1.png",
+    "page": "https://instax.jp/history/",
+    "image": "https://instax.jp/history/images/2015_mini8_plus-05.png",
+    "view": "Vanilla front"
+  },
+  {
+    "model": "instax mini 8+",
+    "file": "instax-mini-8-plus-2.png",
+    "page": "https://instax.jp/history/",
+    "image": "https://instax.jp/history/images/2015_mini8_plus-sesami.png",
+    "view": "Sesame front; structure confirmation"
+  },
+  {
+    "model": "Impulse AF",
+    "file": "polaroid-impulse-af-1.jpg",
+    "page": "https://retrospekt.com/products/refurbished-polaroid-600-camera-gray-impulse-autofocus",
+    "image": "https://cdn.shopify.com/s/files/1/0881/4568/files/VC-1017_1_c08af764-21c6-4abd-93b9-cc87e6063ccf.jpg?v=1738680415",
+    "view": "Front angle, flash raised, lens open"
+  },
+  {
+    "model": "Impulse AF",
+    "file": "polaroid-impulse-af-2.jpg",
+    "page": "https://retrospekt.com/products/refurbished-polaroid-600-camera-gray-impulse-autofocus",
+    "image": "https://cdn.shopify.com/s/files/1/0881/4568/files/VC-1017_2.jpg?v=1738680415",
+    "view": "Front angle, flash lowered; structure confirmation"
+  },
+  {
+    "model": "OneStep 2 Viewfinder",
+    "file": "polaroid-onestep2-viewfinder-1.jpg",
+    "page": "https://www.bestbuy.com/product/polaroid-originals-onestep-2-vf-analog-instant-film-camera-white/BYK3KKXH4Y",
+    "image": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6241/6241700_sd.jpg",
+    "view": "Front, white 9008 VF"
+  },
+  {
+    "model": "OneStep 2 Viewfinder",
+    "file": "polaroid-onestep2-viewfinder-3.jpg",
+    "page": "https://www.virginmegastore.qa/en/electronics-accessories/cameras-photography/instant-cameras/polaroid-onestep-2-viewfinder-i-type-instant-camera-white/p/725793",
+    "image": "https://www.virginmegastore.qa/medias/725793-detail1.jpg-Detail?context=bWFzdGVyfHJvb3R8MzgxNzd8aW1hZ2UvanBlZ3xhRE5oTDJoaFpTODVNek14T0RBNU9UUXpOVGd5TG1wd1p3fDliYmE4MDk5M2U2OWI2MDZkZmMyY2IxNTc3ZmJkM2UwZGRjNmJjM2U5ZjhkY2IxZTZiYjA5NzY5Y2VhNjM5YTM",
+    "view": "Front three-quarter, projecting finder housing"
+  }
+]
